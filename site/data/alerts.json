@@ -1,0 +1,2506 @@
+{
+ "generated_at": "2026-11-24T11:20+00:00",
+ "sources": [
+  {
+   "source": "Hand-collected snapshot from public regulator, health-agency, company, trade-press and news reports",
+   "ok": true,
+   "count": 118
+  }
+ ],
+ "items": [
+  {
+   "id": "62f1939e203a4e14",
+   "title": "FreshCheck working with Wellocks, a premium ingredients supplier to top UK chefs and restaurants",
+   "summary": "Date not shown on the page; first seen 24 Nov 2026.",
+   "source": "FreshCheck blog",
+   "signal": "competitor",
+   "hazard": "Partnership / distribution",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://www.freshcheck.co.uk/post/freshcheck-working-with-wellocks",
+   "company": "FreshCheck"
+  },
+  {
+   "id": "5d1ca60f387c5108",
+   "title": "Sheep's cheese with Espelette pepper recalled: Listeria monocytogenes",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-24",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24153/Interne"
+  },
+  {
+   "id": "a9d3558183c4d455",
+   "title": "Auchan red steamed sautéed potatoes (2 kg, 2.5 kg) recalled: elevated glycoalkaloids",
+   "summary": "Chemical contaminant.",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-24",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24146/Interne"
+  },
+  {
+   "id": "7f82459bcca39ccf",
+   "title": "FSA guidance updated: hygienic production of wild game for primary producers and food businesses",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/government/publications/guidance-for-primary-producers-and-food-business-operators-on-the-hygienic-production-of-wild-game"
+  },
+  {
+   "id": "857243cba2379a71",
+   "title": "FSA guidance updated: starting an animal feed business",
+   "summary": "Animal feed.",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/government/publications/starting-an-animal-feed-business"
+  },
+  {
+   "id": "5760741710ca1130",
+   "title": "FSA guidance updated: general food law",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/government/publications/general-food-law"
+  },
+  {
+   "id": "8078d1e5c7d67792",
+   "title": "Bialetti Perfetto Moka coffee batch recall updated: elevated ochratoxin A",
+   "summary": "Origin: Italy.",
+   "source": "FSAI (via supplement.ge)",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-11-23",
+   "url": "https://supplement.ge/food-alerts/2026/fsai-0be994755c-update-to-recall-of-a-batch-of-bialetti-perfetto-moka-coffee-due-to-the-elevated/"
+  },
+  {
+   "id": "85a6416408cca452",
+   "title": "Yersinia outbreak in France a reminder of raw milk cheese risks",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://www.foodsafetynews.com/2026/11/yersinia-outbreak-serves-as-reminder-of-risks-of-raw-milk-cheese/"
+  },
+  {
+   "id": "57a4253e90dffc94",
+   "title": "FDA flags sanitation, allergen and labelling problems at a noodle maker and a supplement company",
+   "summary": "Warning letters.",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-23",
+   "url": "https://www.foodsafetynews.com/2026/11/fda-flags-sanitation-allergen-and-labeling-problems-at-noodle-maker-and-supplement-company/"
+  },
+  {
+   "id": "2e37f3f8fb8b5530",
+   "title": "FDA reinforces import rules on soft cheese, fish, pet treats and more",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-23",
+   "url": "https://www.foodsafetynews.com/2026/11/fda-reinforces-import-rules-on-soft-cheese-fish-pet-treats-and-more/"
+  },
+  {
+   "id": "a68641f8160d634e",
+   "title": "Salmonella outbreaks in the spotlight at ESCAIDE",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://www.foodsafetynews.com/2026/11/spotlight-on-salmonella-outbreaks-at-escaide/"
+  },
+  {
+   "id": "d63381d91673fff4",
+   "title": "Fiji to review its food safety law",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Regulation / guidance",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-23",
+   "url": "https://www.foodsafetynews.com/2026/11/fiji-to-review-food-safety-law/"
+  },
+  {
+   "id": "adb2e2192c2f28a0",
+   "title": "Panier du Primeur red steamed sautéed potatoes 2 kg recalled: glycoalkaloids",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24144/Interne"
+  },
+  {
+   "id": "627f10a7655e4db3",
+   "title": "E.Leclerc Atout Sud cooked ham recalled: Listeria monocytogenes",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24150/Interne"
+  },
+  {
+   "id": "7d9e8313eb722dcd",
+   "title": "Roast beef joint (2 kg) recalled: Salmonella",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24149/Interne"
+  },
+  {
+   "id": "8172f4a88b31f5a2",
+   "title": "Top Budget grated Emmental 200 g recalled: possible glass",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24152/Interne"
+  },
+  {
+   "id": "9729092d617f4cb3",
+   "title": "Maison Ginisty venison terrine recalled: biological contamination, pH stability failures",
+   "summary": "",
+   "source": "RappelConso (France)",
+   "signal": "recall",
+   "hazard": "Temperature / process",
+   "severity": "high",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24147/Interne"
+  },
+  {
+   "id": "61658bbbb13add72",
+   "title": "Germany: game salami (Wildsalami) recalled, pathogens (Lower Saxony)",
+   "summary": "Krankheitserreger.",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "high",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-23",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261120_21_NI_Wildsalami/261120_21_NI_Wildsalami.html"
+  },
+  {
+   "id": "977727a130cf9d0a",
+   "title": "Arla Foods explores sale of DMK ice cream business after merger completes",
+   "summary": "",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-23",
+   "url": "https://www.dairyreporter.com/Article/2026/11/23/arla-foods-explores-sale-of-dmk-ice-cream-business-following-merger-completion/"
+  },
+  {
+   "id": "ff454b577df1418a",
+   "title": "Saputo to invest $600m in fast-growing dairy categories",
+   "summary": "",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-23",
+   "url": "https://www.dairyreporter.com/Article/2026/11/23/saputo-to-invest-600-million-to-target-fast-expanding-dairy-categories/"
+  },
+  {
+   "id": "d8e6039cd96c6cfb",
+   "title": "Irish dairy processor Tirlán invests €126m in whey processing site",
+   "summary": "New capacity in Ireland.",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-11-23",
+   "url": "https://www.dairyreporter.com/Article/2026/11/23/irish-dairy-processor-tilran-invests-126-million-into-whey-processing-site/"
+  },
+  {
+   "id": "9a64200a4df4b3c8",
+   "title": "Hotel Chocolat recalls several chocolate products over possible Salmonella (FSA-PRIN-54-2026)",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "recall",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-21",
+   "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-prin-54-2026"
+  },
+  {
+   "id": "1769090502d55176",
+   "title": "Healthy Fit recalls Vegan Protein Bar Hazelnut Nougat: undeclared peanuts (FSA-AA-54-2026)",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-21",
+   "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-aa-54-2026"
+  },
+  {
+   "id": "598366eb32d9f318",
+   "title": "Germany: Parmentine red table potatoes 1.5 kg, harmful substance (Baden-Württemberg)",
+   "summary": "Same week as French potato glycoalkaloid recalls.",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-21",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261121_22_BW_Kartoffeln/261121_22_BW_Kartoffeln.html"
+  },
+  {
+   "id": "94d6e36eb82d2f67",
+   "title": "Flood event in France (GDACS alert)",
+   "summary": "",
+   "source": "GDACS",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-21",
+   "url": "https://www.gdacs.org"
+  },
+  {
+   "id": "2df092e925eb4172",
+   "title": "Bulgaria: 26 avian influenza outbreaks confirmed across five regions by mid-November",
+   "summary": "Dobrich, Plovdiv, Haskovo, Stara Zagora and Yambol.",
+   "source": "BTA",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "Bulgaria",
+   "region": "Europe",
+   "date": "2026-11-20",
+   "url": "https://www.bta.bg/en/news//94118-Twenty-six-Outbreaks-of-Avian-Influenza-Confirmed-by-Mid-November"
+  },
+  {
+   "id": "3e7496b1a0331314",
+   "title": "What the new UK-EU SPS agreement means for food and feed safety and food businesses",
+   "summary": "",
+   "source": "FSA blog",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-20",
+   "url": "https://food.blog.gov.uk/2026/11/20/what-the-new-uk-eu-sps-agreement-means-for-food-and-feed-safety-and-food-businesses/"
+  },
+  {
+   "id": "732adc3381339c11",
+   "title": "Crystalyx HE-20% feed block for beef cattle and bison recalled: excess non-protein nitrogen (urea) that can harm or kill cattle",
+   "summary": "Animal feed. Ridley Block Operations.",
+   "source": "FDA",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-20",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/ridley-block-operations-recalls-batch-crystalyxrhe-20-beef-cattle-and-bison-due-excess-levels-non"
+  },
+  {
+   "id": "5ee463aff958d662",
+   "title": "Sanniu Evergreen and Salt & Pepper Soda biscuits recalled: undeclared milk and shrimp",
+   "summary": "Shanghai San Niu Food Co. (China origin).",
+   "source": "FDA",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-20",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/shanghai-san-niu-food-co-ltd-recalling-sanniu-evergeen-biscuits-due-undeclared-milk-and-sanniu-salt"
+  },
+  {
+   "id": "160f92aefbd84844",
+   "title": "Scotland sees drop in major pathogen reports",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "low",
+   "country": "Scotland",
+   "region": "UK & Ireland",
+   "date": "2026-11-20",
+   "url": "https://www.foodsafetynews.com/2026/11/scotland-sees-drop-in-major-pathogen-reports/"
+  },
+  {
+   "id": "990abb89b346614a",
+   "title": "Flood events in Brazil and Ecuador (GDACS alerts)",
+   "summary": "Also DR Congo flood alert the same day.",
+   "source": "GDACS",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-20",
+   "url": "https://www.gdacs.org"
+  },
+  {
+   "id": "4163e0e05c1ae48a",
+   "title": "Flood event in Democratic Republic of Congo (GDACS alert)",
+   "summary": "",
+   "source": "GDACS",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Democratic Republic of Congo",
+   "region": "Middle East & Africa",
+   "date": "2026-11-20",
+   "url": "https://www.gdacs.org"
+  },
+  {
+   "id": "74c2a9095cbb63a9",
+   "title": "Salmonella Enteritidis t5.9411 outbreak reaches 471 cases in England, up 22 since last report; 43 cases in the past 4 weeks",
+   "summary": "Fortnightly UKHSA release, data to 3 Nov 2026.",
+   "source": "UKHSA",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-11-19",
+   "url": "https://www.gov.uk/government/publications/salmonella-statistical-releases/notified-cases-of-salmonella-enteritidis-t59411-and-related-clusters-in-england-data-to-week-44"
+  },
+  {
+   "id": "0d2cd2824ffe544f",
+   "title": "Lunch Box biscuit sandwiches recalled: possible Listeria monocytogenes",
+   "summary": "Grand Strand Sandwich Company.",
+   "source": "FDA",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-19",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/grand-strand-sandwich-company-recalls-lunch-box-bacon-egg-and-cheese-biscuit-lunch-box-jumbo-sausage"
+  },
+  {
+   "id": "48a56147de194c9a",
+   "title": "Candy canes batch recalled: possible metal pieces",
+   "summary": "Origin: China.",
+   "source": "FSAI (via supplement.ge)",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-11-19",
+   "url": "https://supplement.ge/food-alerts/2026/fsai-e42d35e5dd-recall-of-a-batch-of-candy-canes-due-to-the-possible-presence-of-metal-pieces/"
+  },
+  {
+   "id": "614f62983c0768f8",
+   "title": "Woodbridge Smokehouse Smoked Salmon Spread 150g recalled",
+   "summary": "Hazard not stated in the archive listing.",
+   "source": "FSANZ (via supplement.ge)",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "Australia",
+   "region": "Asia-Pacific",
+   "date": "2026-11-19",
+   "url": "https://supplement.ge/food-alerts/2026/fsanz-97899aa248-woodbridge-smokehouse-smoked-salmon-spread-150g/"
+  },
+  {
+   "id": "092d1d3b185444ea",
+   "title": "Tomato restrictions eased in Italy after Salmonella concerns",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "Italy",
+   "region": "Europe",
+   "date": "2026-11-19",
+   "url": "https://www.foodsafetynews.com/2026/11/tomato-restrictions-eased-in-italy-after-salmonella-concerns/"
+  },
+  {
+   "id": "3371d187b8ba1d84",
+   "title": "Germany: Appetiter Streichmettwurst fein (WOLF GmbH), pathogens (Bavaria)",
+   "summary": "",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "high",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-19",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261119_20_BY_Mettwurst/261119_20_BY_Mettwurst.html"
+  },
+  {
+   "id": "e325748865594bc7",
+   "title": "Aldi Priano protein tortelloni recalled for botulism risk",
+   "summary": "",
+   "source": "Food Safety Daily (FDA)",
+   "signal": "recall",
+   "hazard": "Botulism",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-18",
+   "url": "https://buttondown.com/recalldaily/archive/aldi-priano-protein-tortelloni-recalled-for/"
+  },
+  {
+   "id": "3b4699e3b6ef3347",
+   "title": "HPAI H5N1 confirmed in commercial poultry near Thirsk, North Yorkshire",
+   "summary": "AIV2026/31.",
+   "source": "Defra",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-11-18",
+   "url": "https://www.gov.uk/animal-disease-cases-england/bird-flu-near-thirsk-north-yorkshire-north-yorkshire-aiv2026-slash-31"
+  },
+  {
+   "id": "a29a091b13f9927e",
+   "title": "Fresh & Ready Foods expands recall to Fresh to You sausage, egg & cheese biscuit sandwich: possible Listeria",
+   "summary": "Distributed in OR, WA.",
+   "source": "FDA",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-18",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fresh-ready-foods-llc-expands-recall-include-fresh-you-brand-sausage-egg-cheese-biscuit-sandwich-and"
+  },
+  {
+   "id": "e5fe9dfa4cb8baf4",
+   "title": "Germany: liver sausage 100 g, foreign body (Lower Saxony)",
+   "summary": "",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-18",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261113_16_NI_Leberwurst_fein,_100_Gramm/261113_16_NI_Leberwurst_fein,_100_Gramm.html"
+  },
+  {
+   "id": "64316b2a8ace2cf9",
+   "title": "Gelatelli coffee and vanilla gelato recalled for Listeria",
+   "summary": "",
+   "source": "Food Safety Daily (FDA)",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-17",
+   "url": "https://buttondown.com/recalldaily/archive/gelatelli-coffee-and-vanilla-gelato-recalled-for/"
+  },
+  {
+   "id": "7b56ee2edf707a61",
+   "title": "Switzerland: Listeria found in soft cheeses from Eberle Spezialitäten and Strähl Käse; recalls at Coop, Migros and Volg",
+   "summary": "",
+   "source": "Food Safety News",
+   "signal": "outbreak",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "Switzerland",
+   "region": "Europe",
+   "date": "2026-11-17",
+   "url": "https://www.foodsafetynews.com/2026/11/cheese-linked-to-swiss-listeria-infections/"
+  },
+  {
+   "id": "15eba8c1ee748205",
+   "title": "Brazil suspends manufacture and sale of food supplements from at least three companies after finding serious manufacturing failures",
+   "summary": "Recall ordered (Portuguese source).",
+   "source": "ANVISA",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-17",
+   "url": "https://www.diariodepernambuco.com.br/brasil/2026/11/11729343-suplementos-alimentares-de-tres-empresas-tem-fabricacao-e-venda-suspensas-no-brasil-confira.html"
+  },
+  {
+   "id": "b88f182699424c77",
+   "title": "Herb to Body Yellow Dock Root recalled: possible Salmonella",
+   "summary": "Larbi Inc.",
+   "source": "FDA",
+   "signal": "recall",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-17",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/larbi-inc-recalls-yellow-dock-root-because-possible-health-risk"
+  },
+  {
+   "id": "4bbfef8f1db3e1d0",
+   "title": "Naia Chocolate Banana Bar Sorbetto recalled: undeclared milk, eggs and pistachio",
+   "summary": "",
+   "source": "FoodReady / FDA",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-17",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/naia-inc-recalls-chocolate-banana-bar-sorbetto-because-undeclared-milk-eggs-and-nuts"
+  },
+  {
+   "id": "ddc6d32fdb6331f4",
+   "title": "Ashoka brand Kathi Rolls recalled: undeclared sesame",
+   "summary": "",
+   "source": "CFIA (via supplement.ge)",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-17",
+   "url": "https://supplement.ge/food-alerts/2026/cfia-82966-certain-ashoka-brand-kathi-rolls-recalled-due-to-undeclared-sesame/"
+  },
+  {
+   "id": "6cdef9e1b4353495",
+   "title": "Study finds genetic links among drug-resistant pathogens in humans, foods and animals",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-16",
+   "url": "https://www.food-safety.com/articles/topic/86?page=2"
+  },
+  {
+   "id": "e4ae072cd2bb80a3",
+   "title": "Leprino quadruples microparticulated whey protein capacity ($35m)",
+   "summary": "",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-16",
+   "url": "https://www.dairyreporter.com/Article/2026/11/16/leprino-quadruples-microparticulated-whey-protein-capacity/"
+  },
+  {
+   "id": "fbe8095688305c4c",
+   "title": "Public health alert: ready-to-eat meat with biscuits, possible Listeria",
+   "summary": "",
+   "source": "USDA FSIS",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-15",
+   "url": "https://buttondown.com/recalldaily/archive/usda-alert-ready-to-eat-meat-with-biscuits/"
+  },
+  {
+   "id": "0536a2580353a596",
+   "title": "Merck agrees to acquire Rapid Micro Biosystems (automated microbial quality-control platform)",
+   "summary": "Framed around pharma QC; watch for any move into food micro.",
+   "source": "Merck press",
+   "signal": "competitor",
+   "hazard": "M&A",
+   "severity": "low",
+   "country": "Germany",
+   "region": "Global",
+   "date": "2026-11-15",
+   "url": "https://www.sigmaaldrich.com/GB/en/collections/press/agreement-to-acquire-rapid-micro-biosystems",
+   "company": "Merck / MilliporeSigma (food)"
+  },
+  {
+   "id": "aaab3f5b28efc34f",
+   "title": "Soup Time Baba's Borscht and Wardy's Bow Valley Beef Barley soups recalled: undeclared wheat",
+   "summary": "",
+   "source": "CFIA (via supplement.ge)",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-14",
+   "url": "https://supplement.ge/food-alerts/2026/cfia-82958-soup-time-brand-babas-borscht-soup-and-wardys-bow-valley-beef-barley-recalled/"
+  },
+  {
+   "id": "1471da69fc1f6628",
+   "title": "Kenya launches five-year food safety plan aligned with Codex standards",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "Kenya",
+   "region": "Middle East & Africa",
+   "date": "2026-11-13",
+   "url": "https://www.food-safety.com/articles/topic/86?page=2"
+  },
+  {
+   "id": "325ce12fa77a79f3",
+   "title": "Cold plasma shows promise for sesame seed decontamination without sacrificing quality",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-13",
+   "url": "https://www.food-safety.com/articles/topic/86?page=2"
+  },
+  {
+   "id": "7a464ec4125a9597",
+   "title": "Tesco recalls Steak and Guinness Pie products: undeclared milk (FSA-AA-53-2026)",
+   "summary": "Via supplement.ge archive.",
+   "source": "FSA (GOV.UK)",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-13",
+   "url": "https://supplement.ge/food-alerts/2026/fsa-aa-53-2026-tesco-recalls-various-tesco-steak-and-guinness-pie-products-because-of-undeclare/"
+  },
+  {
+   "id": "e64f602242477a1f",
+   "title": "Germany: tuna salad, allergens (Baden-Württemberg)",
+   "summary": "",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-13",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261113_18_BW_Thunfisch_Salat/261113_18_BW_Thunfisch_Salat.html"
+  },
+  {
+   "id": "0383aa0f4f50e9e7",
+   "title": "Germany: Knackwurst (caraway, garlic) from Fleischerei Lars Methe, pathogens (Saxony)",
+   "summary": "",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "high",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-13",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261113_17_SN_Knackwurst_Kuemmel_und_Knackwurst_Knoblauch/261113_17_SN_Knackwurst_Kuemmel_und_Knackwurst_Knoblauch.html"
+  },
+  {
+   "id": "68000c3ae92e8f50",
+   "title": "HPAI H5N1 confirmed in commercial poultry near Dereham, Norfolk",
+   "summary": "AIV2026/28.",
+   "source": "Defra",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-11-12",
+   "url": "https://www.gov.uk/animal-disease-cases-england/bird-flu-near-dereham-breckland-norfolk-aiv2026-slash-28"
+  },
+  {
+   "id": "2d84924b218c75aa",
+   "title": "World Bank: food commodity prices set to rise 10% in 2026 and 7% in 2027 as Black Sea shipping and extreme weather bite",
+   "summary": "",
+   "source": "The National",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-12",
+   "url": "https://www.thenationalnews.com/news/2026/11/12/why-whats-happening-at-sea-affects-the-price-of-whats-in-your-pantry/"
+  },
+  {
+   "id": "4fa420accf78a6a4",
+   "title": "El Niño: November crop reports confirm damage in India, Thailand and Central America; risk moves to southern Africa maize",
+   "summary": "CPC puts chance of a historic event at about 60% for Nov-Jan.",
+   "source": "Wikifarmer",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-12",
+   "url": "https://wikifarmer.com/library/en/article/el-nino-2026-crops-by-region"
+  },
+  {
+   "id": "cf7cee5cfd12c0b6",
+   "title": "FDA investigating two new Salmonella Enteritidis outbreaks, 49 ill, food source not yet identified",
+   "summary": "Outbreaks 1425 (35 ill) and 1427 (14 ill).",
+   "source": "FDA outbreak table",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-12",
+   "url": "https://www.natureworldnews.com/articles/73922/20261119/fda-tracing-food-behind-two-new-salmonella-enteritidis-outbreaks-that-have-sickened-49.htm"
+  },
+  {
+   "id": "fbb3371b002afc72",
+   "title": "FDA issues 2026 Voluntary National Retail Food Regulatory Program Standards",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-12",
+   "url": "https://www.food-safety.com/articles/topic/86?page=2"
+  },
+  {
+   "id": "3cf48e55cae1184c",
+   "title": "FSA and FSS publish export roadmap for cell-cultivated food businesses",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-12",
+   "url": "https://www.gov.uk/government/news/fsa-and-fss-publish-export-roadmap-for-cell-cultivated-food-businesses"
+  },
+  {
+   "id": "03998c7ef26a6db0",
+   "title": "El Niño strengthening: Niño-3.4 at +2.5°C, about 60% chance of a historic event for Oct–Dec and Nov–Jan; next update 10 Dec",
+   "summary": "ENSO Diagnostic Discussion, 12 Nov 2026.",
+   "source": "NOAA Climate Prediction Center",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-12",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml"
+  },
+  {
+   "id": "0a1a2db7e79c564e",
+   "title": "Germany: ahead Marshmallows Rainbow Swirls 75 g, pathogens (Hamburg)",
+   "summary": "",
+   "source": "Lebensmittelwarnung.de",
+   "signal": "recall",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "high",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-12",
+   "url": "https://www.lebensmittelwarnung.de/___lebensmittelwarnung.de/Meldungen/2026/11_November/261112_15_HH_Marshmallows/261112_15_HH_Marshmallows.html"
+  },
+  {
+   "id": "830db563b308a942",
+   "title": "Miyoko's plant milk butter: 1,304 cases recalled",
+   "summary": "Reason given in the FDA notice.",
+   "source": "Food Safety Daily (FDA)",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-10",
+   "url": "https://buttondown.com/recalldaily/archive/1304-cases-of-miyokos-plant-milk-butter-recalled/"
+  },
+  {
+   "id": "1f68d2bb4bed54d0",
+   "title": "HPAI H5N1 confirmed in commercial poultry near Dersingham, Norfolk",
+   "summary": "AIV 2026/26.",
+   "source": "Defra",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-11-09",
+   "url": "https://www.gov.uk/animal-disease-cases-england/bird-flu-near-dersingham-kings-lynn-and-west-norfolk-norfolk-aiv-2026-slash-26"
+  },
+  {
+   "id": "85d8e9a95947abbc",
+   "title": "Multistate E. coli and Salmonella outbreak linked to alfalfa sprouts declared over",
+   "summary": "Illnesses started 31 May to 19 Oct 2026.",
+   "source": "CDC",
+   "signal": "outbreak",
+   "hazard": "E. coli / STEC",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-09",
+   "url": "https://cdc.gov/ecoli/outbreaks/alfalfa-sprouts-08-26/investigation.html"
+  },
+  {
+   "id": "b71f8585b40ca6a3",
+   "title": "T&T Supermarket snack recalled Canada-wide over an undeclared allergen found in CFIA testing",
+   "summary": "",
+   "source": "CFIA",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-09",
+   "url": "https://dailyhive.com/canada/product-recall-tt-supermarket-canada"
+  },
+  {
+   "id": "282c4ce85146adf1",
+   "title": "Avian flu confirmed at mixed commercial poultry farm near Garstang, Lancashire",
+   "summary": "Flock of seasonal turkeys and geese.",
+   "source": "Farmers Weekly",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-11-07",
+   "url": "https://www.fwi.co.uk/news/avian-flu-confirmed-at-lancashire-poultry-farm"
+  },
+  {
+   "id": "7635fdf8667d6d78",
+   "title": "Baxters recalls Chef Selections Cullen Skink soup 400g cans (FSA-PRIN-52-2026): do not eat or open",
+   "summary": "Batch L07XC, best before April 2029.",
+   "source": "FSA",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "Scotland",
+   "region": "UK & Ireland",
+   "date": "2026-11-06",
+   "url": "https://shopappy.com/?p=12939"
+  },
+  {
+   "id": "8f401ede86d36aed",
+   "title": "FAO Food Price Index eases to 133.9 in October (-1.2%), third monthly fall; sugar up a fourth month and rice up 1.6% on adverse weather",
+   "summary": "Still about 5.9% above a year earlier.",
+   "source": "FAO",
+   "signal": "weather",
+   "hazard": "Markets / prices",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-06",
+   "url": "https://www.agriland.ie/farming-news/fao-global-meat-and-dairy-prices-decline-as-sugar-surges/"
+  },
+  {
+   "id": "8c85dc0857a286b1",
+   "title": "FAO Crop Prospects: 41 countries, 31 in Africa, need external food assistance; global cereal output set to dip from 2025's record",
+   "summary": "November 2026 edition.",
+   "source": "FAO GIEWS",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-06",
+   "url": "https://www.bizcommunity.com/article/global-food-prices-fall-in-october-as-sugar-rises-for-fourth-month-639621a"
+  },
+  {
+   "id": "a076863220d83323",
+   "title": "Desert locust groups form in Mauritania; FAO situation level: Caution",
+   "summary": "",
+   "source": "FAO Locust Watch",
+   "signal": "animal_health",
+   "hazard": "Plant pest",
+   "severity": "medium",
+   "country": "Mauritania",
+   "region": "Middle East & Africa",
+   "date": "2026-11-06",
+   "url": "https://www.fao.org/ag/locusts/en/info/info/index.html"
+  },
+  {
+   "id": "8e2279d15e792da7",
+   "title": "Consultation: update and consolidation of Northern Ireland's food contact materials legislation",
+   "summary": "Open consultation.",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "Northern Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-11-05",
+   "url": "https://www.gov.uk/government/consultations/consultation-on-the-proposed-update-and-consolidation-of-northern-irelands-domestic-legislative-framework-for-food-contact-materials"
+  },
+  {
+   "id": "a62668ef5a38ffd2",
+   "title": "Crop Monitor No. 144: drier, warmer than average Nov–Jan forecast for South Africa likely to hurt crops; wetter, warmer than average outlook for much of Europe",
+   "summary": "Conditions as of 28 Oct. Next report 3 Dec.",
+   "source": "GEOGLAM Crop Monitor for AMIS",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-05",
+   "url": "https://www.cropmonitor.org/crop-monitor-for-amis"
+  },
+  {
+   "id": "9b382c256d24238b",
+   "title": "Salmonella outbreak traced to a broccoli seed lot from New Zealand declared over",
+   "summary": "Salmonella Bovismorbificans; seed origin New Zealand.",
+   "source": "CDC",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-04",
+   "url": "https://www.cdc.gov/salmonella/outbreaks/broccoli-sprouts-09-26/investigation.html"
+  },
+  {
+   "id": "ea49a89d5fb4f175",
+   "title": "Walmart Great Value fruit cocktail recalled for lead",
+   "summary": "",
+   "source": "FDA Enforcement Report",
+   "signal": "recall",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-03",
+   "url": "https://buttondown.com/recalldaily/archive/walmart-great-value-fruit-cocktail-recalled-for/"
+  },
+  {
+   "id": "1b0dcbef4cf1495f",
+   "title": "CFIA suspends Safe Food for Canadians licence of Maison Si Bon Inc., Montreal",
+   "summary": "Licence suspended 27 Oct 2026.",
+   "source": "CFIA",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-03",
+   "url": "https://inspection.canada.ca/node/7215"
+  },
+  {
+   "id": "3401cf87849f62c9",
+   "title": "PepsiCo recalls Walkers Variety Snacks Sharing Box: Monster Munch Giants Roast Beef contains undeclared wheat (gluten)",
+   "summary": "",
+   "source": "FSA / Coeliac UK",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-02",
+   "url": "https://www.coeliac.org.uk/food-alerts/"
+  },
+  {
+   "id": "bd2de9dfe20f4358",
+   "title": "Salmonella Enteritidis found in imported eggs from a single Ukrainian producer after UKHSA tested nearly 3,000 eggs",
+   "summary": "Part of the national outbreak investigation running since May 2026.",
+   "source": "UKHSA Health Protection Report",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "England",
+   "region": "UK & Ireland",
+   "date": "2026-10-29",
+   "url": "https://www.gov.uk/government/publications/health-protection-report-volume-20-2026/hpr-volume-20-issue-10-news-29-october-2026"
+  },
+  {
+   "id": "4439a9ff24764863",
+   "title": "Bomberry chocolate-covered fruit products recalled over possible metal",
+   "summary": "Follows an earlier FSANZ recall.",
+   "source": "Singapore Food Agency",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "Singapore",
+   "region": "Asia-Pacific",
+   "date": "2026-10-29",
+   "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/29/bomberry-chocolate-fruit-products-recalled-in-singapore-over-fears-they-may-contain-metal"
+  },
+  {
+   "id": "31e5e26af1e58641",
+   "title": "Brazil: sausage (linguiça) batch recalled after irregular microbiological result",
+   "summary": "Resolução-RE nº 4.227/2026 (Portuguese source).",
+   "source": "ANVISA",
+   "signal": "recall",
+   "hazard": "Pathogen (unspecified)",
+   "severity": "high",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-10-28",
+   "url": "https://ncnews.com.br/?p=70124"
+  },
+  {
+   "id": "7bc5ca210f9017c1",
+   "title": "Arla Protein Salted Caramel Pudding 200g recalled over possible glass fragments, following an FSANZ recall",
+   "summary": "",
+   "source": "Singapore Food Agency",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "Singapore",
+   "region": "Asia-Pacific",
+   "date": "2026-10-27",
+   "url": "https://mothership.sg/2026/10/protein-pudding-glass-recall/"
+  },
+  {
+   "id": "4d7ce55880909470",
+   "title": "SuperValu and Centra recall salmon and prawn cocktail products after Listeria monocytogenes found",
+   "summary": "Northern Ireland alert.",
+   "source": "FSA / Coeliac UK",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "Northern Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-10-26",
+   "url": "https://www.coeliac.org.uk/food-alerts/"
+  },
+  {
+   "id": "d01f42496383f55b",
+   "title": "EU summer crop season closes with yields below the five-year average; waterlogging delays winter sowing in places",
+   "summary": "October 2026 bulletin. Next edition was due 23 Nov.",
+   "source": "JRC MARS Bulletin",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-10-23",
+   "url": "https://www.ecoticias.com/?p=501207"
+  },
+  {
+   "id": "3c2db999251bbab3",
+   "title": "AHDB early balance sheets: tighter UK wheat and barley supplies in 2026/27; wheat crop 12.07 Mt, barley 5.50 Mt (-14%)",
+   "summary": "First official balance sheets due 26 Nov 2026.",
+   "source": "AHDB",
+   "signal": "weather",
+   "hazard": "Markets / prices",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-10-22",
+   "url": "https://ahdb.org.uk/news/analyst-insight-tighter-uk-wheat-and-barley-supplies-expected-in-2026-27"
+  },
+  {
+   "id": "8862e8596ea70a32",
+   "title": "Salmonella outbreak linked to recalled oysters: do not eat, serve or sell",
+   "summary": "",
+   "source": "CDC",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-10-19",
+   "url": "https://www.cdc.gov/salmonella/outbreaks/oysters-10-26/investigation.html"
+  },
+  {
+   "id": "1f6057932e41389b",
+   "title": "Kayem Foods recalls about 1.58m lb of ready-to-eat meat and poultry that may have been stored at unsafe temperatures",
+   "summary": "68 products under 9 brands, made about 31 March to 7 October 2026.",
+   "source": "USDA FSIS",
+   "signal": "recall",
+   "hazard": "Temperature / process",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-10-17",
+   "url": "https://openclassactions.com/recalls/kayem-foods-hot-dogs-bacon-deli-meat-recall.php"
+  },
+  {
+   "id": "2c3a1137b7d50826",
+   "title": "Gilbert's Kosher Foods recalls Chopped Liver: contains wheat (gluten) but labelled gluten free",
+   "summary": "",
+   "source": "FSA / Coeliac UK",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-10-15",
+   "url": "https://www.coeliac.org.uk/food-alerts/"
+  },
+  {
+   "id": "acb591d4f9d55a43",
+   "title": "Salmonella: shell eggs from Yasensvit Ltd, Ukraine (stamp 3UA1012066) to be removed from sale",
+   "summary": "Origin: Ukraine. Alert for businesses and consumers.",
+   "source": "FSA / Coeliac UK",
+   "signal": "recall",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-10-14",
+   "url": "https://www.coeliac.org.uk/food-alerts/"
+  },
+  {
+   "id": "c8b79413f08cc712",
+   "title": "Class 1 recall: Kevin's Natural Foods Turkey Gravy, undeclared mustard",
+   "summary": "",
+   "source": "CFIA",
+   "signal": "allergen",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-10-11",
+   "url": "https://www.insauga.com/gravy-recalled-just-ahead-of-thanksgiving-in-canada/"
+  },
+  {
+   "id": "66f123c613c07659",
+   "title": "Recurring Salmonella Strathcona ST2559 outbreak: 160+ new cases in 2026 across ten EU/EEA countries incl. Ireland; source not fully controlled",
+   "summary": "Linked to seasonal produce deliveries.",
+   "source": "ECDC",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-10-09",
+   "url": "https://www.ecdc.europa.eu/en/public-health-events/2023-fwd-00090/2026-10-09"
+  },
+  {
+   "id": "08820e53951007a6",
+   "title": "USDA FSIS to phase in environmental Listeria sampling in ready-to-eat plants from 2027",
+   "summary": "From the September 2026 roundup.",
+   "source": "Smart Food Safe roundup",
+   "signal": "trade_press",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-10-07",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/"
+  },
+  {
+   "id": "f086e3ddc4caa314",
+   "title": "CDC closes iceberg-lettuce Cyclospora outbreak at 12,883 illnesses, 570 hospitalisations and two deaths",
+   "summary": "From the September 2026 roundup.",
+   "source": "Smart Food Safe roundup",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-10-07",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/"
+  },
+  {
+   "id": "3ffe63a88358320e",
+   "title": "RASFF, September 2026: 197 food notifications on products from 42 AGRINFO partner countries",
+   "summary": "Monthly summary. Also 7 feed and 11 food-contact-material notifications.",
+   "source": "AGRINFO / RASFF",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-09-30",
+   "url": "https://agrinfo.eu/book-of-reports/rasff-notifications-in-september-2026/"
+  },
+  {
+   "id": "d5b00f3d7d2f3d9a",
+   "title": "European agriculture hit hard by an exceptionally hot and dry summer; summer crop yields below 2021–25 average across western and central Europe",
+   "summary": "Less grass, less fodder for livestock.",
+   "source": "JRC MARS Bulletin",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "high",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-09-28",
+   "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/european-agriculture-hit-hard-exceptionally-hot-and-dry-summer-2026-09-28_en"
+  },
+  {
+   "id": "ea742bc1f9e63358",
+   "title": "Supercol food and liquid thickener recalled nationally: Cronobacter contamination",
+   "summary": "",
+   "source": "FSANZ",
+   "signal": "recall",
+   "hazard": "Cronobacter / B. cereus",
+   "severity": "high",
+   "country": "Australia",
+   "region": "Asia-Pacific",
+   "date": "2026-09-26",
+   "url": "https://www.foodstandards.gov.au/?page=2"
+  },
+  {
+   "id": "096420f9347eaa93",
+   "title": "Final 2026 harvest report: drought cut spring barley yields 17%, oats 14% and winter wheat 11% below the five-year mean; oilseed rape up",
+   "summary": "",
+   "source": "AHDB",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "high",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-09-25",
+   "url": "https://ahdb.org.uk/news/final-harvest-report-confirms-cereal-yields-are-below-historic-averages-across-the-uk"
+  },
+  {
+   "id": "42750e9d713e6427",
+   "title": "FDA warning letter issued to Neogen Corporation (Center for Veterinary Medicine)",
+   "summary": "CMS# 731018.",
+   "source": "FDA",
+   "signal": "competitor",
+   "hazard": "Regulatory / legal",
+   "severity": "low",
+   "country": "United States",
+   "region": "Global",
+   "date": "2026-09-23",
+   "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/neogen-corporation-731018-09232026",
+   "company": "Neogen"
+  },
+  {
+   "id": "e3df1de468ba0f18",
+   "title": "Open consultation: revised guidance on reducing listeriosis risk for vulnerable groups",
+   "summary": "",
+   "source": "FSA (GOV.UK)",
+   "signal": "policy",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-09-23",
+   "url": "https://www.gov.uk/government/consultations/revision-of-guidance-for-reducing-the-risk-of-vulnerable-groups-contracting-listeriosis"
+  },
+  {
+   "id": "f190aa46ca7f3c4f",
+   "title": "FDA releases the 2026 Food Code",
+   "summary": "",
+   "source": "Smart Food Safe roundup",
+   "signal": "trade_press",
+   "hazard": "Regulation / guidance",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-09-17",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/"
+  },
+  {
+   "id": "ec6a53b8ad713b7a",
+   "title": "Which food commodities are most threatened by a 'Godzilla' El Niño?",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-09-16",
+   "url": "https://www.foodmanufacture.co.uk/Article/2026/09/16/food-commodities-threatened-by-el-nino/"
+  },
+  {
+   "id": "f8d01a59fbe2ebd1",
+   "title": "Lessons from a 2025 UK listeriosis outbreak linked to home-delivered cook-chill meals",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-08-24",
+   "url": "https://www.food-safety.com/articles/11756-learnings-from-a-2025-uk-listeriosis-outbreak-linked-to-home-delivered-cook-chill-meals"
+  },
+  {
+   "id": "5d9bba9b9cd041f1",
+   "title": "UK officials declare fatal Salmonella outbreak, 207 people affected",
+   "summary": "",
+   "source": "Just Food",
+   "signal": "trade_press",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-08-19",
+   "url": "https://www.just-food.com/newsletters/uk-salmonella-outbreak"
+  },
+  {
+   "id": "b16b25d95a290f07",
+   "title": "Neogen: core food safety revenue +5.8% in Q4 FY2026, strongest in three years; Petrifilm production moving to Lansing from November",
+   "summary": "",
+   "source": "Neogen",
+   "signal": "competitor",
+   "hazard": "Financials",
+   "severity": "low",
+   "country": "United States",
+   "region": "Global",
+   "date": "2026-07-30",
+   "url": "https://www.feedstrategy.com/business-markets/news/15831311/neogen-posts-strongest-food-safety-unit-growth-since-2023-in-q4",
+   "company": "Neogen"
+  },
+  {
+   "id": "0b8dbccb67209f2a",
+   "title": "UK food safety incidents increased 14 percent in 2025–26",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "medium",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-07-29",
+   "url": "https://www.food-safety.com/articles/topic/296?page=18"
+  },
+  {
+   "id": "c8e2c26720858f0a",
+   "title": "El Niño forecast to peak Nov 2026–Jan 2027, with knock-on food cost and supply chain effects into 2027",
+   "summary": "",
+   "source": "FoodNavigator",
+   "signal": "trade_press",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-07-21",
+   "url": "https://www.foodnavigator.com/Article/2026/07/21/how-el-nino-could-reshape-food-costs-and-supply-chains-until-2027/"
+  },
+  {
+   "id": "b719425a2799fd46",
+   "title": "Horgans and M&S Food Truffle Gouda recalled: Listeria monocytogenes present",
+   "summary": "FSAI alert 2026.43. Recall notices at Tesco and M&S.",
+   "source": "FSAI",
+   "signal": "recall",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "Ireland",
+   "region": "UK & Ireland",
+   "date": "2026-07-06",
+   "url": "https://www.fsai.ie/News-and-Alerts/Food-Alerts/ecall-of-specific-batches-of-Horgans-and-M-S-Truff"
+  },
+  {
+   "id": "07c79ccb7ed1f32c",
+   "title": "bioMérieux launches GENE-UP TYPER SLM, a PCR Salmonella typing kit for root-cause analysis, results grouped in its AUGMENTED-DX portal",
+   "summary": "Available worldwide.",
+   "source": "bioMérieux",
+   "signal": "competitor",
+   "hazard": "Product launch",
+   "severity": "low",
+   "country": "France",
+   "region": "Global",
+   "date": "2026-06-18",
+   "url": "https://www.biomerieux.com/us/en/journalists/press-releases/gene-up-typer-salmonella-food-industry.html",
+   "company": "bioMérieux"
+  },
+  {
+   "id": "822efc5588744a84",
+   "title": "Neogen's Listeria Right Now test receives AOAC Performance Tested Methods certification",
+   "summary": "",
+   "source": "Business Wire",
+   "signal": "competitor",
+   "hazard": "Validation / approval",
+   "severity": "low",
+   "country": "United States",
+   "region": "Global",
+   "date": "2026-04-23",
+   "url": "https://www.businesswire.com/news/home/20260423600877/en/",
+   "company": "Neogen"
+  },
+  {
+   "id": "cae41cabb28580ed",
+   "title": "AOAC certifies Kikkoman Biochemifa Easy Plate EB",
+   "summary": "",
+   "source": "Kikkoman Biochemifa",
+   "signal": "competitor",
+   "hazard": "Validation / approval",
+   "severity": "low",
+   "country": "Japan",
+   "region": "Global",
+   "date": "2026-03-27",
+   "url": "https://biochemifa.kikkoman.com/e/kit/news",
+   "company": "Kikkoman Biochemifa"
+  },
+  {
+   "id": "d0aa0eea72c4b423",
+   "title": "Kikkoman Biochemifa releases Easy Plate LS for Listeria spp. environmental monitoring",
+   "summary": "",
+   "source": "Kikkoman Biochemifa",
+   "signal": "competitor",
+   "hazard": "Product launch",
+   "severity": "low",
+   "country": "Japan",
+   "region": "Global",
+   "date": "2026-03-17",
+   "url": "https://biochemifa.kikkoman.com/e/kit/news",
+   "company": "Kikkoman Biochemifa"
+  },
+  {
+   "id": "3f497e872186a8ea",
+   "title": "Zoetis to acquire Neogen's animal genomics business for $160m",
+   "summary": "",
+   "source": "Provisioner",
+   "signal": "competitor",
+   "hazard": "M&A",
+   "severity": "low",
+   "country": "United States",
+   "region": "Global",
+   "date": "2026-03-03",
+   "url": "https://www.provisioneronline.com/articles/keyword/3727-neogen",
+   "company": "Neogen"
+  },
+  {
+   "id": "d69f4dbf8246c555",
+   "title": "bioMérieux launches SMARTBIOME: DNA sequencing and data science to trace food spoilage",
+   "summary": "Built with Neoprospecta (acquired Jan 2025).",
+   "source": "bioMérieux",
+   "signal": "competitor",
+   "hazard": "Product launch",
+   "severity": "low",
+   "country": "France",
+   "region": "Global",
+   "date": "2026-02-18",
+   "url": "https://www.biomerieux.com/us/en/journalists/press-releases/smartbiome-food-industry-spoilage.html",
+   "company": "bioMérieux"
+  },
+  {
+   "id": "bc19b25418d53b91",
+   "title": "AOAC certifies Kikkoman Biochemifa Easy Plate AC-R",
+   "summary": "",
+   "source": "Kikkoman Biochemifa",
+   "signal": "competitor",
+   "hazard": "Validation / approval",
+   "severity": "low",
+   "country": "Japan",
+   "region": "Global",
+   "date": "2026-02-09",
+   "url": "https://biochemifa.kikkoman.com/e/kit/news",
+   "company": "Kikkoman Biochemifa"
+  },
+  {
+   "id": "6f874d99f8f55f1f",
+   "title": "Bio-Rad EZ-Check Listeria spp. and Listeria monocytogenes kits receive AOAC validation",
+   "summary": "",
+   "source": "Bio-Rad",
+   "signal": "competitor",
+   "hazard": "Validation / approval",
+   "severity": "low",
+   "country": "United States",
+   "region": "Global",
+   "date": "2026-02-06",
+   "url": "https://www.cambridgenetwork.co.uk/news/bio-rad-receives-aoac-international-validation-ez-check-listeria-spp-and-ez-check-listeria",
+   "company": "Bio-Rad"
+  }
+ ],
+ "directory": [
+  {
+   "region": "UK & Ireland",
+   "name": "Food Standards Agency (FSA)",
+   "type": "Regulator",
+   "url": "https://www.food.gov.uk/news-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Food Standards Scotland",
+   "type": "Regulator",
+   "url": "https://www.foodstandards.gov.scot/news-and-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Food Safety Authority of Ireland",
+   "type": "Regulator",
+   "url": "https://www.fsai.ie/news-and-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "UK Health Security Agency (UKHSA)",
+   "type": "Public health",
+   "url": "https://www.gov.uk/government/organisations/uk-health-security-agency",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Scotland",
+   "type": "Public health",
+   "url": "https://publichealthscotland.scot/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Wales",
+   "type": "Public health",
+   "url": "https://phw.nhs.wales/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Agency (NI)",
+   "type": "Public health",
+   "url": "https://www.publichealth.hscni.net/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "HPSC Ireland",
+   "type": "Public health",
+   "url": "https://www.hpsc.ie/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Defra / APHA animal disease",
+   "type": "Animal health",
+   "url": "https://www.gov.uk/animal-disease-cases-england",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "safefood (all-island)",
+   "type": "Public body",
+   "url": "https://www.safefood.net/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "RASFF Window (EU alerts)",
+   "type": "Regulator",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/search",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "EFSA",
+   "type": "Risk assessment",
+   "url": "https://www.efsa.europa.eu/en/news",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "ECDC",
+   "type": "Public health",
+   "url": "https://www.ecdc.europa.eu/en/news-events",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "RappelConso (France)",
+   "type": "Regulator",
+   "url": "https://rappel.conso.gouv.fr",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Santé publique France",
+   "type": "Public health",
+   "url": "https://www.santepubliquefrance.fr/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "Lebensmittelwarnung.de (Germany)",
+   "type": "Regulator",
+   "url": "https://www.lebensmittelwarnung.de",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Robert Koch Institute (Germany)",
+   "type": "Public health",
+   "url": "https://www.rki.de/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "NVWA (Netherlands)",
+   "type": "Regulator",
+   "url": "https://www.nvwa.nl",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AESAN (Spain)",
+   "type": "Regulator",
+   "url": "https://www.aesan.gob.es",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Ministero della Salute recalls (Italy)",
+   "type": "Regulator",
+   "url": "https://www.salute.gov.it/richiami",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "FSVO / BLV (Switzerland)",
+   "type": "Regulator",
+   "url": "https://www.blv.admin.ch",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Fødevarestyrelsen (Denmark)",
+   "type": "Regulator",
+   "url": "https://foedevarestyrelsen.dk",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Livsmedelsverket (Sweden)",
+   "type": "Regulator",
+   "url": "https://www.livsmedelsverket.se",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Mattilsynet (Norway)",
+   "type": "Regulator",
+   "url": "https://www.mattilsynet.no",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "FDA recalls & openFDA",
+   "type": "Regulator",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "FDA outbreak investigations table",
+   "type": "Regulator",
+   "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "USDA FSIS recalls",
+   "type": "Regulator",
+   "url": "https://www.fsis.usda.gov/recalls",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "CDC foodborne outbreaks",
+   "type": "Public health",
+   "url": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "Health Canada / CFIA recalls",
+   "type": "Regulator",
+   "url": "https://recalls-rappels.canada.ca/en",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "Public Health Agency of Canada",
+   "type": "Public health",
+   "url": "https://www.canada.ca/en/public-health.html",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "COFEPRIS (Mexico)",
+   "type": "Regulator",
+   "url": "https://www.gob.mx/cofepris",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "ANVISA (Brazil)",
+   "type": "Regulator",
+   "url": "https://www.gov.br/anvisa",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "ANMAT (Argentina)",
+   "type": "Regulator",
+   "url": "https://www.argentina.gob.ar/anmat",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "INVIMA (Colombia)",
+   "type": "Regulator",
+   "url": "https://www.invima.gov.co/",
+   "auto": false
+  },
+  {
+   "region": "Latin America",
+   "name": "ACHIPIA (Chile)",
+   "type": "Regulator",
+   "url": "https://www.achipia.gob.cl",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FSANZ (Australia)",
+   "type": "Regulator",
+   "url": "https://www.foodstandards.gov.au/food-recalls",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MPI (New Zealand)",
+   "type": "Regulator",
+   "url": "https://www.mpi.govt.nz/food-safety-home/food-recalls-and-complaints/",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Singapore Food Agency",
+   "type": "Regulator",
+   "url": "https://www.sfa.gov.sg/",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Centre for Food Safety (Hong Kong)",
+   "type": "Regulator",
+   "url": "https://www.cfs.gov.hk",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FSSAI (India)",
+   "type": "Regulator",
+   "url": "https://www.fssai.gov.in",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MFDS (South Korea)",
+   "type": "Regulator",
+   "url": "https://www.mfds.go.kr",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MHLW (Japan)",
+   "type": "Regulator",
+   "url": "https://www.mhlw.go.jp",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "SAMR (China)",
+   "type": "Regulator",
+   "url": "https://www.samr.gov.cn",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "National Consumer Commission (South Africa)",
+   "type": "Regulator",
+   "url": "https://thencc.org.za/",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NICD (South Africa)",
+   "type": "Public health",
+   "url": "https://www.nicd.ac.za",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NAFDAC (Nigeria)",
+   "type": "Regulator",
+   "url": "https://nafdac.gov.ng",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "SFDA (Saudi Arabia)",
+   "type": "Regulator",
+   "url": "https://www.sfda.gov.sa",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "Dubai Municipality food safety",
+   "type": "Regulator",
+   "url": "https://www.dm.gov.ae/",
+   "auto": false
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NFSA (Egypt)",
+   "type": "Regulator",
+   "url": "https://www.nfsa.gov.eg/",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "WHO Disease Outbreak News",
+   "type": "Public health",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "INFOSAN (WHO/FAO)",
+   "type": "Public health",
+   "url": "https://www.who.int/groups/international-food-safety-authorities-network-infosan",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "WOAH WAHIS (animal disease)",
+   "type": "Animal health",
+   "url": "https://wahis.woah.org/",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "GDELT (global news, 65+ languages)",
+   "type": "News",
+   "url": "https://www.gdeltproject.org/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety News",
+   "type": "Trade press",
+   "url": "https://www.foodsafetynews.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Manufacture",
+   "type": "Trade press",
+   "url": "https://www.foodmanufacture.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety Magazine",
+   "type": "Trade press",
+   "url": "https://www.food-safety.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "New Food Magazine",
+   "type": "Trade press",
+   "url": "https://www.newfoodmagazine.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-USA",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-usa.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Just Food",
+   "type": "Trade press",
+   "url": "https://www.just-food.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Quality & Safety",
+   "type": "Trade press",
+   "url": "https://www.foodqualityandsafety.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Engineering",
+   "type": "Trade press",
+   "url": "https://www.foodengineeringmag.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Processing",
+   "type": "Trade press",
+   "url": "https://www.foodprocessing.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Ingredients First",
+   "type": "Trade press",
+   "url": "https://www.foodingredientsfirst.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "The Grocer",
+   "type": "Trade press",
+   "url": "https://www.thegrocer.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Agriland",
+   "type": "Trade press",
+   "url": "https://www.agriland.ie/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Farmers Weekly",
+   "type": "Trade press",
+   "url": "https://www.fwi.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Irish Examiner (food & farming)",
+   "type": "Trade press",
+   "url": "https://www.irishexaminer.com/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Neogen",
+   "type": "Core competitor",
+   "url": "https://investors.neogen.com/news/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Kikkoman Biochemifa",
+   "type": "Core competitor",
+   "url": "https://biochemifa.kikkoman.com/e/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Charm Sciences",
+   "type": "Core competitor",
+   "url": "https://www.charm.com/resources/blog/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "bioMérieux",
+   "type": "Core competitor",
+   "url": "https://www.biomerieux.com/corp/en/who-we-are/company-news.html",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Bio-Rad",
+   "type": "Core competitor",
+   "url": "https://investors.bio-rad.com/press-releases/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "R-Biopharm",
+   "type": "Core competitor",
+   "url": "https://r-biopharm.com/news-press/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Romer Labs",
+   "type": "Also watching",
+   "url": "https://www.romerlabs.com/en/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Thermo Fisher (food safety)",
+   "type": "Also watching",
+   "url": "https://newsroom.thermofisher.com/newsroom/overview/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Merck / MilliporeSigma (food)",
+   "type": "Also watching",
+   "url": "https://www.sigmaaldrich.com/GB/en/collections/press",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "LuminUltra",
+   "type": "Also watching",
+   "url": "https://www.luminultra.com/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "IDEXX",
+   "type": "Core competitor",
+   "url": "https://ir.idexx.com/news-events/press-releases",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "NEMIS Technologies",
+   "type": "Core competitor",
+   "url": "https://www.nemistech.com/insights/press-releases/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "FreshCheck",
+   "type": "Core competitor",
+   "url": "https://www.freshcheck.co.uk/blog",
+   "auto": true
+  },
+  {
+   "name": "Smart Food Safe roundups",
+   "type": "Trade press",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "name": "Food Compliance International",
+   "type": "Trade press",
+   "url": "https://foodcomplianceinternational.com/industry-insight/scholarly-articles/623-canada-australia-uk-usa-global-food-recalls-and-alerts-associated-with-labelling-errors-and-their-contributory-factors",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "name": "Food Factory Fairbanks",
+   "type": "Trade press",
+   "url": "https://foodfactoryfairbanks.com/articles/food-recall-alerts-and-recall-lists-by-country/",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "FSA on GOV.UK (news, guidance, consultations)",
+   "type": "Regulator",
+   "url": "https://www.gov.uk/government/organisations/food-standards-agency",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "FSA guidance: food incidents, withdrawals & recalls",
+   "type": "Reference",
+   "url": "https://www.gov.uk/guidance/food-incidents-product-withdrawals-and-recalls",
+   "auto": false
+  },
+  {
+   "region": "North America",
+   "name": "FoodReady recall tracker (FDA data)",
+   "type": "Aggregator",
+   "url": "https://foodready.ai/recalls/",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "supplement.ge food alert archive",
+   "type": "Aggregator",
+   "url": "https://supplement.ge/food-alerts/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "BBC News topic page",
+   "type": "News (not pulled)",
+   "url": "https://www.bbc.co.uk/news/topics/c1gdq4dvk0kt",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office: how weather affects food production",
+   "type": "Weather service",
+   "url": "https://www.metoffice.gov.uk/blog/2025/how-weather-affects-food-production",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office: climate impacts on food security",
+   "type": "Research (reference)",
+   "url": "https://www.metoffice.gov.uk/research/climate/climate-impacts/food-security/impacts-on-food-security",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office Food Insecurity & Climate Change index",
+   "type": "Tool (reference)",
+   "url": "https://www.metoffice.gov.uk/food-insecurity-index/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "USDA agricultural weather (WAOB)",
+   "type": "Weather & crops",
+   "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/agricultural-weather",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "USDA Weekly Weather and Crop Bulletin",
+   "type": "Weekly bulletin",
+   "url": "https://www.usda.gov/sites/default/files/documents/wwcb.pdf",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "NOAA CPC ENSO (El Niño) updates",
+   "type": "Climate outlook",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "GEOGLAM Crop Monitor",
+   "type": "Crop conditions",
+   "url": "https://www.cropmonitor.org/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "JRC MARS Bulletin (EU crop monitoring)",
+   "type": "Crop conditions",
+   "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/crop-monitoring-and-yield-forecasting_en",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FAO Food Price Index",
+   "type": "Markets",
+   "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FAO GIEWS (crop prospects)",
+   "type": "Crop conditions",
+   "url": "https://www.fao.org/giews/en/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "AMIS Market Monitor",
+   "type": "Markets",
+   "url": "https://www.amis-outlook.org/amis-monitoring",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "AHDB (UK crops & markets)",
+   "type": "Crop conditions",
+   "url": "https://ahdb.org.uk/news",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Copernicus European & Global Drought Observatory",
+   "type": "Drought",
+   "url": "https://drought.emergency.copernicus.eu/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FEWS NET (famine early warning)",
+   "type": "Food security",
+   "url": "https://fews.net/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Open-Meteo 7-day forecasts for 9 growing hotspots",
+   "type": "Weather",
+   "url": "https://open-meteo.com/",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "OECD GlobalRecalls (≈50 countries)",
+   "type": "Aggregator",
+   "url": "https://globalrecalls.oecd.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "WTO SPS notifications (import bans, new limits)",
+   "type": "Trade / SPS",
+   "url": "https://spsims.wto.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "FAO EMPRES-i (animal disease events)",
+   "type": "Animal health",
+   "url": "https://empres-i.apps.fao.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "FAO Locust Watch",
+   "type": "Plant pests",
+   "url": "https://www.fao.org/locusts",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "GDACS disaster alerts",
+   "type": "Disasters",
+   "url": "https://www.gdacs.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "ReliefWeb",
+   "type": "Disasters / humanitarian",
+   "url": "https://reliefweb.int",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "HealthMap outbreak map",
+   "type": "Outbreaks",
+   "url": "https://www.healthmap.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "IPPC plant pest reports",
+   "type": "Plant pests",
+   "url": "https://www.ippc.int",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "Africa CDC",
+   "type": "Public health",
+   "url": "https://africacdc.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "PAHO alerts",
+   "type": "Public health",
+   "url": "https://www.paho.org",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AFSCA/FAVV (Belgium)",
+   "type": "Regulator",
+   "url": "https://www.favv-afsca.be",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AGES (Austria)",
+   "type": "Regulator",
+   "url": "https://www.ages.at",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "GIS (Poland)",
+   "type": "Regulator",
+   "url": "https://www.gov.pl/web/gis",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Ruokavirasto (Finland)",
+   "type": "Regulator",
+   "url": "https://www.ruokavirasto.fi",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "MAST (Iceland)",
+   "type": "Regulator",
+   "url": "https://www.mast.is",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "GACC import & export controls (China)",
+   "type": "Customs / SPS",
+   "url": "http://www.customs.gov.cn",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Consumer Affairs Agency (Japan)",
+   "type": "Regulator",
+   "url": "https://www.caa.go.jp",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Thai FDA",
+   "type": "Regulator",
+   "url": "https://www.fda.moph.go.th",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Food Safety and Quality Division (Malaysia)",
+   "type": "Regulator",
+   "url": "http://fsq.moh.gov.my",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FDA Philippines",
+   "type": "Regulator",
+   "url": "https://www.fda.gov.ph",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "MOCCAE (UAE)",
+   "type": "Regulator",
+   "url": "https://www.moccae.gov.ae",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "Ministry of Health food service (Israel)",
+   "type": "Regulator",
+   "url": "https://www.gov.il/en/departments/ministry_of_health",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "KEBS (Kenya)",
+   "type": "Standards / regulator",
+   "url": "https://www.kebs.org",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "MAPA (Brazil, agriculture & meat exports)",
+   "type": "Agriculture",
+   "url": "https://www.gov.br/agricultura",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "SENASICA (Mexico)",
+   "type": "Animal & plant health",
+   "url": "https://www.gob.mx/senasica",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "SENASA (Argentina)",
+   "type": "Animal & plant health",
+   "url": "https://www.argentina.gob.ar/senasa",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Global Meat News",
+   "type": "Trade press",
+   "url": "https://www.globalmeatnews.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "DairyReporter",
+   "type": "Trade press",
+   "url": "https://www.dairyreporter.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-Asia",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-asia.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-LATAM",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-latam.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety Asia",
+   "type": "Trade press",
+   "url": "https://www.foodsafetyasia.org",
+   "auto": true
+  }
+ ],
+ "sample": true
+}

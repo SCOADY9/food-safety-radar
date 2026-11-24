@@ -1,0 +1,2443 @@
+{
+ "_note": "Each source is fetched independently; a failing source is logged and skipped. 'verified' = endpoint format confirmed from official docs; 'check' = confirm the URL on first run. 'directory' lists every source shown on the site; auto=true means the collector pulls it.",
+ "regulators": [
+  {
+   "id": "fda",
+   "name": "US FDA enforcement reports",
+   "handler": "openfda",
+   "country": "United States",
+   "enabled": true,
+   "status": "verified",
+   "url": "https://api.fda.gov/food/enforcement.json?sort=report_date:desc&limit=100"
+  },
+  {
+   "id": "fsis",
+   "name": "USDA FSIS recalls",
+   "handler": "fsis",
+   "country": "United States",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.fsis.usda.gov/fsis/api/recall/v/1"
+  },
+  {
+   "id": "fsa",
+   "name": "UK Food Standards Agency alerts",
+   "handler": "fsa",
+   "country": "United Kingdom",
+   "enabled": true,
+   "status": "verified",
+   "url": "https://data.food.gov.uk/food-alerts/id?_limit=100&_sort=-created"
+  },
+  {
+   "id": "canada",
+   "name": "Health Canada / CFIA recalls",
+   "handler": "canada",
+   "country": "Canada",
+   "enabled": true,
+   "status": "check",
+   "url": "https://recalls-rappels.canada.ca/sites/default/files/opendata-donneesouvertes/HCRSAMOpenData.json"
+  }
+ ],
+ "rss": [
+  {
+   "id": "ukhsa",
+   "name": "UKHSA news (gov.uk)",
+   "country": "United Kingdom",
+   "signal": "outbreak",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=uk-health-security-agency"
+  },
+  {
+   "id": "defra-ad",
+   "name": "Defra animal disease cases",
+   "country": "United Kingdom",
+   "signal": "animal_health",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.gov.uk/animal-disease-cases-england.atom"
+  },
+  {
+   "id": "fsai",
+   "name": "Food Safety Authority of Ireland",
+   "country": "Ireland",
+   "signal": "recall",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.fsai.ie/rss/food-alerts"
+  },
+  {
+   "id": "sfa",
+   "name": "Singapore Food Agency alerts",
+   "country": "Singapore",
+   "signal": "recall",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.beta.sfa.gov.sg/rss/annual-listing-food-alerts"
+  },
+  {
+   "id": "fsanz",
+   "name": "FSANZ food recalls",
+   "country": "Australia",
+   "signal": "recall",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.foodstandards.gov.au/rss/recalls"
+  },
+  {
+   "id": "efsa",
+   "name": "EFSA news",
+   "country": "European Union",
+   "signal": "news",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.efsa.europa.eu/en/all/rss"
+  },
+  {
+   "id": "fsn",
+   "name": "Food Safety News",
+   "country": "Global",
+   "signal": "trade_press",
+   "enabled": true,
+   "status": "verified",
+   "url": "https://www.foodsafetynews.com/rss/"
+  },
+  {
+   "id": "fsa-govuk",
+   "name": "FSA on GOV.UK (news, guidance, consultations)",
+   "country": "United Kingdom",
+   "signal": "policy",
+   "filter": "food_chain",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.gov.uk/search/all.atom?organisations%5B%5D=food-standards-agency&order=updated-newest"
+  },
+  {
+   "id": "fda-recalls-rss",
+   "name": "FDA recalls, market withdrawals & safety alerts",
+   "country": "United States",
+   "signal": "recall",
+   "filter": "food_chain",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml"
+  },
+  {
+   "id": "gdacs",
+   "name": "GDACS disaster alerts",
+   "country": "Global",
+   "signal": "weather",
+   "filter": "gdacs",
+   "enabled": true,
+   "status": "verified",
+   "url": "https://www.gdacs.org/xml/rss.xml"
+  },
+  {
+   "id": "reliefweb",
+   "name": "ReliefWeb disasters",
+   "country": "Global",
+   "signal": "weather",
+   "filter": "crop_weather",
+   "enabled": true,
+   "status": "check",
+   "url": "https://reliefweb.int/disasters/rss.xml"
+  },
+  {
+   "id": "dairyreporter",
+   "name": "DairyReporter",
+   "country": "Global",
+   "signal": "trade_press",
+   "enabled": true,
+   "status": "verified",
+   "url": "https://www.dairyreporter.com/arc/outboundfeeds/rss/"
+  },
+  {
+   "id": "fn-asia",
+   "name": "FoodNavigator-Asia",
+   "country": "Global",
+   "signal": "trade_press",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.foodnavigator-asia.com/arc/outboundfeeds/rss/"
+  },
+  {
+   "id": "fn-latam",
+   "name": "FoodNavigator-LATAM",
+   "country": "Global",
+   "signal": "trade_press",
+   "enabled": true,
+   "status": "check",
+   "url": "https://www.foodnavigator-latam.com/arc/outboundfeeds/rss/"
+  }
+ ],
+ "news_queries": [
+  {
+   "id": "gdelt-safety",
+   "signal": "news",
+   "q": "(\"food recall\" OR \"food safety\" OR listeria OR salmonella) sourcelang:english"
+  },
+  {
+   "id": "gdelt-policy",
+   "signal": "policy",
+   "q": "(tariff OR \"import ban\" OR \"export ban\" OR \"trade deal\") (food OR agriculture OR dairy OR meat) sourcelang:english"
+  },
+  {
+   "id": "gdelt-animal",
+   "signal": "animal_health",
+   "q": "(\"avian influenza\" OR \"bird flu\" OR \"african swine fever\" OR \"foot and mouth\") sourcelang:english"
+  }
+ ],
+ "weather_hotspots": [
+  {
+   "name": "Salinas Valley leafy greens",
+   "country": "United States",
+   "lat": 36.68,
+   "lon": -121.66
+  },
+  {
+   "name": "Almería protected produce",
+   "country": "Spain",
+   "lat": 36.84,
+   "lon": -2.46
+  },
+  {
+   "name": "Côte d'Ivoire cocoa belt",
+   "country": "Côte d'Ivoire",
+   "lat": 6.82,
+   "lon": -5.28
+  },
+  {
+   "name": "Mato Grosso soy",
+   "country": "Brazil",
+   "lat": -12.64,
+   "lon": -55.42
+  },
+  {
+   "name": "Punjab wheat & rice",
+   "country": "India",
+   "lat": 30.9,
+   "lon": 75.85
+  },
+  {
+   "name": "Mekong Delta rice",
+   "country": "Vietnam",
+   "lat": 10.03,
+   "lon": 105.78
+  },
+  {
+   "name": "Ukraine grain belt",
+   "country": "Ukraine",
+   "lat": 48.46,
+   "lon": 35.04
+  },
+  {
+   "name": "Munster dairy",
+   "country": "Ireland",
+   "lat": 52.0,
+   "lon": -8.6
+  },
+  {
+   "name": "Lincolnshire vegetables",
+   "country": "United Kingdom",
+   "lat": 53.0,
+   "lon": -0.2
+  }
+ ],
+ "google_news": [
+  {
+   "id": "gn-ukhsa",
+   "q": "UKHSA (salmonella OR listeria OR \"E. coli\" OR outbreak)",
+   "country": "United Kingdom",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-fss",
+   "q": "\"Food Standards Scotland\" recall",
+   "country": "United Kingdom",
+   "signal": "recall",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-phs",
+   "q": "(\"Public Health Scotland\" OR \"Public Health Wales\") outbreak food",
+   "country": "United Kingdom",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-ie",
+   "q": "(HPSC OR \"Public Health Agency\" OR FSAI) (outbreak OR recall)",
+   "country": "Ireland",
+   "signal": "outbreak",
+   "hl": "en-IE",
+   "gl": "IE"
+  },
+  {
+   "id": "gn-cdc",
+   "q": "CDC outbreak (salmonella OR listeria OR \"E. coli\" OR cyclospora)",
+   "country": "United States",
+   "signal": "outbreak",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-fda-outbreak",
+   "q": "FDA \"outbreak investigation\" food",
+   "country": "United States",
+   "signal": "outbreak",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-phac",
+   "q": "\"Public Health Agency of Canada\" outbreak food",
+   "country": "Canada",
+   "signal": "outbreak",
+   "hl": "en-CA",
+   "gl": "CA"
+  },
+  {
+   "id": "gn-ecdc",
+   "q": "(ECDC OR EFSA) \"multi-country outbreak\"",
+   "country": "European Union",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-fr",
+   "q": "RappelConso (listeria OR salmonelle OR rappel)",
+   "country": "France",
+   "signal": "recall",
+   "hl": "fr",
+   "gl": "FR"
+  },
+  {
+   "id": "gn-de",
+   "q": "Lebensmittelwarnung Rückruf",
+   "country": "Germany",
+   "signal": "recall",
+   "hl": "de",
+   "gl": "DE"
+  },
+  {
+   "id": "gn-nl",
+   "q": "NVWA terugroepactie",
+   "country": "Netherlands",
+   "signal": "recall",
+   "hl": "nl",
+   "gl": "NL"
+  },
+  {
+   "id": "gn-es",
+   "q": "AESAN alerta alimentaria",
+   "country": "Spain",
+   "signal": "recall",
+   "hl": "es",
+   "gl": "ES"
+  },
+  {
+   "id": "gn-ch",
+   "q": "BLV Rückruf Listerien OR Salmonellen",
+   "country": "Switzerland",
+   "signal": "recall",
+   "hl": "de",
+   "gl": "CH"
+  },
+  {
+   "id": "gn-nordic",
+   "q": "(Fødevarestyrelsen OR Livsmedelsverket OR Mattilsynet) tilbagekald OR återkallar OR tilbakekaller",
+   "country": "Denmark",
+   "signal": "recall",
+   "hl": "en-GB",
+   "gl": "DK"
+  },
+  {
+   "id": "gn-br",
+   "q": "Anvisa recolhimento alimento",
+   "country": "Brazil",
+   "signal": "recall",
+   "hl": "pt-BR",
+   "gl": "BR"
+  },
+  {
+   "id": "gn-mx",
+   "q": "COFEPRIS alerta alimento",
+   "country": "Mexico",
+   "signal": "recall",
+   "hl": "es-419",
+   "gl": "MX"
+  },
+  {
+   "id": "gn-sg",
+   "q": "\"Singapore Food Agency\" recall",
+   "country": "Singapore",
+   "signal": "recall",
+   "hl": "en-SG",
+   "gl": "SG"
+  },
+  {
+   "id": "gn-hk",
+   "q": "\"Centre for Food Safety\" Hong Kong",
+   "country": "Hong Kong",
+   "signal": "recall",
+   "hl": "en-HK",
+   "gl": "HK"
+  },
+  {
+   "id": "gn-in",
+   "q": "FSSAI food safety",
+   "country": "India",
+   "signal": "news",
+   "hl": "en-IN",
+   "gl": "IN"
+  },
+  {
+   "id": "gn-nz",
+   "q": "MPI food recall New Zealand",
+   "country": "New Zealand",
+   "signal": "recall",
+   "hl": "en-NZ",
+   "gl": "NZ"
+  },
+  {
+   "id": "gn-za",
+   "q": "\"National Consumer Commission\" food recall",
+   "country": "South Africa",
+   "signal": "recall",
+   "hl": "en-ZA",
+   "gl": "ZA"
+  },
+  {
+   "id": "gn-ng",
+   "q": "NAFDAC food alert",
+   "country": "Nigeria",
+   "signal": "recall",
+   "hl": "en-NG",
+   "gl": "NG"
+  },
+  {
+   "id": "gn-sa",
+   "q": "SFDA food warning",
+   "country": "Saudi Arabia",
+   "signal": "recall",
+   "hl": "en-GB",
+   "gl": "SA"
+  },
+  {
+   "id": "gn-who",
+   "q": "WHO \"Disease Outbreak News\" OR INFOSAN food",
+   "country": "Global",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-wto-sps",
+   "q": "WTO SPS notification (import ban OR \"maximum residue\" OR restriction) food",
+   "country": "Global",
+   "signal": "policy",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-empres",
+   "q": "(EMPRES-i OR WOAH OR \"animal disease\") outbreak (poultry OR swine OR cattle)",
+   "country": "Global",
+   "signal": "animal_health",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-healthmap",
+   "q": "foodborne outbreak (cholera OR typhoid OR \"food poisoning\")",
+   "country": "Global",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-be",
+   "q": "AFSCA rappel OR FAVV terugroeping",
+   "country": "Belgium",
+   "signal": "recall",
+   "hl": "fr",
+   "gl": "BE"
+  },
+  {
+   "id": "gn-it",
+   "q": "richiamo alimentare Ministero della Salute",
+   "country": "Italy",
+   "signal": "recall",
+   "hl": "it",
+   "gl": "IT"
+  },
+  {
+   "id": "gn-at",
+   "q": "AGES Produktwarnung Lebensmittel",
+   "country": "Austria",
+   "signal": "recall",
+   "hl": "de",
+   "gl": "AT"
+  },
+  {
+   "id": "gn-pl",
+   "q": "GIS ostrzeżenie publiczne żywność",
+   "country": "Poland",
+   "signal": "recall",
+   "hl": "pl",
+   "gl": "PL"
+  },
+  {
+   "id": "gn-fi",
+   "q": "Ruokavirasto takaisinveto",
+   "country": "Finland",
+   "signal": "recall",
+   "hl": "fi",
+   "gl": "FI"
+  },
+  {
+   "id": "gn-jp",
+   "q": "Consumer Affairs Agency Japan food recall",
+   "country": "Japan",
+   "signal": "recall",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-kr",
+   "q": "MFDS Korea food recall",
+   "country": "South Korea",
+   "signal": "recall",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-cn",
+   "q": "China SAMR OR GACC food import suspension",
+   "country": "China",
+   "signal": "policy",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-th",
+   "q": "\"Thai FDA\" food",
+   "country": "Thailand",
+   "signal": "recall",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-my",
+   "q": "Malaysia health ministry food recall OR \"food safety\"",
+   "country": "Malaysia",
+   "signal": "recall",
+   "hl": "en-MY",
+   "gl": "MY"
+  },
+  {
+   "id": "gn-ph",
+   "q": "\"FDA Philippines\" advisory food",
+   "country": "Philippines",
+   "signal": "recall",
+   "hl": "en-PH",
+   "gl": "PH"
+  },
+  {
+   "id": "gn-ae",
+   "q": "UAE MOCCAE food ban OR recall",
+   "country": "United Arab Emirates",
+   "signal": "recall",
+   "hl": "en-AE",
+   "gl": "AE"
+  },
+  {
+   "id": "gn-il",
+   "q": "Israel Ministry of Health food recall",
+   "country": "Israel",
+   "signal": "recall",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-ke",
+   "q": "KEBS food OR recall OR ban",
+   "country": "Kenya",
+   "signal": "recall",
+   "hl": "en-KE",
+   "gl": "KE"
+  },
+  {
+   "id": "gn-paho",
+   "q": "PAHO epidemiological alert",
+   "country": "Global",
+   "signal": "outbreak",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "id": "gn-mapa",
+   "q": "Brazil meat exports suspended OR \"bird flu\" MAPA",
+   "country": "Brazil",
+   "signal": "policy",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "id": "gn-senasica",
+   "q": "SENASICA alerta sanitaria",
+   "country": "Mexico",
+   "signal": "animal_health",
+   "hl": "es-419",
+   "gl": "MX"
+  },
+  {
+   "id": "gn-senasa",
+   "q": "SENASA Argentina alerta",
+   "country": "Argentina",
+   "signal": "animal_health",
+   "hl": "es-419",
+   "gl": "AR"
+  },
+  {
+   "id": "gn-cl",
+   "q": "ACHIPIA OR \"ISP Chile\" alerta alimentaria",
+   "country": "Chile",
+   "signal": "recall",
+   "hl": "es-419",
+   "gl": "CL"
+  }
+ ],
+ "directory": [
+  {
+   "region": "UK & Ireland",
+   "name": "Food Standards Agency (FSA)",
+   "type": "Regulator",
+   "url": "https://www.food.gov.uk/news-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Food Standards Scotland",
+   "type": "Regulator",
+   "url": "https://www.foodstandards.gov.scot/news-and-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Food Safety Authority of Ireland",
+   "type": "Regulator",
+   "url": "https://www.fsai.ie/news-and-alerts",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "UK Health Security Agency (UKHSA)",
+   "type": "Public health",
+   "url": "https://www.gov.uk/government/organisations/uk-health-security-agency",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Scotland",
+   "type": "Public health",
+   "url": "https://publichealthscotland.scot/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Wales",
+   "type": "Public health",
+   "url": "https://phw.nhs.wales/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Public Health Agency (NI)",
+   "type": "Public health",
+   "url": "https://www.publichealth.hscni.net/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "HPSC Ireland",
+   "type": "Public health",
+   "url": "https://www.hpsc.ie/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "Defra / APHA animal disease",
+   "type": "Animal health",
+   "url": "https://www.gov.uk/animal-disease-cases-england",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "safefood (all-island)",
+   "type": "Public body",
+   "url": "https://www.safefood.net/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "RASFF Window (EU alerts)",
+   "type": "Regulator",
+   "url": "https://webgate.ec.europa.eu/rasff-window/screen/search",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "EFSA",
+   "type": "Risk assessment",
+   "url": "https://www.efsa.europa.eu/en/news",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "ECDC",
+   "type": "Public health",
+   "url": "https://www.ecdc.europa.eu/en/news-events",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "RappelConso (France)",
+   "type": "Regulator",
+   "url": "https://rappel.conso.gouv.fr",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Santé publique France",
+   "type": "Public health",
+   "url": "https://www.santepubliquefrance.fr/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "Lebensmittelwarnung.de (Germany)",
+   "type": "Regulator",
+   "url": "https://www.lebensmittelwarnung.de",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Robert Koch Institute (Germany)",
+   "type": "Public health",
+   "url": "https://www.rki.de/",
+   "auto": false
+  },
+  {
+   "region": "Europe",
+   "name": "NVWA (Netherlands)",
+   "type": "Regulator",
+   "url": "https://www.nvwa.nl",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AESAN (Spain)",
+   "type": "Regulator",
+   "url": "https://www.aesan.gob.es",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Ministero della Salute recalls (Italy)",
+   "type": "Regulator",
+   "url": "https://www.salute.gov.it/richiami",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "FSVO / BLV (Switzerland)",
+   "type": "Regulator",
+   "url": "https://www.blv.admin.ch",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Fødevarestyrelsen (Denmark)",
+   "type": "Regulator",
+   "url": "https://foedevarestyrelsen.dk",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Livsmedelsverket (Sweden)",
+   "type": "Regulator",
+   "url": "https://www.livsmedelsverket.se",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Mattilsynet (Norway)",
+   "type": "Regulator",
+   "url": "https://www.mattilsynet.no",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "FDA recalls & openFDA",
+   "type": "Regulator",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "FDA outbreak investigations table",
+   "type": "Regulator",
+   "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "USDA FSIS recalls",
+   "type": "Regulator",
+   "url": "https://www.fsis.usda.gov/recalls",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "CDC foodborne outbreaks",
+   "type": "Public health",
+   "url": "https://www.cdc.gov/foodborne-outbreaks/outbreaks/",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "Health Canada / CFIA recalls",
+   "type": "Regulator",
+   "url": "https://recalls-rappels.canada.ca/en",
+   "auto": true
+  },
+  {
+   "region": "North America",
+   "name": "Public Health Agency of Canada",
+   "type": "Public health",
+   "url": "https://www.canada.ca/en/public-health.html",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "COFEPRIS (Mexico)",
+   "type": "Regulator",
+   "url": "https://www.gob.mx/cofepris",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "ANVISA (Brazil)",
+   "type": "Regulator",
+   "url": "https://www.gov.br/anvisa",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "ANMAT (Argentina)",
+   "type": "Regulator",
+   "url": "https://www.argentina.gob.ar/anmat",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "INVIMA (Colombia)",
+   "type": "Regulator",
+   "url": "https://www.invima.gov.co/",
+   "auto": false
+  },
+  {
+   "region": "Latin America",
+   "name": "ACHIPIA (Chile)",
+   "type": "Regulator",
+   "url": "https://www.achipia.gob.cl",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FSANZ (Australia)",
+   "type": "Regulator",
+   "url": "https://www.foodstandards.gov.au/food-recalls",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MPI (New Zealand)",
+   "type": "Regulator",
+   "url": "https://www.mpi.govt.nz/food-safety-home/food-recalls-and-complaints/",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Singapore Food Agency",
+   "type": "Regulator",
+   "url": "https://www.sfa.gov.sg/",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Centre for Food Safety (Hong Kong)",
+   "type": "Regulator",
+   "url": "https://www.cfs.gov.hk",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FSSAI (India)",
+   "type": "Regulator",
+   "url": "https://www.fssai.gov.in",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MFDS (South Korea)",
+   "type": "Regulator",
+   "url": "https://www.mfds.go.kr",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "MHLW (Japan)",
+   "type": "Regulator",
+   "url": "https://www.mhlw.go.jp",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "SAMR (China)",
+   "type": "Regulator",
+   "url": "https://www.samr.gov.cn",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "National Consumer Commission (South Africa)",
+   "type": "Regulator",
+   "url": "https://thencc.org.za/",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NICD (South Africa)",
+   "type": "Public health",
+   "url": "https://www.nicd.ac.za",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NAFDAC (Nigeria)",
+   "type": "Regulator",
+   "url": "https://nafdac.gov.ng",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "SFDA (Saudi Arabia)",
+   "type": "Regulator",
+   "url": "https://www.sfda.gov.sa",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "Dubai Municipality food safety",
+   "type": "Regulator",
+   "url": "https://www.dm.gov.ae/",
+   "auto": false
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "NFSA (Egypt)",
+   "type": "Regulator",
+   "url": "https://www.nfsa.gov.eg/",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "WHO Disease Outbreak News",
+   "type": "Public health",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "INFOSAN (WHO/FAO)",
+   "type": "Public health",
+   "url": "https://www.who.int/groups/international-food-safety-authorities-network-infosan",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "WOAH WAHIS (animal disease)",
+   "type": "Animal health",
+   "url": "https://wahis.woah.org/",
+   "auto": false
+  },
+  {
+   "region": "Global",
+   "name": "GDELT (global news, 65+ languages)",
+   "type": "News",
+   "url": "https://www.gdeltproject.org/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety News",
+   "type": "Trade press",
+   "url": "https://www.foodsafetynews.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Manufacture",
+   "type": "Trade press",
+   "url": "https://www.foodmanufacture.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety Magazine",
+   "type": "Trade press",
+   "url": "https://www.food-safety.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "New Food Magazine",
+   "type": "Trade press",
+   "url": "https://www.newfoodmagazine.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-USA",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-usa.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Just Food",
+   "type": "Trade press",
+   "url": "https://www.just-food.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Quality & Safety",
+   "type": "Trade press",
+   "url": "https://www.foodqualityandsafety.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Engineering",
+   "type": "Trade press",
+   "url": "https://www.foodengineeringmag.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Processing",
+   "type": "Trade press",
+   "url": "https://www.foodprocessing.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Ingredients First",
+   "type": "Trade press",
+   "url": "https://www.foodingredientsfirst.com/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "The Grocer",
+   "type": "Trade press",
+   "url": "https://www.thegrocer.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Agriland",
+   "type": "Trade press",
+   "url": "https://www.agriland.ie/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Farmers Weekly",
+   "type": "Trade press",
+   "url": "https://www.fwi.co.uk/",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Irish Examiner (food & farming)",
+   "type": "Trade press",
+   "url": "https://www.irishexaminer.com/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Neogen",
+   "type": "Core competitor",
+   "url": "https://investors.neogen.com/news/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Kikkoman Biochemifa",
+   "type": "Core competitor",
+   "url": "https://biochemifa.kikkoman.com/e/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Charm Sciences",
+   "type": "Core competitor",
+   "url": "https://www.charm.com/resources/blog/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "bioMérieux",
+   "type": "Core competitor",
+   "url": "https://www.biomerieux.com/corp/en/who-we-are/company-news.html",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Bio-Rad",
+   "type": "Core competitor",
+   "url": "https://investors.bio-rad.com/press-releases/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "R-Biopharm",
+   "type": "Core competitor",
+   "url": "https://r-biopharm.com/news-press/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Romer Labs",
+   "type": "Also watching",
+   "url": "https://www.romerlabs.com/en/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Thermo Fisher (food safety)",
+   "type": "Also watching",
+   "url": "https://newsroom.thermofisher.com/newsroom/overview/default.aspx",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "Merck / MilliporeSigma (food)",
+   "type": "Also watching",
+   "url": "https://www.sigmaaldrich.com/GB/en/collections/press",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "LuminUltra",
+   "type": "Also watching",
+   "url": "https://www.luminultra.com/news/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "IDEXX",
+   "type": "Core competitor",
+   "url": "https://ir.idexx.com/news-events/press-releases",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "NEMIS Technologies",
+   "type": "Core competitor",
+   "url": "https://www.nemistech.com/insights/press-releases/",
+   "auto": true
+  },
+  {
+   "region": "Competitors",
+   "name": "FreshCheck",
+   "type": "Core competitor",
+   "url": "https://www.freshcheck.co.uk/blog",
+   "auto": true
+  },
+  {
+   "name": "Smart Food Safe roundups",
+   "type": "Trade press",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "name": "Food Compliance International",
+   "type": "Trade press",
+   "url": "https://foodcomplianceinternational.com/industry-insight/scholarly-articles/623-canada-australia-uk-usa-global-food-recalls-and-alerts-associated-with-labelling-errors-and-their-contributory-factors",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "name": "Food Factory Fairbanks",
+   "type": "Trade press",
+   "url": "https://foodfactoryfairbanks.com/articles/food-recall-alerts-and-recall-lists-by-country/",
+   "auto": true,
+   "region": "Trade press"
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "FSA on GOV.UK (news, guidance, consultations)",
+   "type": "Regulator",
+   "url": "https://www.gov.uk/government/organisations/food-standards-agency",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "FSA guidance: food incidents, withdrawals & recalls",
+   "type": "Reference",
+   "url": "https://www.gov.uk/guidance/food-incidents-product-withdrawals-and-recalls",
+   "auto": false
+  },
+  {
+   "region": "North America",
+   "name": "FoodReady recall tracker (FDA data)",
+   "type": "Aggregator",
+   "url": "https://foodready.ai/recalls/",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "supplement.ge food alert archive",
+   "type": "Aggregator",
+   "url": "https://supplement.ge/food-alerts/",
+   "auto": true
+  },
+  {
+   "region": "UK & Ireland",
+   "name": "BBC News topic page",
+   "type": "News (not pulled)",
+   "url": "https://www.bbc.co.uk/news/topics/c1gdq4dvk0kt",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office: how weather affects food production",
+   "type": "Weather service",
+   "url": "https://www.metoffice.gov.uk/blog/2025/how-weather-affects-food-production",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office: climate impacts on food security",
+   "type": "Research (reference)",
+   "url": "https://www.metoffice.gov.uk/research/climate/climate-impacts/food-security/impacts-on-food-security",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Met Office Food Insecurity & Climate Change index",
+   "type": "Tool (reference)",
+   "url": "https://www.metoffice.gov.uk/food-insecurity-index/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "USDA agricultural weather (WAOB)",
+   "type": "Weather & crops",
+   "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/agricultural-weather",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "USDA Weekly Weather and Crop Bulletin",
+   "type": "Weekly bulletin",
+   "url": "https://www.usda.gov/sites/default/files/documents/wwcb.pdf",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "NOAA CPC ENSO (El Niño) updates",
+   "type": "Climate outlook",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "GEOGLAM Crop Monitor",
+   "type": "Crop conditions",
+   "url": "https://www.cropmonitor.org/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "JRC MARS Bulletin (EU crop monitoring)",
+   "type": "Crop conditions",
+   "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/crop-monitoring-and-yield-forecasting_en",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FAO Food Price Index",
+   "type": "Markets",
+   "url": "https://www.fao.org/worldfoodsituation/foodpricesindex/en/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FAO GIEWS (crop prospects)",
+   "type": "Crop conditions",
+   "url": "https://www.fao.org/giews/en/",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "AMIS Market Monitor",
+   "type": "Markets",
+   "url": "https://www.amis-outlook.org/amis-monitoring",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "AHDB (UK crops & markets)",
+   "type": "Crop conditions",
+   "url": "https://ahdb.org.uk/news",
+   "auto": true
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Copernicus European & Global Drought Observatory",
+   "type": "Drought",
+   "url": "https://drought.emergency.copernicus.eu/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "FEWS NET (famine early warning)",
+   "type": "Food security",
+   "url": "https://fews.net/",
+   "auto": false
+  },
+  {
+   "region": "Weather & crops",
+   "name": "Open-Meteo 7-day forecasts for 9 growing hotspots",
+   "type": "Weather",
+   "url": "https://open-meteo.com/",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "OECD GlobalRecalls (≈50 countries)",
+   "type": "Aggregator",
+   "url": "https://globalrecalls.oecd.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "WTO SPS notifications (import bans, new limits)",
+   "type": "Trade / SPS",
+   "url": "https://spsims.wto.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "FAO EMPRES-i (animal disease events)",
+   "type": "Animal health",
+   "url": "https://empres-i.apps.fao.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "FAO Locust Watch",
+   "type": "Plant pests",
+   "url": "https://www.fao.org/locusts",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "GDACS disaster alerts",
+   "type": "Disasters",
+   "url": "https://www.gdacs.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "ReliefWeb",
+   "type": "Disasters / humanitarian",
+   "url": "https://reliefweb.int",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "HealthMap outbreak map",
+   "type": "Outbreaks",
+   "url": "https://www.healthmap.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "IPPC plant pest reports",
+   "type": "Plant pests",
+   "url": "https://www.ippc.int",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "Africa CDC",
+   "type": "Public health",
+   "url": "https://africacdc.org",
+   "auto": true
+  },
+  {
+   "region": "Global",
+   "name": "PAHO alerts",
+   "type": "Public health",
+   "url": "https://www.paho.org",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AFSCA/FAVV (Belgium)",
+   "type": "Regulator",
+   "url": "https://www.favv-afsca.be",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "AGES (Austria)",
+   "type": "Regulator",
+   "url": "https://www.ages.at",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "GIS (Poland)",
+   "type": "Regulator",
+   "url": "https://www.gov.pl/web/gis",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "Ruokavirasto (Finland)",
+   "type": "Regulator",
+   "url": "https://www.ruokavirasto.fi",
+   "auto": true
+  },
+  {
+   "region": "Europe",
+   "name": "MAST (Iceland)",
+   "type": "Regulator",
+   "url": "https://www.mast.is",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "GACC import & export controls (China)",
+   "type": "Customs / SPS",
+   "url": "http://www.customs.gov.cn",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Consumer Affairs Agency (Japan)",
+   "type": "Regulator",
+   "url": "https://www.caa.go.jp",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Thai FDA",
+   "type": "Regulator",
+   "url": "https://www.fda.moph.go.th",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "Food Safety and Quality Division (Malaysia)",
+   "type": "Regulator",
+   "url": "http://fsq.moh.gov.my",
+   "auto": true
+  },
+  {
+   "region": "Asia-Pacific",
+   "name": "FDA Philippines",
+   "type": "Regulator",
+   "url": "https://www.fda.gov.ph",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "MOCCAE (UAE)",
+   "type": "Regulator",
+   "url": "https://www.moccae.gov.ae",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "Ministry of Health food service (Israel)",
+   "type": "Regulator",
+   "url": "https://www.gov.il/en/departments/ministry_of_health",
+   "auto": true
+  },
+  {
+   "region": "Middle East & Africa",
+   "name": "KEBS (Kenya)",
+   "type": "Standards / regulator",
+   "url": "https://www.kebs.org",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "MAPA (Brazil, agriculture & meat exports)",
+   "type": "Agriculture",
+   "url": "https://www.gov.br/agricultura",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "SENASICA (Mexico)",
+   "type": "Animal & plant health",
+   "url": "https://www.gob.mx/senasica",
+   "auto": true
+  },
+  {
+   "region": "Latin America",
+   "name": "SENASA (Argentina)",
+   "type": "Animal & plant health",
+   "url": "https://www.argentina.gob.ar/senasa",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Global Meat News",
+   "type": "Trade press",
+   "url": "https://www.globalmeatnews.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "DairyReporter",
+   "type": "Trade press",
+   "url": "https://www.dairyreporter.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-Asia",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-asia.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "FoodNavigator-LATAM",
+   "type": "Trade press",
+   "url": "https://www.foodnavigator-latam.com",
+   "auto": true
+  },
+  {
+   "region": "Trade press",
+   "name": "Food Safety Asia",
+   "type": "Trade press",
+   "url": "https://www.foodsafetyasia.org",
+   "auto": true
+  }
+ ],
+ "competitors": [
+  {
+   "name": "Neogen",
+   "q": "(\"Neogen\" (food OR Petrifilm OR test OR AOAC OR acquisition OR results)) OR (site:businesswire.com Neogen)",
+   "url": "https://investors.neogen.com/news/default.aspx",
+   "hq": "United States",
+   "core": true,
+   "scope": "all"
+  },
+  {
+   "name": "Kikkoman Biochemifa",
+   "q": "\"Kikkoman Biochemifa\" OR Lumitester OR \"Easy Plate\"",
+   "url": "https://biochemifa.kikkoman.com/e/news/",
+   "hq": "Japan",
+   "core": true,
+   "scope": "all"
+  },
+  {
+   "name": "Charm Sciences",
+   "q": "\"Charm Sciences\"",
+   "url": "https://www.charm.com/resources/blog/",
+   "hq": "United States",
+   "core": true,
+   "scope": "all"
+  },
+  {
+   "name": "bioMérieux",
+   "q": "bioMérieux (food OR industry OR \"GENE-UP\" OR acquisition)",
+   "url": "https://www.biomerieux.com/corp/en/who-we-are/company-news.html",
+   "hq": "France",
+   "core": true,
+   "scope": "food_only"
+  },
+  {
+   "name": "Bio-Rad",
+   "q": "\"Bio-Rad\" (food OR \"iQ-Check\" OR \"EZ-Check\" OR AOAC OR acquisition OR results)",
+   "url": "https://investors.bio-rad.com/press-releases/default.aspx",
+   "hq": "United States",
+   "core": true,
+   "scope": "food_only"
+  },
+  {
+   "name": "R-Biopharm",
+   "q": "\"R-Biopharm\" (food OR allergen OR RIDASCREEN OR mycotoxin)",
+   "url": "https://r-biopharm.com/news-press/",
+   "hq": "Germany",
+   "core": true,
+   "scope": "all"
+  },
+  {
+   "name": "Romer Labs",
+   "q": "\"Romer Labs\"",
+   "url": "https://www.romerlabs.com/en/news/",
+   "hq": "Austria",
+   "core": false,
+   "scope": "all"
+  },
+  {
+   "name": "Thermo Fisher (food safety)",
+   "q": "\"Thermo Fisher\" \"food safety\"",
+   "url": "https://newsroom.thermofisher.com/newsroom/overview/default.aspx",
+   "hq": "United States",
+   "core": false,
+   "scope": "food_only"
+  },
+  {
+   "name": "Merck / MilliporeSigma (food)",
+   "q": "(MilliporeSigma OR \"Merck KGaA\" OR \"Sigma-Aldrich\") (\"food safety\" OR \"food testing\" OR microbiology OR \"Rapid Micro\")",
+   "url": "https://www.sigmaaldrich.com/GB/en/collections/press",
+   "hq": "Germany",
+   "core": false,
+   "scope": "food_only"
+  },
+  {
+   "name": "LuminUltra",
+   "q": "LuminUltra",
+   "url": "https://www.luminultra.com/news/",
+   "hq": "Canada",
+   "core": false,
+   "scope": "all"
+  },
+  {
+   "name": "IDEXX",
+   "q": "IDEXX (water OR dairy OR milk OR food OR livestock)",
+   "url": "https://ir.idexx.com/news-events/press-releases",
+   "hq": "United States",
+   "core": true,
+   "scope": "food_only"
+  },
+  {
+   "name": "NEMIS Technologies",
+   "q": "\"NEMIS Technologies\" OR \"NEMIS\" Listeria",
+   "url": "https://www.nemistech.com/insights/press-releases/",
+   "hq": "Switzerland",
+   "core": true,
+   "scope": "all"
+  },
+  {
+   "name": "FreshCheck",
+   "q": "FreshCheck hygiene swab",
+   "url": "https://www.freshcheck.co.uk/blog",
+   "hq": "United Kingdom",
+   "core": true,
+   "scope": "all"
+  }
+ ],
+ "method_approvals": {
+  "name": "Method approvals (AOAC / MicroVal / AFNOR)",
+  "q": "(AOAC OR MicroVal OR \"NF VALIDATION\") (Listeria OR Salmonella OR allergen OR ATP) certification",
+  "signal": "competitor"
+ },
+ "trade_press": [
+  {
+   "name": "Food Manufacture",
+   "site": "foodmanufacture.co.uk",
+   "url": "https://www.foodmanufacture.co.uk/",
+   "q": "site:foodmanufacture.co.uk",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "Food Safety Magazine",
+   "site": "food-safety.com",
+   "url": "https://www.food-safety.com/",
+   "q": "site:food-safety.com",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "name": "New Food Magazine",
+   "site": "newfoodmagazine.com",
+   "url": "https://www.newfoodmagazine.com/",
+   "q": "site:newfoodmagazine.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "FoodNavigator",
+   "site": "foodnavigator.com",
+   "url": "https://www.foodnavigator.com/",
+   "q": "site:foodnavigator.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "FoodNavigator-USA",
+   "site": "foodnavigator-usa.com",
+   "url": "https://www.foodnavigator-usa.com/",
+   "q": "site:foodnavigator-usa.com",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "name": "Just Food",
+   "site": "just-food.com",
+   "url": "https://www.just-food.com/",
+   "q": "site:just-food.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "Food Quality & Safety",
+   "site": "foodqualityandsafety.com",
+   "url": "https://www.foodqualityandsafety.com/",
+   "q": "site:foodqualityandsafety.com",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "name": "Food Engineering",
+   "site": "foodengineeringmag.com",
+   "url": "https://www.foodengineeringmag.com/",
+   "q": "site:foodengineeringmag.com",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "name": "Food Processing",
+   "site": "foodprocessing.com",
+   "url": "https://www.foodprocessing.com/",
+   "q": "site:foodprocessing.com",
+   "hl": "en-US",
+   "gl": "US"
+  },
+  {
+   "name": "Food Ingredients First",
+   "site": "foodingredientsfirst.com",
+   "url": "https://www.foodingredientsfirst.com/",
+   "q": "site:foodingredientsfirst.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "The Grocer",
+   "site": "thegrocer.co.uk",
+   "url": "https://www.thegrocer.co.uk/",
+   "q": "site:thegrocer.co.uk (recall OR outbreak OR listeria OR salmonella OR allergen OR \"food safety\" OR contamination OR hygiene)",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "Agriland",
+   "site": "agriland.ie",
+   "url": "https://www.agriland.ie/",
+   "q": "site:agriland.ie (recall OR outbreak OR listeria OR salmonella OR allergen OR \"food safety\" OR contamination OR hygiene) OR \"bird flu\" OR FSAI",
+   "hl": "en-IE",
+   "gl": "IE"
+  },
+  {
+   "name": "Farmers Weekly",
+   "site": "fwi.co.uk",
+   "url": "https://www.fwi.co.uk/",
+   "q": "site:fwi.co.uk (recall OR outbreak OR listeria OR salmonella OR allergen OR \"food safety\" OR contamination OR hygiene) OR \"bird flu\" OR \"avian influenza\"",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "Irish Examiner (food & farming)",
+   "site": "irishexaminer.com",
+   "url": "https://www.irishexaminer.com/",
+   "q": "site:irishexaminer.com (FSAI OR recall OR \"food safety\")",
+   "hl": "en-IE",
+   "gl": "IE"
+  },
+  {
+   "name": "Smart Food Safe (monthly roundups)",
+   "site": "smartfoodsafe.com",
+   "url": "https://smartfoodsafe.com/food-safety-news-roundup-september-2026/",
+   "q": "site:smartfoodsafe.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  },
+  {
+   "name": "Global Meat News",
+   "site": "globalmeatnews.com",
+   "url": "https://www.globalmeatnews.com/",
+   "q": "site:globalmeatnews.com",
+   "hl": "en-GB",
+   "gl": "GB"
+  }
+ ],
+ "page_watch": [
+  {
+   "name": "FSA on GOV.UK (organisation page)",
+   "url": "https://www.gov.uk/government/organisations/food-standards-agency",
+   "signal": "policy",
+   "country": "United Kingdom",
+   "filter": "food_chain"
+  },
+  {
+   "name": "FDA recalls page",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+   "signal": "recall",
+   "country": "United States",
+   "filter": "food_chain"
+  },
+  {
+   "name": "FoodReady recall tracker (FDA data)",
+   "url": "https://foodready.ai/recalls/",
+   "signal": "recall",
+   "country": "United States",
+   "filter": "food_chain",
+   "external_only": true
+  },
+  {
+   "name": "supplement.ge food alert archive (RASFF, FSAI, FSA, FSANZ, CFIA, FSIS)",
+   "url": "https://supplement.ge/food-alerts/",
+   "signal": "recall",
+   "country": "Global",
+   "filter": "food_chain"
+  },
+  {
+   "name": "Food Compliance International insights",
+   "url": "https://foodcomplianceinternational.com/industry-insight",
+   "signal": "trade_press",
+   "country": "Global",
+   "filter": "food_chain"
+  },
+  {
+   "name": "Food Factory Fairbanks articles",
+   "url": "https://foodfactoryfairbanks.com/articles/",
+   "signal": "trade_press",
+   "country": "Global",
+   "filter": "food_chain"
+  },
+  {
+   "name": "Smart Food Safe blog",
+   "url": "https://smartfoodsafe.com/blog/",
+   "signal": "trade_press",
+   "country": "Global",
+   "filter": "food_chain"
+  },
+  {
+   "name": "bioMérieux company news",
+   "url": "https://www.biomerieux.com/corp/en/who-we-are/company-news.html",
+   "signal": "competitor",
+   "country": "France",
+   "company": "bioMérieux",
+   "scope": "food_only"
+  },
+  {
+   "name": "Kikkoman Biochemifa notices",
+   "url": "https://biochemifa.kikkoman.com/e/news/",
+   "signal": "competitor",
+   "country": "Japan",
+   "company": "Kikkoman Biochemifa",
+   "scope": "food_only"
+  },
+  {
+   "name": "Kikkoman Biochemifa test-kit news",
+   "url": "https://biochemifa.kikkoman.com/e/kit/news",
+   "signal": "competitor",
+   "country": "Japan",
+   "company": "Kikkoman Biochemifa",
+   "scope": "all"
+  },
+  {
+   "name": "IDEXX press releases",
+   "url": "https://ir.idexx.com/news-events/press-releases",
+   "signal": "competitor",
+   "country": "United States",
+   "company": "IDEXX",
+   "scope": "food_only"
+  },
+  {
+   "name": "R-Biopharm news",
+   "url": "https://r-biopharm.com/news-press/",
+   "signal": "competitor",
+   "country": "Germany",
+   "company": "R-Biopharm",
+   "scope": "food_only"
+  },
+  {
+   "name": "R-Biopharm food & feed news",
+   "url": "https://food.r-biopharm.com/news/",
+   "signal": "competitor",
+   "country": "Germany",
+   "company": "R-Biopharm",
+   "scope": "all"
+  },
+  {
+   "name": "NEMIS press releases",
+   "url": "https://www.nemistech.com/insights/press-releases/",
+   "signal": "competitor",
+   "country": "Switzerland",
+   "company": "NEMIS Technologies",
+   "scope": "all"
+  },
+  {
+   "name": "FreshCheck blog",
+   "url": "https://www.freshcheck.co.uk/blog",
+   "signal": "competitor",
+   "country": "United Kingdom",
+   "company": "FreshCheck",
+   "scope": "announce_only"
+  },
+  {
+   "name": "Thermo Fisher press releases",
+   "url": "https://newsroom.thermofisher.com/newsroom/press-releases",
+   "signal": "competitor",
+   "country": "United States",
+   "company": "Thermo Fisher (food safety)",
+   "scope": "food_only"
+  },
+  {
+   "name": "Merck / Sigma-Aldrich press",
+   "url": "https://www.sigmaaldrich.com/GB/en/collections/press",
+   "signal": "competitor",
+   "country": "Germany",
+   "company": "Merck / MilliporeSigma (food)",
+   "scope": "food_only"
+  },
+  {
+   "name": "Charm news",
+   "url": "https://www.charm.com/news/",
+   "signal": "competitor",
+   "country": "United States",
+   "company": "Charm Sciences",
+   "scope": "all"
+  },
+  {
+   "name": "Charm blog",
+   "url": "https://www.charm.com/resources/blog/",
+   "signal": "competitor",
+   "country": "United States",
+   "company": "Charm Sciences",
+   "scope": "announce_only"
+  },
+  {
+   "name": "Met Office blog (weather & food)",
+   "url": "https://www.metoffice.gov.uk/blog",
+   "signal": "weather",
+   "country": "United Kingdom",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "JRC MARS crop monitoring (EU)",
+   "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates_en",
+   "signal": "weather",
+   "country": "European Union",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "FAO newsroom (Food Price Index, GIEWS, crop prospects)",
+   "url": "https://www.fao.org/newsroom/en",
+   "signal": "weather",
+   "country": "Global",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "AHDB news (UK cereals, dairy, meat markets)",
+   "url": "https://ahdb.org.uk/news",
+   "signal": "weather",
+   "country": "United Kingdom",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "GEOGLAM Crop Monitor reports",
+   "url": "https://www.cropmonitor.org/archive",
+   "signal": "weather",
+   "country": "Global",
+   "filter": "crop_weather",
+   "min_len": 6,
+   "title_prefix": "GEOGLAM Crop Monitor: "
+  },
+  {
+   "name": "AMIS Market Monitor",
+   "url": "https://www.amis-outlook.org/amis-monitoring",
+   "signal": "weather",
+   "country": "Global",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "USDA agricultural weather",
+   "url": "https://www.usda.gov/about-usda/general-information/staff-offices/office-chief-economist/agricultural-weather/publications",
+   "signal": "weather",
+   "country": "United States",
+   "filter": "crop_weather"
+  },
+  {
+   "name": "FAO Locust Watch",
+   "url": "https://www.fao.org/ag/locusts/en/info/info/index.html",
+   "signal": "animal_health",
+   "country": "Global",
+   "filter": "crop_weather",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "IPPC official pest reports",
+   "url": "https://www.ippc.int/en/countries/all/pestreport/",
+   "signal": "animal_health",
+   "country": "Global",
+   "filter": null,
+   "link_pattern": "pestreport",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Africa CDC news",
+   "url": "https://africacdc.org/news/",
+   "signal": "outbreak",
+   "country": "Global",
+   "filter": "outbreak",
+   "link_pattern": "news-item",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "PAHO epidemiological alerts",
+   "url": "https://www.paho.org/en/epidemiological-alerts-and-updates",
+   "signal": "outbreak",
+   "country": "Global",
+   "filter": "outbreak",
+   "link_pattern": "epidemiological",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Food Safety Asia",
+   "url": "https://www.foodsafetyasia.org/",
+   "signal": "trade_press",
+   "country": "Global",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "Lebensmittelwarnung.de (Germany)",
+   "url": "https://www.lebensmittelwarnung.de/",
+   "signal": "recall",
+   "country": "Germany",
+   "filter": null,
+   "link_pattern": "/Meldungen/20",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "RappelConso food (France)",
+   "url": "https://rappel.conso.gouv.fr/categorie/0/1",
+   "signal": "recall",
+   "country": "France",
+   "filter": null,
+   "link_pattern": "fiche-rappel",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "NVWA warnings (Netherlands)",
+   "url": "https://www.nvwa.nl/",
+   "signal": "recall",
+   "country": "Netherlands",
+   "filter": "food_chain",
+   "link_pattern": "waarschuwing|terugroep|recall",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "AFSCA/FAVV recalls (Belgium)",
+   "url": "https://www.favv-afsca.be/",
+   "signal": "recall",
+   "country": "Belgium",
+   "filter": "food_chain",
+   "link_pattern": "rappel|terugroep|recall|retrait",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "AESAN alerts (Spain)",
+   "url": "https://www.aesan.gob.es/",
+   "signal": "recall",
+   "country": "Spain",
+   "filter": "food_chain",
+   "link_pattern": "alerta|red_de_alerta",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Ministero della Salute recalls (Italy)",
+   "url": "https://www.salute.gov.it/richiami",
+   "signal": "recall",
+   "country": "Italy",
+   "filter": null,
+   "link_pattern": "richiam",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "BLV recalls (Switzerland)",
+   "url": "https://www.blv.admin.ch/",
+   "signal": "recall",
+   "country": "Switzerland",
+   "filter": "food_chain",
+   "link_pattern": "rueckruf|rappel|warnung|richiam",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "AGES product warnings (Austria)",
+   "url": "https://www.ages.at/",
+   "signal": "recall",
+   "country": "Austria",
+   "filter": "food_chain",
+   "link_pattern": "warnung|rueckruf|produktwarnung",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "GIS warnings (Poland)",
+   "url": "https://www.gov.pl/web/gis",
+   "signal": "recall",
+   "country": "Poland",
+   "filter": "food_chain",
+   "link_pattern": "ostrzez|wycofan|komunikat",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Fødevarestyrelsen recalls (Denmark)",
+   "url": "https://foedevarestyrelsen.dk/",
+   "signal": "recall",
+   "country": "Denmark",
+   "filter": "food_chain",
+   "link_pattern": "tilbagekald",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Livsmedelsverket recalls (Sweden)",
+   "url": "https://www.livsmedelsverket.se/",
+   "signal": "recall",
+   "country": "Sweden",
+   "filter": "food_chain",
+   "link_pattern": "aterkall|återkall|indragna",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Mattilsynet recalls (Norway)",
+   "url": "https://www.mattilsynet.no/",
+   "signal": "recall",
+   "country": "Norway",
+   "filter": "food_chain",
+   "link_pattern": "tilbaketrekk|tilbakekall",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Ruokavirasto recalls (Finland)",
+   "url": "https://www.ruokavirasto.fi/",
+   "signal": "recall",
+   "country": "Finland",
+   "filter": "food_chain",
+   "link_pattern": "takaisinveto|takaisinvedot",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "MAST recalls (Iceland)",
+   "url": "https://www.mast.is/",
+   "signal": "recall",
+   "country": "Iceland",
+   "filter": "food_chain",
+   "link_pattern": "innkoll|innköll",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "MPI food recalls (New Zealand)",
+   "url": "https://www.mpi.govt.nz/food-safety-home/food-recalls-and-complaints/",
+   "signal": "recall",
+   "country": "New Zealand",
+   "filter": null,
+   "link_pattern": "recall",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "SAMR (China)",
+   "url": "https://www.samr.gov.cn/",
+   "signal": "recall",
+   "country": "China",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "GACC import & export controls (China)",
+   "url": "http://www.customs.gov.cn/",
+   "signal": "policy",
+   "country": "China",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "Centre for Food Safety food alerts (Hong Kong)",
+   "url": "https://www.cfs.gov.hk/english/",
+   "signal": "recall",
+   "country": "Hong Kong",
+   "filter": "food_chain",
+   "link_pattern": "whatsnew|food_alert|rc/subject|press",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "Consumer Affairs Agency (Japan)",
+   "url": "https://www.caa.go.jp/",
+   "signal": "recall",
+   "country": "Japan",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "MHLW (Japan)",
+   "url": "https://www.mhlw.go.jp/",
+   "signal": "policy",
+   "country": "Japan",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "MFDS (South Korea)",
+   "url": "https://www.mfds.go.kr/eng/",
+   "signal": "recall",
+   "country": "South Korea",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "FSSAI (India)",
+   "url": "https://www.fssai.gov.in/",
+   "signal": "policy",
+   "country": "India",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "Thai FDA",
+   "url": "https://www.fda.moph.go.th/",
+   "signal": "recall",
+   "country": "Thailand",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "Food Safety and Quality Division (Malaysia)",
+   "url": "http://fsq.moh.gov.my/",
+   "signal": "recall",
+   "country": "Malaysia",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "FDA Philippines advisories",
+   "url": "https://www.fda.gov.ph/",
+   "signal": "recall",
+   "country": "Philippines",
+   "filter": "food_chain",
+   "link_pattern": "advisory|warning",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "SFDA (Saudi Arabia)",
+   "url": "https://www.sfda.gov.sa/en/news",
+   "signal": "recall",
+   "country": "Saudi Arabia",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "MOCCAE (UAE)",
+   "url": "https://www.moccae.gov.ae/en/media-center/news.aspx",
+   "signal": "policy",
+   "country": "United Arab Emirates",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "Ministry of Health food service (Israel)",
+   "url": "https://www.gov.il/en/departments/ministry_of_health",
+   "signal": "recall",
+   "country": "Israel",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "NICD (South Africa)",
+   "url": "https://www.nicd.ac.za/",
+   "signal": "outbreak",
+   "country": "South Africa",
+   "filter": "outbreak",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "NAFDAC (Nigeria)",
+   "url": "https://nafdac.gov.ng/",
+   "signal": "recall",
+   "country": "Nigeria",
+   "filter": "food_chain",
+   "link_pattern": "recall|alert",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "KEBS (Kenya)",
+   "url": "https://www.kebs.org/",
+   "signal": "recall",
+   "country": "Kenya",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "ANVISA news (Brazil)",
+   "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa",
+   "signal": "recall",
+   "country": "Brazil",
+   "filter": "food_chain",
+   "link_pattern": "noticias-anvisa/20",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "MAPA agriculture & meat exports (Brazil)",
+   "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias",
+   "signal": "policy",
+   "country": "Brazil",
+   "filter": "food_chain",
+   "link_pattern": "noticias/",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "COFEPRIS (Mexico)",
+   "url": "https://www.gob.mx/cofepris/es/archivo/prensa",
+   "signal": "recall",
+   "country": "Mexico",
+   "filter": "food_chain",
+   "link_pattern": "prensa/",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "SENASICA (Mexico)",
+   "url": "https://www.gob.mx/senasica/es/archivo/prensa",
+   "signal": "animal_health",
+   "country": "Mexico",
+   "filter": "food_chain",
+   "link_pattern": "prensa/",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "ANMAT alerts (Argentina)",
+   "url": "https://www.argentina.gob.ar/anmat",
+   "signal": "recall",
+   "country": "Argentina",
+   "filter": "food_chain",
+   "link_pattern": "alerta|retiro|prohib",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "SENASA (Argentina)",
+   "url": "https://www.argentina.gob.ar/senasa",
+   "signal": "animal_health",
+   "country": "Argentina",
+   "filter": "food_chain",
+   "link_pattern": "noticias",
+   "status": "check",
+   "min_len": 6
+  },
+  {
+   "name": "ACHIPIA (Chile)",
+   "url": "https://www.achipia.gob.cl/",
+   "signal": "recall",
+   "country": "Chile",
+   "filter": "food_chain",
+   "link_pattern": null,
+   "status": "check"
+  }
+ ],
+ "doc_watch": [
+  {
+   "name": "USDA Weekly Weather and Crop Bulletin",
+   "url": "https://www.usda.gov/sites/default/files/documents/wwcb.pdf",
+   "country": "United States",
+   "signal": "weather"
+  },
+  {
+   "name": "USDA U.S. Agriculture in Drought",
+   "url": "https://www.usda.gov/sites/default/files/documents/AgInDrought.pdf",
+   "country": "United States",
+   "signal": "weather"
+  },
+  {
+   "name": "NOAA CPC El Niño / La Niña (ENSO) discussion",
+   "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+   "country": "Global",
+   "signal": "weather",
+   "extract": "Synopsis:\\s*(.+?)(?:\\n\\s*\\n|In summary)"
+  }
+ ],
+ "oecd": {
+  "name": "OECD GlobalRecalls (food & beverage)",
+  "url": "https://globalrecalls.oecd.org/ws/search.xqy?end=50&lang=en&order=desc&q=%28gs1-gpc-segment%3A50000000%29&sort=date&start=0&uiLang=en",
+  "status": "verified (found via the portal's own data calls)"
+ }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food Safety Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700&family=Red+Hat+Text:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a graphics-desk situation board for food manufacturers: calm, exact, fast to scan.
+   IDEA: the watch-desk wall map in a control room, one lamp per region.
+   PICTURE: a tile map of world regions, each a disc sized by live signal count, ringed by severity.
+   COLOUR and TYPE: oxford blue band, white panels, magenta for high severity; Red Hat Display + Text.
+   LAYOUT: band with finding, map and key figures; below it filters and a dated feed. */
+:root{color-scheme:light dark;
+ --band:#0b1f4b;--band2:#13306b;--bandink:#fff;--bandsoft:#b9c6e6;
+ --bg:light-dark(#f4f6fb,#070f26);--panel:light-dark(#fff,#0d1a3d);--ink:light-dark(#0b1630,#e8edf8);
+ --soft:light-dark(#56627d,#9aa8c7);--line:light-dark(#dfe4ef,#1f2d55);
+ --hi:#e0115f;--med:light-dark(#2f6fd6,#6b9cf0);--low:light-dark(#9aa3b5,#5d6a8a)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--band:#070f26;--band2:#0f2150}}
+:root[data-theme=dark]{--band:#070f26;--band2:#0f2150}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Red Hat Text",system-ui,sans-serif;overflow-x:clip}
+h1,h2{font-family:"Red Hat Display",system-ui,sans-serif;margin:0;line-height:1.05;text-wrap:balance}
+.band{padding:clamp(24px,4vw,56px) max(5vw,16px)}
+.top{background:var(--band);color:var(--bandink)}
+.wrap{max-width:1240px;margin:0 auto}
+.meta{color:var(--bandsoft);font-size:14px;margin:0 0 10px}
+h1{font-size:clamp(30px,4.2vw,48px);font-weight:700;max-width:22ch}
+h1 b{color:#ff4d8d;font-weight:700}
+.grid{display:grid;grid-template-columns:minmax(0,1.9fr) minmax(0,1fr);gap:24px;margin-top:28px}
+.fig{position:relative;min-height:360px;background:var(--band2);border-radius:14px}
+.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.side{display:grid;gap:14px;align-content:start}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.kpi{background:var(--band2);border-radius:12px;padding:12px 14px}
+.kpi .n{font:700 clamp(26px,3vw,34px)/1 "Red Hat Display",sans-serif}
+.kpi .l{font-size:13px;color:var(--bandsoft)}
+.kpi.hot .n{color:#ff4d8d}
+.bars{background:var(--band2);border-radius:12px;padding:14px}
+.bars h2{font-size:16px;margin-bottom:10px;font-weight:500}
+.bar{display:grid;grid-template-columns:9.5em minmax(0,1fr) 2em;gap:8px;align-items:center;font-size:14px;margin:6px 0;background:none;border:0;color:inherit;width:100%;padding:2px 0;cursor:pointer;text-align:left;font-family:inherit}
+.bar i{display:block;height:10px;border-radius:5px;background:#6b9cf0}
+.bar.top i{background:var(--hi)}
+.bar span:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.bar.on{outline:2px solid #fff;outline-offset:3px;border-radius:4px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:18px}
+.chip{min-height:40px;padding:0 14px;border-radius:20px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:500 14px "Red Hat Text",sans-serif;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--panel);border-color:var(--ink)}
+.chip:focus-visible,input:focus-visible,select:focus-visible,.bar:focus-visible{outline:3px solid var(--hi);outline-offset:2px}
+input,select{min-height:44px;font:16px "Red Hat Text",sans-serif;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--ink);padding:0 12px}
+input{flex:1 1 220px}
+.feed{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.row{display:grid;grid-template-columns:6.5em 12px minmax(0,1fr);gap:4px 14px;padding:14px 18px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row time{font:600 14px "Red Hat Display",sans-serif;white-space:nowrap;color:var(--soft);padding-top:2px}
+.dot{width:10px;height:10px;border-radius:50%;margin-top:7px}
+.high{background:var(--hi)}.medium{background:var(--med)}.low{background:var(--low)}
+.row a{color:var(--ink);font-weight:600;text-decoration:none}.row a:hover{text-decoration:underline}
+.sub{grid-column:3;font-size:14px;color:var(--soft);display:flex;flex-wrap:wrap;gap:4px 12px}
+.tag{border-radius:6px;padding:0 7px;background:light-dark(#eef1f8,#17254a);color:var(--ink);white-space:nowrap}
+.empty{padding:40px 18px;text-align:center;color:var(--soft)}
+.foot{color:var(--soft);font-size:14px}
+.foot h2{font-size:18px;color:var(--ink);margin:0 0 8px}
+.src{display:flex;flex-wrap:wrap;gap:6px 18px;padding:0;list-style:none;margin:0 0 14px}
+.note{font-size:13px}
+.comp{position:absolute;inset:0;padding:16px;display:none;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;align-content:start;overflow:auto}
+.fig.cmode .comp{display:grid;position:relative;grid-auto-rows:minmax(84px,auto)}.fig.cmode svg,.fig.cmode .legend{display:none}
+.co{display:flex;flex-direction:column;justify-content:flex-start;gap:2px;height:auto;line-height:1.3;background:#0b1f4b;border:1px solid #2b4a8f;border-radius:12px;padding:12px;color:#fff;text-align:left;font:inherit;cursor:pointer;min-height:44px}
+.co[aria-pressed=true]{background:#fff;color:#0b1f4b}
+.co b{display:block;font:700 26px/1 "Red Hat Display",sans-serif;margin-bottom:4px}.co span{font-size:13px;opacity:.85;display:block}
+.co.core b::after{content:" ●";font-size:10px;color:#ff4d8d;vertical-align:middle}
+.dir{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin:16px 0 28px}
+.dir h3{font:600 16px "Red Hat Display",sans-serif;color:var(--ink);margin:0 0 6px}
+.dir ul{list-style:none;margin:0;padding:0}.dir li{padding:3px 0;font-size:14px}
+.dir a{color:var(--ink)}.dir .t{color:var(--soft)}.dir .auto{color:var(--hi);font-weight:600}
+.legend{position:absolute;left:14px;bottom:10px;font-size:13px;color:var(--bandsoft);display:flex;gap:14px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+@media(max-width:860px){.grid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.fig{min-height:300px}.row{grid-template-columns:12px minmax(0,1fr)}.row time{grid-column:2;order:-1;padding:0}.dot{grid-row:1/3}.sub{grid-column:2}.kpi .l{font-size:13px}}
+@media(prefers-reduced-motion:no-preference){.disc{transition:r .4s ease}}
+</style>
+</head>
+<body>
+<header class="band top">
+ <div class="wrap">
+  <p class="meta" id="meta">Loading signals…</p>
+  <h1 id="title">Food Safety Radar</h1>
+  <div class="grid">
+   <div class="fig" id="mapbox"><svg id="map" role="img" aria-label="Signals by world region"></svg><div class="comp" id="comp" role="group" aria-label="Competitors"></div>
+    <div class="legend"><span><i class="high"></i>High</span><span><i class="medium"></i>Medium</span><span><i class="low"></i>Low</span></div></div>
+   <div class="side">
+    <div class="kpis">
+     <div class="kpi"><div class="n" id="k-all">0</div><div class="l">signals</div></div>
+     <div class="kpi hot"><div class="n" id="k-hi">0</div><div class="l">high severity</div></div>
+     <div class="kpi"><div class="n" id="k-7">0</div><div class="l">last 7 days</div></div>
+    </div>
+    <div class="bars"><h2 id="bars-h">By hazard</h2><div id="bars"></div></div>
+   </div>
+  </div>
+ </div>
+</header>
+
+<main class="band"><div class="wrap">
+ <div class="controls" id="signals" role="group" aria-label="Signal type"></div>
+ <div class="controls">
+  <input id="q" type="search" placeholder="Search product, company, hazard, country" aria-label="Search">
+  <select id="days" aria-label="Time window"><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90" selected>Last 90 days</option><option value="9999">All</option></select>
+  <button class="chip" id="clear" type="button">Clear filters</button>
+ </div>
+ <div class="feed" id="feed" aria-live="polite"></div>
+</div></main>
+
+<footer class="band foot"><div class="wrap">
+ <h2 id="dir-h">Source directory</h2>
+ <p class="note"><span class="auto">●</span> pulled automatically by the collector · others are listed for reference</p>
+ <div class="dir" id="dir"></div>
+ <h2>Sources this run</h2>
+ <ul class="src" id="srcs"></ul>
+ <p class="note" id="note"></p>
+</div></footer>
+
+<script>
+{
+const REGIONS=[ // x,y as fractions of the map box, roughly where each region sits on a world map
+ {n:"North America",s:"N. America",x:.2,y:.32},{n:"Latin America",s:"Lat. America",x:.29,y:.72},
+ {n:"UK & Ireland",s:"UK & IE",x:.42,y:.2},{n:"Europe",s:"Europe",x:.62,y:.3},
+ {n:"Middle East & Africa",s:"ME & Africa",x:.55,y:.68},{n:"Asia-Pacific",s:"Asia-Pac",x:.81,y:.45},
+ {n:"Global",s:"Global",x:.88,y:.83}];
+const SIGNALS=[["all","All signals"],["recall","Recalls"],["allergen","Allergens"],["outbreak","Outbreaks"],["animal_health","Animal & plant health"],["weather","Weather & crops"],["policy","Regulation & policy"],["trade_press","Trade press"],["news","News"],["competitor","Competitors"]];
+const st={region:null,signal:"all",hazard:null,q:"",days:90,company:null};
+const CM=()=>st.signal==="competitor";
+let DATA={items:[],sources:[]},NOW=new Date();
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const age=d=>(NOW-new Date(d+"T12:00:00Z"))/864e5;
+const fmt=d=>new Date(d+"T12:00:00Z").toLocaleDateString("en-GB",{day:"numeric",month:"short"});
+
+function base(){ // everything except region and hazard, so the map and bars show context
+ const q=st.q.toLowerCase();
+ return DATA.items.filter(i=>age(i.date)<=(CM()?Math.max(st.days,365):st.days)&&(st.signal==="all"?i.signal!=="competitor":i.signal===st.signal)&&(!CM()||!st.company||i.company===st.company)&&
+  (!q||[i.title,i.summary,i.source,i.country,i.hazard].join(" ").toLowerCase().includes(q)));
+}
+function visible(){return base().filter(i=>(!st.region||i.region===st.region)&&(!st.hazard||i.hazard===st.hazard))}
+
+const svg=$("map");
+function drawComp(){
+ const all=DATA.items.filter(i=>i.signal==="competitor"&&age(i.date)<=Math.max(st.days,365));
+ const core=new Set((DATA.directory||[]).filter(d=>d.region==="Competitors"&&d.type==="Core competitor").map(d=>d.name));
+ const names=[...new Set([...(DATA.directory||[]).filter(d=>d.region==="Competitors").map(d=>d.name),...all.map(i=>i.company)])];
+ $("comp").innerHTML=names.map(n=>{const its=all.filter(i=>i.company===n);return `<button type="button" class="co${core.has(n)?" core":""}" data-c="${esc(n)}" aria-pressed="${st.company===n}"><b>${its.length}</b>${esc(n)}<span>${its[0]?"Latest "+fmt(its[0].date):"No items yet"}</span></button>`}).join("");
+}
+$("comp").addEventListener("click",e=>{const b=e.target.closest(".co");if(b){st.company=st.company===b.dataset.c?null:b.dataset.c;render()}});
+function drawMap(){
+ $("mapbox").classList.toggle("cmode",CM());if(CM()){drawComp();return}
+ const W=svg.clientWidth,H=svg.clientHeight,small=W<520,items=base().filter(i=>!st.hazard||i.hazard===st.hazard);
+ const max=Math.max(1,...REGIONS.map(r=>items.filter(i=>i.region===r.n).length));
+ let g="";
+ for(let k=1;k<6;k++)g+=`<line x1="0" x2="${W}" y1="${H*k/6}" y2="${H*k/6}" stroke="#ffffff" stroke-opacity=".06"/>`;
+ for(let k=1;k<10;k++)g+=`<line y1="0" y2="${H}" x1="${W*k/10}" x2="${W*k/10}" stroke="#ffffff" stroke-opacity=".04"/>`;
+ const R=Math.min(W,H)*(small?.1:.12);
+ for(const r of REGIONS){
+  const its=items.filter(i=>i.region===r.n),n=its.length,cx=r.x*W,cy=r.y*H*.9;
+  const rad=n?Math.max(R*.38,R*Math.sqrt(n/max)):R*.22,hi=its.filter(i=>i.severity==="high").length;
+  const on=st.region===r.n,dim=st.region&&!on;
+  const frac=n?hi/n:0,c=2*Math.PI*(rad+5);
+  g+=`<g class="reg" tabindex="0" role="button" aria-pressed="${on}" aria-label="${r.n}: ${n} signals, ${hi} high" data-r="${r.n}" style="cursor:pointer;opacity:${dim?.4:1}">
+   <circle cx="${cx}" cy="${cy}" r="${rad+5}" fill="none" stroke="#ffffff" stroke-opacity=".15" stroke-width="4"/>
+   ${hi?`<circle cx="${cx}" cy="${cy}" r="${rad+5}" fill="none" stroke="#e0115f" stroke-width="4" stroke-dasharray="${c*frac} ${c}" transform="rotate(-90 ${cx} ${cy})"/>`:""}
+   <circle class="disc" cx="${cx}" cy="${cy}" r="${rad}" fill="${n?(on?"#ffffff":"#2f6fd6"):"#1d3a7a"}"/>
+   <text x="${cx}" y="${cy+7}" text-anchor="middle" font-family="Red Hat Display,system-ui,sans-serif" font-weight="700" font-size="${small?17:22}" fill="${on?"#0b1f4b":"#fff"}">${n}</text>
+   <text x="${cx}" y="${cy+rad+(small?22:26)}" text-anchor="middle" font-size="${small?12:14}" fill="#dfe6f7" font-family="Red Hat Text,system-ui,sans-serif">${small?r.s:r.n}</text></g>`;
+ }
+ svg.innerHTML=g;
+}
+const ro=new ResizeObserver(drawMap);ro.observe(svg);
+svg.addEventListener("click",e=>{const g=e.target.closest(".reg");if(g){st.region=st.region===g.dataset.r?null:g.dataset.r;render()}});
+svg.addEventListener("keydown",e=>{const g=e.target.closest(".reg");if(g&&(e.key==="Enter"||e.key===" ")){e.preventDefault();st.region=st.region===g.dataset.r?null:g.dataset.r;render();svg.querySelector(`[data-r="${g.dataset.r}"]`)?.focus()}});
+
+function render(){
+ const b=base().filter(i=>CM()||!st.region||i.region===st.region),v=CM()?base().filter(i=>!st.hazard||i.hazard===st.hazard):visible();
+ // finding as title
+ const hz={};b.forEach(i=>hz[i.hazard]=(hz[i.hazard]||0)+1);
+ const ranked=Object.entries(hz).sort((a,c)=>c[1]-a[1]),named=ranked.filter(r=>r[0]!=="Other"&&r[0]!=="News"),clear=named.length&&(named.length===1||named[0][1]>named[1][1]);
+ const regs=new Set(b.map(i=>i.region)).size,where=st.region?` in ${st.region}`:` across ${regs} region${regs===1?"":"s"}`;
+ const n=b.length,pl=n===1?"":"s",noun=({weather:"weather & crop signal",policy:"regulation & policy update",trade_press:"trade press story",news:"news story",outbreak:"outbreak signal",recall:"recall",allergen:"allergen alert",animal_health:"animal health signal"})[st.signal]||"food safety signal";
+ $("title").innerHTML=CM()?(!n?"No competitor updates for these filters":clear?`<b>${esc(named[0][0])}</b> leads ${n} competitor update${pl}${st.company?" for "+esc(st.company):""}`:`<b>${n}</b> competitor update${pl}${st.company?" for "+esc(st.company):""}`)
+  :n&&!clear?`<b>${n}</b> ${noun}${pl}${esc(where)}`:named.length?`<b>${esc(named[0][0])}</b> leads ${b.length} ${noun}${b.length===1?"":"s"}${esc(where)}`:`No signals${esc(where)} for these filters`;
+ $("k-all").textContent=v.length;$("k-hi").textContent=v.filter(i=>i.severity==="high").length;
+ $("k-7").textContent=v.filter(i=>age(i.date)<=7).length;
+ $("bars-h").textContent=CM()?"By update type":st.region?`By hazard, ${st.region}`:"By hazard, all regions";
+ const mx=Math.max(1,...ranked.map(r=>r[1]));
+ $("bars").innerHTML=ranked.slice(0,8).map(([h,n],k)=>`<button type="button" class="bar${named.length&&h===named[0][0]?" top":""}${st.hazard===h?" on":""}" data-h="${esc(h)}" aria-pressed="${st.hazard===h}"><span>${esc(h)}</span><i style="width:${n/mx*100}%"></i><span>${n}</span></button>`).join("")||`<p class="meta">Nothing to chart.</p>`;
+ $("signals").innerHTML=SIGNALS.map(([k,l])=>`<button type="button" class="chip" data-s="${k}" aria-pressed="${st.signal===k}">${l}</button>`).join("");
+ $("feed").innerHTML=v.length?v.map(i=>`<article class="row">
+   <time datetime="${esc(i.date)}">${fmt(i.date)}</time><span class="dot ${esc(i.severity)}" title="${esc(i.severity)} severity"></span>
+   <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+   <div class="sub">${i.company?`<span class="tag"><b>${esc(i.company)}</b></span>`:""}<span class="tag">${esc(i.hazard)}</span><span>${esc(i.country)}</span><span>${esc(i.source)}</span>${i.summary?`<span>${esc(i.summary)}</span>`:""}</div></article>`).join("")
+  :`<div class="empty">No signals match. Try a wider time window or clear filters.</div>`;
+ drawMap();
+}
+$("bars").addEventListener("click",e=>{const b=e.target.closest(".bar");if(b){st.hazard=st.hazard===b.dataset.h?null:b.dataset.h;render()}});
+$("signals").addEventListener("click",e=>{const b=e.target.closest(".chip");if(b){st.signal=b.dataset.s;st.hazard=null;st.company=null;try{history.replaceState(null,"",st.signal==="all"?location.pathname:"#"+st.signal)}catch(_){}render()}});
+const fromHash=()=>{const h=location.hash.slice(1);if(SIGNALS.some(s=>s[0]===h)){st.signal=h;st.hazard=null;st.company=null}};
+addEventListener("hashchange",()=>{fromHash();render()});
+$("q").addEventListener("input",e=>{st.q=e.target.value;render()});
+$("days").addEventListener("change",e=>{st.days=+e.target.value;render()});
+$("clear").addEventListener("click",()=>{Object.assign(st,{region:null,signal:"all",hazard:null,q:"",company:null});$("q").value="";render()});
+
+fetch("data/alerts.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+ DATA=d;
+ if(d.sample)NOW=new Date(d.generated_at); // keep the snapshot's windows meaningful
+ const when=new Date(d.generated_at).toLocaleString("en-GB",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+ $("meta").textContent=`Updated ${when} · ${d.items.length} signals from ${new Set(d.items.map(i=>i.source)).size} sources`;
+ $("srcs").innerHTML=(d.sources||[]).map(s=>`<li>${s.ok?"●":"○"} ${esc(s.source)}${s.ok?` (${s.count})`:" failed"}</li>`).join("");
+ $("note").textContent=d.sample?"Sample snapshot: hand-collected from public regulator, health-agency, company and news reports up to 24 Nov 2026, including FSA, FDA, RappelConso, Lebensmittelwarnung, GDACS, FAO, NOAA, AHDB, Food Safety News and DairyReporter. Run the collector to replace it with live feeds.":"Severity and hazard are tagged automatically by keyword; always check the original notice.";
+ const order=["UK & Ireland","Europe","North America","Latin America","Asia-Pacific","Middle East & Africa","Global","Weather & crops","Trade press","Competitors"],dir=d.directory||[];
+ $("dir-h").textContent=`Source directory: ${dir.length} sources, ${dir.filter(x=>x.auto).length} pulled automatically`;
+ $("dir").innerHTML=order.filter(r=>dir.some(x=>x.region===r)).map(r=>`<div><h3>${esc(r)}</h3><ul>${dir.filter(x=>x.region===r).map(x=>`<li>${x.auto?'<span class="auto" title="Pulled automatically">●</span> ':'○ '}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a> <span class="t">· ${esc(x.type)}</span></li>`).join("")}</ul></div>`).join("");
+ fromHash();
+ render();
+}).catch(()=>{$("meta").textContent="Could not load data/alerts.json";$("feed").innerHTML=`<div class="empty">No data yet. Run <code>python collector/collect.py</code> and serve the site folder.</div>`});
+}
+</script>
+</body>
+</html>
