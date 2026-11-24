@@ -196,7 +196,7 @@ function render(){
  $("feed").innerHTML=v.length?v.map(i=>`<article class="row">
    <time datetime="${esc(i.date)}">${fmt(i.date)}</time><span class="dot ${esc(i.severity)}" title="${esc(i.severity)} severity"></span>
    <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
-   <div class="sub">${i.company?`<span class="tag"><b>${esc(i.company)}</b></span>`:""}<span class="tag">${esc(i.hazard)}</span><span>${esc(i.country)}</span><span>${esc(i.source)}</span>${i.summary?`<span>${esc(i.summary)}</span>`:""}</div></article>`).join("")
+   <div class="sub">${i.company?`<span class="tag"><b>${esc(i.company)}</b></span>`:""}<span class="tag">${esc(i.hazard)}</span><span>${esc(i.country)}</span><span>${esc(i.source)}</span>${i.also_reported?`<span class="tag">+${i.also_reported} other report${i.also_reported>1?"s":""}</span>`:""}${i.summary?`<span>${esc(i.summary)}</span>`:""}</div></article>`).join("")
   :`<div class="empty">No signals match. Try a wider time window or clear filters.</div>`;
  drawMap();
 }

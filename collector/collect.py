@@ -20,7 +20,9 @@ STATE = Path(__file__).parent / "state" / "seen_links.json"   # page-watch memor
 SOURCES = json.loads((Path(__file__).parent / "sources.json").read_text())
 KEEP_DAYS = 180          # alerts
 KEEP_DAYS_COMPETITOR = 365
-UA = {"User-Agent": "FoodSafetyRadar/0.1 (contact: you@example.com)"}
+UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 FoodSafetyRadar/0.2",
+      "Accept": "text/html,application/xhtml+xml,application/xml,application/json;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-GB,en;q=0.8"}
 
 # ---------------------------------------------------------------- regions
 REGIONS = {
@@ -96,24 +98,23 @@ COMPETITOR_TYPES = [
 # ---------------------------------------------------------------- relevance filters
 # Farm to fork: animal feed and primary production through processing, packaging and finished food & drink.
 FOOD_CHAIN = ["food", "feed", "drink", "beverage", "dairy", "milk", "cheese", "yogurt", "yoghurt", "butter", "cream", "meat",
-              "poultry", "chicken", "beef", "pork", "egg", "fish", "seafood", "shellfish", "salmon", "produce", "fruit",
-              "vegetable", "salad", "sprout", "grain", "cereal", "flour", "bread", "bakery", "biscuit", "cake", "confection",
-              "chocolate", "sweet", "snack", "crisp", "sauce", "soup", "spice", "herb", "tea", "coffee", "juice", "water",
-              "wine", "beer", "infant formula", "formula", "supplement", "pet food", "pet treat", "livestock", "cattle",
-              "farm", "abattoir", "slaughter", "game", "hygiene", "allergen", "allerg", "recall", "withdrawal", "listeria",
-              "salmonella", "e. coli", "botulism", "norovirus", "contamina", "label", "manufactur", "processing",
-              "packaging", "food contact", "import", "export", "sps", "traceab", "haccp", "sanitation", "inspection",
-              "audit", "brcgs", "salsa", "mycotoxin", "aflatoxin", "ochratoxin", "pesticide", "residue", "novel food",
-              "cell-cultivated", "precision fermentation", "kitchen", "restaurant", "takeaway", "caterer", "outbreak",
-              "ingredient", "nut", "peanut", "sesame", "gluten", "wheat",
-              # other languages (titles from national regulators)
-              "lebensmittel", "rückruf", "rueckruf", "warnung", "wurst", "käse", "kaese", "fleisch", "salmonellen", "listerien",
-              "rappel", "aliment", "fromage", "viande", "lait", "terugroep", "voedsel", "levensmiddel", "alerta", "alimento",
-              "alimentaria", "alimentar", "retirada", "recolhimento", "carne", "leche", "leite", "queso", "queijo", "richiamo",
-              "tilbagekald", "fødevare", "tilbakekall", "återkall", "livsmedel", "elintarvike", "takaisinveto", "matvæli",
-              "innköllun", "żywność", "zywnosc", "wycofanie", "ostrzeżenie", "食品", "召回", "回收", "回収", "リコール", "식품",
-              "회수", "อาหาร", "makanan", "penarikan"]
-NOT_FOOD_CHAIN = ["workforce management", "board meeting", "recruitment", "vacanc", "freedom of information",
+              "poultry", "chicken", "beef", "pork", "ham", "sausage", "bacon", "egg", "fish", "seafood", "shellfish", "salmon",
+              "tuna", "prawn", "shrimp", "oyster", "produce", "fruit", "vegetable", "salad", "sprout", "grain", "cereal", "flour",
+              "bread", "bakery", "biscuit", "cake", "confection", "chocolate", "sweets", "candy", "snack", "crisps", "sauce",
+              "soup", "spice", "herb", "tea", "coffee", "juice", "wine", "beer", "infant formula", "baby food", "supplement",
+              "pet food", "pet treat", "livestock", "cattle", "farm", "abattoir", "slaughter", "wild game", "hygiene", "allergen",
+              "allerg", "listeria", "salmonella", "e. coli", "botulism", "norovirus", "cronobacter", "mycotoxin", "aflatoxin",
+              "ochratoxin", "pesticide", "novel food", "cell-cultivated", "precision fermentation", "restaurant", "takeaway",
+              "caterer", "ingredient", "peanut", "sesame", "gluten", "wheat", "haccp", "brcgs", "salsa", "food contact", "sps",
+              "foodborne", "food poisoning", "pasta", "noodle", "rice", "nuts", "pistachio", "almond", "honey", "ice cream",
+              "gelato", "sorbet", "pie", "pizza", "sandwich", "ready meal", "ready-to-eat",
+              # other languages: food words only (generic 'recall/warning' words removed on purpose)
+              "lebensmittel", "wurst", "käse", "kaese", "fleisch", "milch", "salmonellen", "listerien", "aliment", "fromage",
+              "viande", "lait", "emmental", "jambon", "poulet", "voedsel", "levensmiddel", "alimento", "alimentaria", "alimentar",
+              "alimentari", "carne", "leche", "leite", "queso", "queijo", "pollo", "fødevare", "livsmedel", "elintarvike",
+              "matvæli", "żywność", "zywnosc", "食品", "食物", "食品安全", "식품", "อาหาร", "makanan"]
+NOT_FOOD_CHAIN = ["used car", "vehicle", "motor", "cosmetic", "toy", "lighter", "battery", "e-cigarette",
+                  "spray", "shampoo", "workforce management", "board meeting", "recruitment", "vacanc", "freedom of information",
                   "accessibility statement", "cookie", "privacy", "sign in", "subscribe", "contact us", "careers",
                   "drug", "medical device", "cosmetic", "tobacco", "vaccine", "biologic"]
 
@@ -147,8 +148,16 @@ COMP_FOOD = ["food", "beverage", "dairy", "milk", "meat", "poultry", "water test
 ANNOUNCE = ["launch", "introduc", "new ", "partner", "working with", "distribut", "approv", "aoac", "certif", "validat",
             "award", "acquir", "acquisition", "merger", "appoint", "agreement", "expands", "opens", "unveil", "release"]
 
-def competitor_relevant(text, scope):
+COMP_NOISE = ["market to 20", "market report", "market size", "market intelligence", "market research", "market forecast",
+              "cagr", "stock", "shares of", "price target", "time to sell", "time to buy", "dividend", "short interest",
+              "input cost index", "analyst rating", "hedge fund", "institutional", "13f", "position in"]
+
+def competitor_relevant(text, scope, names=None):
     t = (text or "").lower()
+    if any(k in t for k in COMP_NOISE):
+        return False
+    if names and not any(n.lower() in t for n in names):
+        return False
     if scope == "food_only":
         return any(k in t for k in COMP_FOOD)
     if scope == "announce_only":
@@ -170,7 +179,7 @@ def tag_hazard(text):
     return "Other", "low"
 
 # ---------------------------------------------------------------- helpers
-def get(url, as_json=True, timeout=30):
+def get(url, as_json=True, timeout=45):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         body = r.read()
@@ -298,6 +307,15 @@ def h_gnews(q, company=None):
         yield record(f"News · {pub}" if pub else "Google News", title, it.findtext("link"), iso(it.findtext("pubDate")),
                      q.get("country", "Global"), signal=q.get("signal", "news"), company=company)
 
+def h_gnews_filtered(q):
+    for r in h_gnews(q):
+        if q.get("signal") in ("recall", "allergen", "outbreak", "policy", "animal_health") and \
+           not (food_chain(r["title"]) or outbreak_rel(r["title"]) or crop_weather(r["title"])):
+            continue
+        if q.get("signal") == "news" and not food_chain(r["title"]):
+            continue
+        yield r
+
 def h_trade(t):
     """One query per trade publication (site: search). Source is labelled with the publication name."""
     for r in h_gnews({"q": t["q"], "country": "Global", "signal": "trade_press", "hl": t.get("hl", "en-GB"), "gl": t.get("gl", "GB")}):
@@ -305,8 +323,9 @@ def h_trade(t):
         yield r
 
 def h_competitor(c):
+    names = c.get("names") or [c["name"]]
     for r in h_gnews({"q": c["q"], "country": c.get("hq", "Global"), "signal": "competitor"}, company=c["name"]):
-        if competitor_relevant(r["title"], c.get("scope", "all")):
+        if competitor_relevant(r["title"], c.get("scope", "all"), names):
             yield r
 
 SEEN = json.loads(STATE.read_text()) if STATE.exists() else {}
@@ -417,11 +436,11 @@ def main(offline=False):
             jobs += [(SOURCES["oecd"]["name"], h_oecd, SOURCES["oecd"])]
         jobs += [(f"Page watch: {w['name']}", h_page, w) for w in SOURCES.get("page_watch", [])]
         jobs += [(f"Document watch: {d['name']}", h_doc, d) for d in SOURCES.get("doc_watch", [])]
-        jobs += [(f"Google News {q['id']}", h_gnews, q) for q in SOURCES.get("google_news", [])]
+        jobs += [(f"Google News {q['id']}", h_gnews_filtered, q) for q in SOURCES.get("google_news", [])]
         jobs += [(f"Trade press: {t['name']}", h_trade, t) for t in SOURCES.get("trade_press", [])]
         jobs += [(f"Competitor: {c['name']}", h_competitor, c) for c in SOURCES.get("competitors", [])]
         if SOURCES.get("method_approvals"):
-            jobs += [("Method approvals", h_gnews, SOURCES["method_approvals"])]
+            jobs += [("Method approvals", h_gnews_filtered, SOURCES["method_approvals"])]
         jobs += [(f"GDELT {q['id']}", h_gdelt, q) for q in SOURCES["news_queries"]]
         jobs += [("Open-Meteo weather", h_weather, SOURCES["weather_hotspots"])]
     for name, fn, arg in jobs:
@@ -435,18 +454,47 @@ def main(offline=False):
             status.append({"source": name, "ok": True, "count": len(got)})
         except Exception as e:  # one bad feed must never stop the run
             status.append({"source": name, "ok": False, "error": str(e)[:160]})
-        time.sleep(1)  # be polite to public APIs
+        time.sleep(6 if name.startswith("GDELT") else 1)  # be polite; GDELT allows one request per 5 s
+    # re-apply today's filters to stored items, so tightening a filter also cleans old data
+    names = {c["name"]: c.get("names") or [c["name"]] for c in SOURCES.get("competitors", [])}
+    def still_relevant(i):
+        t = i.get("title", "")
+        if i.get("signal") == "competitor" and i.get("company") in names and not i.get("source", "").startswith(("Page watch", i["company"])):
+            if i.get("source", "").startswith("News") and not competitor_relevant(t, "all", names[i["company"]]):
+                return False
+        if i.get("source", "").startswith(("News ·", "Google News")) and i.get("signal") in ("recall", "allergen", "outbreak", "policy", "animal_health", "news"):
+            return food_chain(t) or outbreak_rel(t) or crop_weather(t)
+        return True
+    items = {k: v for k, v in items.items() if still_relevant(v)}
     today = datetime.now(timezone.utc)
     cut = {False: (today - timedelta(days=KEEP_DAYS)).date().isoformat(),
            True: (today - timedelta(days=KEEP_DAYS_COMPETITOR)).date().isoformat()}
-    keep, seen = [], set()
+    STOP = {"the", "and", "for", "with", "from", "after", "over", "into", "that", "this", "recall", "recalls", "recalled",
+            "announces", "agrees", "agreement", "share", "shares", "cash", "deal", "news", "update", "says"}
+    def toks(t):
+        return {w for w in re.findall(r"[a-z0-9]{4,}", t.lower()) if w not in STOP}
+    keep, seen, recent = [], set(), []
     for i in sorted(items.values(), key=lambda i: i.get("date") or "", reverse=True):
         if (i.get("date") or "9999") < cut[i.get("signal") == "competitor"]:
             continue
-        key = re.sub(r"[^a-z0-9]", "", i["title"].lower())[:70]   # same story from several outlets
+        key = re.sub(r"[^a-z0-9]", "", i["title"].lower())[:70]   # exact same headline
         if key in seen:
             continue
+        tk, dup = toks(i["title"]), False
+        for j, jt in recent[-400:]:                                   # same story, different wording
+            if j.get("signal") != i.get("signal") or not (i.get("date") and j.get("date")) or \
+               abs((datetime.fromisoformat(j["date"]) - datetime.fromisoformat(i["date"])).days) > 5:
+                continue
+            same_co = i.get("company") and i.get("company") == j.get("company")
+            overlap = len(tk & jt) / max(1, min(len(tk), len(jt)))
+            if overlap >= 0.75 or (same_co and len(tk & jt) >= 3):
+                dup = True
+                j["also_reported"] = j.get("also_reported", 0) + 1
+                break
+        if dup:
+            continue
         seen.add(key)
+        recent.append((i, tk))
         keep.append(i)
     keep = keep[:4000]
     out = {"generated_at": today.isoformat(timespec="minutes"),

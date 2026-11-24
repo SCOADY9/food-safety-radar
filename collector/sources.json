@@ -62,27 +62,30 @@
    "name": "Food Safety Authority of Ireland",
    "country": "Ireland",
    "signal": "recall",
-   "enabled": true,
+   "enabled": false,
    "status": "check",
-   "url": "https://www.fsai.ie/rss/food-alerts"
+   "url": "https://www.fsai.ie/rss/food-alerts",
+   "note": "feed URL 404 / TLS failure; replaced by page watch or news search"
   },
   {
    "id": "sfa",
    "name": "Singapore Food Agency alerts",
    "country": "Singapore",
    "signal": "recall",
-   "enabled": true,
+   "enabled": false,
    "status": "check",
-   "url": "https://www.beta.sfa.gov.sg/rss/annual-listing-food-alerts"
+   "url": "https://www.beta.sfa.gov.sg/rss/annual-listing-food-alerts",
+   "note": "feed URL 404 / TLS failure; replaced by page watch or news search"
   },
   {
    "id": "fsanz",
    "name": "FSANZ food recalls",
    "country": "Australia",
    "signal": "recall",
-   "enabled": true,
+   "enabled": false,
    "status": "check",
-   "url": "https://www.foodstandards.gov.au/rss/recalls"
+   "url": "https://www.foodstandards.gov.au/rss/recalls",
+   "note": "feed URL 404 / TLS failure; replaced by page watch or news search"
   },
   {
    "id": "efsa",
@@ -611,6 +614,38 @@
    "signal": "recall",
    "hl": "es-419",
    "gl": "CL"
+  },
+  {
+   "id": "gn-cfia",
+   "q": "CFIA \"food recall warning\"",
+   "country": "Canada",
+   "signal": "recall",
+   "hl": "en-CA",
+   "gl": "CA"
+  },
+  {
+   "id": "gn-nafdac2",
+   "q": "NAFDAC recall OR alert food OR drink",
+   "country": "Nigeria",
+   "signal": "recall",
+   "hl": "en-NG",
+   "gl": "NG"
+  },
+  {
+   "id": "gn-fsq-my",
+   "q": "Malaysia KKM makanan OR \"food safety\" recall",
+   "country": "Malaysia",
+   "signal": "recall",
+   "hl": "en-MY",
+   "gl": "MY"
+  },
+  {
+   "id": "gn-gacc",
+   "q": "China customs GACC suspends imports (beef OR pork OR poultry OR seafood OR dairy)",
+   "country": "China",
+   "signal": "policy",
+   "hl": "en-US",
+   "gl": "US"
   }
  ],
  "directory": [
@@ -932,7 +967,7 @@
   {
    "region": "Middle East & Africa",
    "name": "NAFDAC (Nigeria)",
-   "type": "Regulator",
+   "type": "Regulator (via news search)",
    "url": "https://nafdac.gov.ng",
    "auto": true
   },
@@ -1450,7 +1485,7 @@
   {
    "region": "Asia-Pacific",
    "name": "GACC import & export controls (China)",
-   "type": "Customs / SPS",
+   "type": "Customs / SPS (via news search)",
    "url": "http://www.customs.gov.cn",
    "auto": true
   },
@@ -1471,7 +1506,7 @@
   {
    "region": "Asia-Pacific",
    "name": "Food Safety and Quality Division (Malaysia)",
-   "type": "Regulator",
+   "type": "Regulator (via news search)",
    "url": "http://fsq.moh.gov.my",
    "auto": true
   },
@@ -1499,7 +1534,7 @@
   {
    "region": "Middle East & Africa",
    "name": "KEBS (Kenya)",
-   "type": "Standards / regulator",
+   "type": "Standards / regulator (via news search)",
    "url": "https://www.kebs.org",
    "auto": true
   },
@@ -1555,7 +1590,7 @@
   {
    "region": "Trade press",
    "name": "Food Safety Asia",
-   "type": "Trade press",
+   "type": "Trade press (via news search)",
    "url": "https://www.foodsafetyasia.org",
    "auto": true
   }
@@ -1567,7 +1602,11 @@
    "url": "https://investors.neogen.com/news/default.aspx",
    "hq": "United States",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "Neogen",
+    "Petrifilm"
+   ]
   },
   {
    "name": "Kikkoman Biochemifa",
@@ -1575,7 +1614,13 @@
    "url": "https://biochemifa.kikkoman.com/e/news/",
    "hq": "Japan",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "Kikkoman",
+    "Lumitester",
+    "LuciPac",
+    "Easy Plate"
+   ]
   },
   {
    "name": "Charm Sciences",
@@ -1583,7 +1628,14 @@
    "url": "https://www.charm.com/resources/blog/",
    "hq": "United States",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "Charm Sciences",
+    "Peel Plate",
+    "PocketSwab",
+    "novaLUM",
+    "Charm "
+   ]
   },
   {
    "name": "bioMérieux",
@@ -1591,7 +1643,15 @@
    "url": "https://www.biomerieux.com/corp/en/who-we-are/company-news.html",
    "hq": "France",
    "core": true,
-   "scope": "food_only"
+   "scope": "food_only",
+   "names": [
+    "bioMérieux",
+    "bioMerieux",
+    "VIDAS",
+    "GENE-UP",
+    "TEMPO",
+    "BACT/ALERT"
+   ]
   },
   {
    "name": "Bio-Rad",
@@ -1599,7 +1659,13 @@
    "url": "https://investors.bio-rad.com/press-releases/default.aspx",
    "hq": "United States",
    "core": true,
-   "scope": "food_only"
+   "scope": "food_only",
+   "names": [
+    "Bio-Rad",
+    "iQ-Check",
+    "EZ-Check",
+    "RAPID'"
+   ]
   },
   {
    "name": "R-Biopharm",
@@ -1607,7 +1673,12 @@
    "url": "https://r-biopharm.com/news-press/",
    "hq": "Germany",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "R-Biopharm",
+    "RIDASCREEN",
+    "RIDA"
+   ]
   },
   {
    "name": "Romer Labs",
@@ -1615,7 +1686,12 @@
    "url": "https://www.romerlabs.com/en/news/",
    "hq": "Austria",
    "core": false,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "Romer Labs",
+    "AgraStrip",
+    "AgraQuant"
+   ]
   },
   {
    "name": "Thermo Fisher (food safety)",
@@ -1623,7 +1699,12 @@
    "url": "https://newsroom.thermofisher.com/newsroom/overview/default.aspx",
    "hq": "United States",
    "core": false,
-   "scope": "food_only"
+   "scope": "food_only",
+   "names": [
+    "Thermo Fisher",
+    "Oxoid",
+    "Thermo Scientific"
+   ]
   },
   {
    "name": "Merck / MilliporeSigma (food)",
@@ -1631,7 +1712,13 @@
    "url": "https://www.sigmaaldrich.com/GB/en/collections/press",
    "hq": "Germany",
    "core": false,
-   "scope": "food_only"
+   "scope": "food_only",
+   "names": [
+    "Merck",
+    "MilliporeSigma",
+    "Sigma-Aldrich",
+    "Rapid Micro"
+   ]
   },
   {
    "name": "LuminUltra",
@@ -1639,7 +1726,10 @@
    "url": "https://www.luminultra.com/news/",
    "hq": "Canada",
    "core": false,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "LuminUltra"
+   ]
   },
   {
    "name": "IDEXX",
@@ -1647,7 +1737,11 @@
    "url": "https://ir.idexx.com/news-events/press-releases",
    "hq": "United States",
    "core": true,
-   "scope": "food_only"
+   "scope": "food_only",
+   "names": [
+    "IDEXX",
+    "Colilert"
+   ]
   },
   {
    "name": "NEMIS Technologies",
@@ -1655,7 +1749,10 @@
    "url": "https://www.nemistech.com/insights/press-releases/",
    "hq": "Switzerland",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "NEMIS"
+   ]
   },
   {
    "name": "FreshCheck",
@@ -1663,7 +1760,10 @@
    "url": "https://www.freshcheck.co.uk/blog",
    "hq": "United Kingdom",
    "core": true,
-   "scope": "all"
+   "scope": "all",
+   "names": [
+    "FreshCheck"
+   ]
   }
  ],
  "method_approvals": {
@@ -2039,15 +2139,6 @@
    "min_len": 6
   },
   {
-   "name": "Food Safety Asia",
-   "url": "https://www.foodsafetyasia.org/",
-   "signal": "trade_press",
-   "country": "Global",
-   "filter": "food_chain",
-   "link_pattern": null,
-   "status": "check"
-  },
-  {
    "name": "Lebensmittelwarnung.de (Germany)",
    "url": "https://www.lebensmittelwarnung.de/",
    "signal": "recall",
@@ -2207,15 +2298,6 @@
    "status": "check"
   },
   {
-   "name": "GACC import & export controls (China)",
-   "url": "http://www.customs.gov.cn/",
-   "signal": "policy",
-   "country": "China",
-   "filter": "food_chain",
-   "link_pattern": null,
-   "status": "check"
-  },
-  {
    "name": "Centre for Food Safety food alerts (Hong Kong)",
    "url": "https://www.cfs.gov.hk/english/",
    "signal": "recall",
@@ -2271,15 +2353,6 @@
    "status": "check"
   },
   {
-   "name": "Food Safety and Quality Division (Malaysia)",
-   "url": "http://fsq.moh.gov.my/",
-   "signal": "recall",
-   "country": "Malaysia",
-   "filter": "food_chain",
-   "link_pattern": null,
-   "status": "check"
-  },
-  {
    "name": "FDA Philippines advisories",
    "url": "https://www.fda.gov.ph/",
    "signal": "recall",
@@ -2322,25 +2395,6 @@
    "signal": "outbreak",
    "country": "South Africa",
    "filter": "outbreak",
-   "link_pattern": null,
-   "status": "check"
-  },
-  {
-   "name": "NAFDAC (Nigeria)",
-   "url": "https://nafdac.gov.ng/",
-   "signal": "recall",
-   "country": "Nigeria",
-   "filter": "food_chain",
-   "link_pattern": "recall|alert",
-   "status": "check",
-   "min_len": 6
-  },
-  {
-   "name": "KEBS (Kenya)",
-   "url": "https://www.kebs.org/",
-   "signal": "recall",
-   "country": "Kenya",
-   "filter": "food_chain",
    "link_pattern": null,
    "status": "check"
   },
@@ -2411,6 +2465,36 @@
    "country": "Chile",
    "filter": "food_chain",
    "link_pattern": null,
+   "status": "check"
+  },
+  {
+   "name": "FSAI food & allergen alerts (Ireland)",
+   "url": "https://www.fsai.ie/news-and-alerts/food-alerts",
+   "signal": "recall",
+   "country": "Ireland",
+   "filter": null,
+   "link_pattern": "food-alerts/|allergen-alerts/",
+   "min_len": 6,
+   "status": "check"
+  },
+  {
+   "name": "FSAI allergen alerts (Ireland)",
+   "url": "https://www.fsai.ie/news-and-alerts/allergen-alerts",
+   "signal": "allergen",
+   "country": "Ireland",
+   "filter": null,
+   "link_pattern": "allergen-alerts/",
+   "min_len": 6,
+   "status": "check"
+  },
+  {
+   "name": "FSANZ recall alerts (Australia)",
+   "url": "https://www.foodstandards.gov.au/food-recalls/recall-alert",
+   "signal": "recall",
+   "country": "Australia",
+   "filter": null,
+   "link_pattern": "recall",
+   "min_len": 6,
    "status": "check"
   }
  ],
