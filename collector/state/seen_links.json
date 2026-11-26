@@ -986,6 +986,7 @@
 "https://smartfoodsafe.com/smart-visitor/",
 "https://smartfoodsafe.com/sqf-edition-10-environmental-monitoring-changes/",
 "https://smartfoodsafe.com/supplier-management-solution/",
+"https://smartfoodsafe.com/turkey-supply-chain-food-safety/",
 "https://smartfoodsafe.com/us-fda-ndi-notification-requirements/",
 "https://smartfoodsafe.com/who-audits-food-safety-auditors/"
 ],
@@ -2804,6 +2805,7 @@
 "https://africacdc.org/news/": [
 "https://africacdc.org/news-item/africa-cdc-and-canada-deepen-partnership-to-strengthen-africas-defences-against-health-threats/",
 "https://africacdc.org/news-item/africa-cdc-statement-on-the-attack-in-north-kivu-drc/",
+"https://africacdc.org/news-item/africa-cdc-welcomes-qatars-decision-to-lift-ebola-related-travel-and-visa-restrictions-on-uganda/",
 "https://africacdc.org/news-item/africa-cdc-welcomes-the-appointment-of-dr-mark-dybul-as-executive-director-of-the-global-fund-and-calls-for-a-new-era-of-african-ownership-and-health-sovereignty/",
 "https://africacdc.org/news-item/africa-cdc-youth-pre-conference-and-women-in-health-leadership-summit-calls-for-room-budgets-and-a-seat-at-the-table/",
 "https://africacdc.org/news-item/an-african-institution-will-not-be-put-on-trial-by-anonymous-sources-and-politically-motivated-journalists/",
@@ -2877,6 +2879,7 @@
 ],
 "https://rappel.conso.gouv.fr/categorie/0/1": [
 "https://rappel.conso.gouv.fr/fiche-rappel/24126/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24130/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24144/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24146/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24147/Interne",
@@ -2901,7 +2904,9 @@
 "https://rappel.conso.gouv.fr/fiche-rappel/24172/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24173/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24174/Interne",
-"https://rappel.conso.gouv.fr/fiche-rappel/24178/Interne"
+"https://rappel.conso.gouv.fr/fiche-rappel/24178/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24181/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24182/Interne"
 ],
 "https://www.nvwa.nl/": [
 "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen"
@@ -2966,6 +2971,7 @@
 "https://www.samr.gov.cn/hd/zjdc/art/2026/art_959071788e714e3fafd9b0511d86972e.html",
 "https://www.samr.gov.cn/hd/zjdc/art/2026/art_9e119d4d64c44d58a733549a04f2a12f.html",
 "https://www.samr.gov.cn/hd/zjdc/art/2026/art_bbebeb35760b4ef38af1bd439da08c88.html",
+"https://www.samr.gov.cn/xw/df/art/2026/art_39f7d845f5954539a77808bef42672c6.html",
 "https://www.samr.gov.cn/xw/df/art/2026/art_424326e83d4f48deb8c8ede15358de0d.html",
 "https://www.samr.gov.cn/xw/df/art/2026/art_668c19561ea14e519022c9f2f0c2625a.html",
 "https://www.samr.gov.cn/xw/gdt/art/2026/art_9b0c287b5e804adbbdc8dddc56064a43.html",
@@ -3022,6 +3028,7 @@
 "https://www.caa.go.jp/policies/policy/consumer_education/meeting_materials/review_meeting_007/048160.html",
 "https://www.caa.go.jp/policies/policy/consumer_policy/caution/caution_039/",
 "https://www.caa.go.jp/policies/policy/consumer_policy/donation_solicitation/inquiry/",
+"https://www.caa.go.jp/policies/policy/consumer_policy/information/food_loss/efforts/",
 "https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_012/",
 "https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_017/",
 "https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_088/",
@@ -3044,6 +3051,8 @@
 "https://www.mhlw.go.jp/stf/newpage_77467.html",
 "https://www.mhlw.go.jp/stf/newpage_77482.html",
 "https://www.mhlw.go.jp/stf/newpage_77496.html",
+"https://www.mhlw.go.jp/stf/newpage_77503.html",
+"https://www.mhlw.go.jp/stf/newpage_77527.html",
 "https://www.mhlw.go.jp/stf/newpage_77538.html",
 "https://www.mhlw.go.jp/stf/newpage_77542.html",
 "https://www.mhlw.go.jp/stf/newpage_77563.html",
@@ -3052,17 +3061,23 @@
 "https://www.mhlw.go.jp/stf/newpage_77571.html",
 "https://www.mhlw.go.jp/stf/newpage_77572.html",
 "https://www.mhlw.go.jp/stf/newpage_77577.html",
+"https://www.mhlw.go.jp/stf/newpage_77579.html",
 "https://www.mhlw.go.jp/stf/newpage_77581.html",
 "https://www.mhlw.go.jp/stf/newpage_77586.html",
+"https://www.mhlw.go.jp/stf/newpage_77599.html",
 "https://www.mhlw.go.jp/stf/newpage_77622.html",
 "https://www.mhlw.go.jp/stf/newpage_77627.html",
 "https://www.mhlw.go.jp/stf/newpage_77637.html",
 "https://www.mhlw.go.jp/stf/newpage_77641.html",
 "https://www.mhlw.go.jp/stf/newpage_77651.html",
+"https://www.mhlw.go.jp/stf/newpage_77662.html",
+"https://www.mhlw.go.jp/stf/newpage_77679.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1026-01.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1026-02.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1109-01.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1110-01.html",
+"https://www.mhlw.go.jp/stf/photo_report/2026/ph1115-01.html",
+"https://www.mhlw.go.jp/stf/photo_report/2026/ph1116-01.html",
 "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000152638.html",
 "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000180648_00012.html",
 "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000194195.html",
@@ -3174,6 +3189,7 @@
 "https://www.nicd.ac.za/tb-naat-dashboard/",
 "https://www.nicd.ac.za/two-studies-reveal-how-andes-virus-spread-aboard-a-cruise-ship-and-trace-its-genetic-history-to-patagonia/",
 "https://www.nicd.ac.za/weekly-measles-and-rubella-situation-report-week-44-of-2026/",
+"https://www.nicd.ac.za/weekly-measles-and-rubella-situation-report-week-45-of-2026-1/",
 "https://www.phbsa.ac.za/"
 ],
 "https://www.gob.mx/cofepris/es/archivo/prensa": [

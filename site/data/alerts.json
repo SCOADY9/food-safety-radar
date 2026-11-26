@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T00:36+00:00",
+ "generated_at": "2026-11-26T09:46+00:00",
  "sources": [
   {
    "source": "US FDA enforcement reports",
@@ -54,7 +54,7 @@
   {
    "source": "GDACS disaster alerts",
    "ok": false,
-   "error": "not well-formed (invalid token): line 13, column 416"
+   "error": "not well-formed (invalid token): line 17, column 111"
   },
   {
    "source": "ReliefWeb disasters",
@@ -84,7 +84,7 @@
   {
    "source": "Page watch: FSA on GOV.UK (organisation page)",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "source": "Page watch: FDA recalls page",
@@ -99,7 +99,7 @@
   {
    "source": "Page watch: supplement.ge food alert archive (RASFF, FSAI, FSA, FSANZ, CFIA, FSIS)",
    "ok": true,
-   "count": 13
+   "count": 0
   },
   {
    "source": "Page watch: Food Compliance International insights",
@@ -114,7 +114,7 @@
   {
    "source": "Page watch: Smart Food Safe blog",
    "ok": true,
-   "count": 0
+   "count": 1
   },
   {
    "source": "Page watch: bioMérieux company news",
@@ -239,7 +239,7 @@
   {
    "source": "Page watch: RappelConso food (France)",
    "ok": true,
-   "count": 2
+   "count": 3
   },
   {
    "source": "Page watch: NVWA warnings (Netherlands)",
@@ -454,17 +454,17 @@
   {
    "source": "Google News gn-cdc",
    "ok": true,
-   "count": 34
+   "count": 30
   },
   {
    "source": "Google News gn-fda-outbreak",
    "ok": true,
-   "count": 4
+   "count": 5
   },
   {
    "source": "Google News gn-phac",
    "ok": true,
-   "count": 1
+   "count": 2
   },
   {
    "source": "Google News gn-ecdc",
@@ -474,12 +474,12 @@
   {
    "source": "Google News gn-fr",
    "ok": true,
-   "count": 17
+   "count": 24
   },
   {
    "source": "Google News gn-de",
    "ok": true,
-   "count": 6
+   "count": 5
   },
   {
    "source": "Google News gn-nl",
@@ -489,7 +489,7 @@
   {
    "source": "Google News gn-es",
    "ok": true,
-   "count": 36
+   "count": 35
   },
   {
    "source": "Google News gn-ch",
@@ -504,7 +504,7 @@
   {
    "source": "Google News gn-br",
    "ok": true,
-   "count": 15
+   "count": 20
   },
   {
    "source": "Google News gn-mx",
@@ -514,17 +514,17 @@
   {
    "source": "Google News gn-sg",
    "ok": true,
-   "count": 5
+   "count": 4
   },
   {
    "source": "Google News gn-hk",
    "ok": true,
-   "count": 17
+   "count": 8
   },
   {
    "source": "Google News gn-in",
    "ok": true,
-   "count": 31
+   "count": 27
   },
   {
    "source": "Google News gn-nz",
@@ -558,13 +558,13 @@
   },
   {
    "source": "Google News gn-empres",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 11
   },
   {
    "source": "Google News gn-healthmap",
    "ok": true,
-   "count": 6
+   "count": 11
   },
   {
    "source": "Google News gn-be",
@@ -573,8 +573,8 @@
   },
   {
    "source": "Google News gn-it",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 22
   },
   {
    "source": "Google News gn-at",
@@ -584,7 +584,7 @@
   {
    "source": "Google News gn-pl",
    "ok": true,
-   "count": 6
+   "count": 8
   },
   {
    "source": "Google News gn-fi",
@@ -614,12 +614,12 @@
   {
    "source": "Google News gn-my",
    "ok": true,
-   "count": 10
+   "count": 8
   },
   {
    "source": "Google News gn-ph",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 0
   },
   {
    "source": "Google News gn-ae",
@@ -634,7 +634,7 @@
   {
    "source": "Google News gn-ke",
    "ok": true,
-   "count": 8
+   "count": 7
   },
   {
    "source": "Google News gn-paho",
@@ -654,7 +654,7 @@
   {
    "source": "Google News gn-senasa",
    "ok": true,
-   "count": 1
+   "count": 0
   },
   {
    "source": "Google News gn-cl",
@@ -669,7 +669,7 @@
   {
    "source": "Google News gn-nafdac2",
    "ok": true,
-   "count": 5
+   "count": 6
   },
   {
    "source": "Google News gn-fsq-my",
@@ -694,7 +694,7 @@
   {
    "source": "Trade press: New Food Magazine",
    "ok": true,
-   "count": 15
+   "count": 14
   },
   {
    "source": "Trade press: FoodNavigator",
@@ -719,12 +719,12 @@
   {
    "source": "Trade press: Food Engineering",
    "ok": true,
-   "count": 23
+   "count": 22
   },
   {
    "source": "Trade press: Food Processing",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 31
   },
   {
    "source": "Trade press: Food Ingredients First",
@@ -734,12 +734,12 @@
   {
    "source": "Trade press: The Grocer",
    "ok": true,
-   "count": 39
+   "count": 40
   },
   {
    "source": "Trade press: Agriland",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 40
   },
   {
    "source": "Trade press: Farmers Weekly",
@@ -804,7 +804,7 @@
   {
    "source": "Competitor: Merck / MilliporeSigma (food)",
    "ok": true,
-   "count": 13
+   "count": 12
   },
   {
    "source": "Competitor: LuminUltra",
@@ -838,13 +838,13 @@
   },
   {
    "source": "GDELT gdelt-policy",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 69
   },
   {
    "source": "GDELT gdelt-animal",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 40
   },
   {
    "source": "Open-Meteo weather",
@@ -878,7 +878,7 @@
    "region": "Global",
    "date": "2026-11-26",
    "url": "https://supplement.ge/food-alerts/2026/fsa-prin-55-2026-co-op-recalls-co-op-king-prawns-in-a-chilli-coriander-marinade-because-of-inco/",
-   "also_reported": 1
+   "also_reported": 2
   },
   {
    "id": "d361eee61708fa27",
@@ -1038,6 +1038,553 @@
    "url": "https://rappel.conso.gouv.fr/fiche-rappel/24174/Interne"
   },
   {
+   "id": "72cd967894d2f359",
+   "title": "Peer review of the pesticide risk assessment of the active substance fenpyroximate",
+   "summary": "The conclusions of the European Food Safety Authority (EFSA) following the peer review of the initial risk assessments carried out by the competent authorities of the rapporteur Member State, Austria, and co‐rapporteur Member State, Denmark, for the pesticide active substance fenpyroximate and the assessment of application for maximum residue levels (MRLs) and the confirmatory data following the r",
+   "source": "EFSA news",
+   "signal": "news",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.10372"
+  },
+  {
+   "id": "fd5b42935b307e88",
+   "title": "Guidance on reporting the 2027 national control plans for Veterinary Medicinal Product Residues",
+   "summary": "This document should be used for reporting to EFSA samples planned under the national control plans for residues of veterinary medicinal product. It provides guidance on how to use the data model for submission to the EU of such data and related information.",
+   "source": "EFSA news",
+   "signal": "news",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2026.EN-11462"
+  },
+  {
+   "id": "5788db31272353fe",
+   "title": "FDA withholds key information in outbreak investigation reports",
+   "summary": "Only one of four reports names the companies involved.",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.foodsafetynews.com/2026/11/fda-withholds-key-information-in-outbreak-investigation-reports/"
+  },
+  {
+   "id": "b31e310dc5423bff",
+   "title": "Leftovers can be dangerous; prolong the feast safely",
+   "summary": "Thanksgiving is a time for family, friends and feasting. Once the holiday meal ends, the spotlight turns to enjoying the leftovers in the days ahead. To keep those leftovers safe to eat, the U.S. Department of Agriculture provides essential food safety tips.   How to handle leftovers safely  The cardinal",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://www.foodsafetynews.com/2026/11/leftovers-can-be-dangerous-prolong-the-feast-safely/"
+  },
+  {
+   "id": "de938dda5ed1758a",
+   "title": "Opson results reveal horse meat, honey, and olive oil fraud",
+   "summary": "Thousands of liters of adulterated beverages and counterfeit food products have been taken off the market as part of an annual drive tackling food fraud.  Operation Opson XV, coordinated by Europol, led to the seizure of more than 526,000 counterfeit items, 227,800 liters of adulterated beverages, and almost",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://www.foodsafetynews.com/2026/11/opson-results-reveal-horse-meat-honey-and-olive-oil-fraud/"
+  },
+  {
+   "id": "63bc7e3c07b4fb42",
+   "title": "Halal assurance and food safety must meet on the processing line",
+   "summary": "– OPINION –",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://www.foodsafetynews.com/2026/11/halal-assurance-and-food-safety-must-meet-on-the-processing-line/"
+  },
+  {
+   "id": "8714fbff7ac78305",
+   "title": "UKHSA reviews antimicrobial resistance of Listeria",
+   "summary": "An analysis has revealed a varied picture when it comes to antimicrobial resistance (AMR) rates in Listeria from the food chain.  The literature review, requested by the Food Standards Agency (FSA), focused on antimicrobial resistance in Listeria isolated from food and animal sources.   It included 80 publications between January 2020",
+   "source": "Food Safety News",
+   "signal": "trade_press",
+   "hazard": "Listeria",
+   "severity": "high",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-26",
+   "url": "https://www.foodsafetynews.com/2026/11/ukhsa-reviews-antimicrobial-resistance-of-listeria/"
+  },
+  {
+   "id": "8f4993975ff8e140",
+   "title": "Arla Foods Ingredients backs dairy protein growth with €95m investment in Welsh facility",
+   "summary": "",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://www.dairyreporter.com/Article/2026/11/26/arla-foods-ingredients-backs-dairy-protein-growth-with-95m-investment-in-welsh-facility/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+  },
+  {
+   "id": "183fb96202b43f55",
+   "title": "Colours and flavours: How APAC is shaping the next wave of food innovation",
+   "summary": "From naturally derived pigments to regionally inspired flavour combinations, food manufacturers are finding new ways to make products stand out.",
+   "source": "FoodNavigator-Asia",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://www.foodnavigator.com/Article/2026/11/26/colours-and-flavours-how-apac-is-shaping-the-next-wave-of-food-innovation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+  },
+  {
+   "id": "a559ee5321c97bf6",
+   "title": "Calbee takes Harvest Snaps into US mainstream snack aisle",
+   "summary": "Calbee is taking its Harvest Snaps vegetable-based snacks into the mainstream US salty-snack aisle with two new formats designed to attract a wider consumer base.",
+   "source": "FoodNavigator-Asia",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.foodnavigator.com/Article/2026/11/26/calbee-takes-harvest-snaps-into-us-mainstream-snack-aisle/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+  },
+  {
+   "id": "64ddd2c5721bb5f5",
+   "title": "Nov 26, 2026 How to Maintain Food Safety Across the Turkey Supply Chain This Thanksgiving Read more",
+   "summary": "",
+   "source": "Smart Food Safe blog",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Turkey",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://smartfoodsafe.com/turkey-supply-chain-food-safety/"
+  },
+  {
+   "id": "0d5990ddd4b15ac6",
+   "title": "peluche chat",
+   "summary": "",
+   "source": "RappelConso food (France)",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24130/Interne"
+  },
+  {
+   "id": "e5835f3f110a97b7",
+   "title": "Ventr&#xE8;che roul&#xE9;e s&#xE9;ch&#xE9;e",
+   "summary": "",
+   "source": "RappelConso food (France)",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24182/Interne"
+  },
+  {
+   "id": "6bc4c88215e0d33c",
+   "title": "Ventr&#xE8;che plate s&#xE9;ch&#xE9;e",
+   "summary": "",
+   "source": "RappelConso food (France)",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "France",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://rappel.conso.gouv.fr/fiche-rappel/24181/Interne"
+  },
+  {
+   "id": "3b9ca622f88bd1b2",
+   "title": "FDA Posts Four Cyclospora Outbreak Investigation Summaries",
+   "summary": "",
+   "source": "News · Wisevoter",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmtLRWtnWUh2dzJPemhMWGxKLUdZdENhX2QxcUppdzl1WUtsLWpadnZGZEp4cTJqOFhGaEtaTFBEN1ozdUw2UFNGUjFlemwybFlOZHIwUEJKOTlsWGdINkJ6a012dFhIQWc3Z3dXUTBJMzIyLUxMV25sQzRwdExuY3o2YWRMMXdxcjl4NHd4UjlCNFZQMS1jendqVWp5c1U?oc=5"
+  },
+  {
+   "id": "375aeaf2518e57cb",
+   "title": "Lebensmittelwarnung: Rückruf von Leberwurst wegen möglicher Metallstückchen",
+   "summary": "",
+   "source": "News · SOL.DE",
+   "signal": "recall",
+   "hazard": "Foreign body",
+   "severity": "medium",
+   "country": "Germany",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNX0gxeTZQN3hMazVtNE1faG9uRmJYOF96MXhMOFoteEYzQzBKZXFVVjhuZzJXVGp0WWxFYkdsQTZQN1g2SFN6RWFWZXljcFZXVERFNXdaU21lYy1DT2hVU3poMVAzQTg0OXllYVdVSENxY2ZvNHJxZU5WREZwakZmYkhwaWpkNlVEc3VEcWlNV204MExZVnRUc1VyNzQ3RnY0Z3RENnhMbHRKNzhMc0czZTdnYTlldHdiaUtva3hxMzZLRkFKOWgyVG03TTA1NTQ?oc=5"
+  },
+  {
+   "id": "b5cb447e52b30ffa",
+   "title": "Alerta alimentaria: 25 lotes de frutos secos de Lidl, Carrefour y otras marcas podrían contener vidrio",
+   "summary": "",
+   "source": "News · Diario de Avisos",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Spain",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYk9mMEVfSGVSZEE2TnJRbnAydGdnMm9VM0NYZFhoZmhXQnZNdVBkUFUxcGhsakt4clMxc0NiUnFwYUhfWHlucFdvX1BUSGVSTnhiVkFoeUdKeXc1UUhSVm5TTGxwSG40T3h1d2U4OTFKSkJjVW90RXpJbkI5ck9HU3JJM1ktSkFXd3lTclUyakPSAZYBQVVfeXFMTTdqUmF2OUxtcTVWaUhvREFsaExHdElQSmFDUlpiRjQ4OTR5clRQVEpRWS02YU1jWE9sajdwZzlNU1BJb3NyOXBtc3BvTXFiWEM3WHNZTTBDNEpEd3VwbjVDbTJfU3NDemFNUzhKMVlXYUhHQTlfZllnelR1cFB4VUppdFctSHFBb2o2RW1FVF9sWERGSDRn?oc=5"
+  },
+  {
+   "id": "853115db6b4edff5",
+   "title": "Supreme Court directs FSSAI to strengthen nutrition labelling on food products",
+   "summary": "",
+   "source": "News · News On AIR",
+   "signal": "news",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "India",
+   "region": "Asia-Pacific",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV2c0eGd3NWdkVGtGWjMzS0d0WUhRbGMwQXJlY2VxaXlMQXBkUlV0a1JpaVk0eVhQcFRXRjhRMTBNQUNhbV9OOENUOWRNT1dMSEZxMW5VTE5PckpWblhFNTF4VWNVWlQ0RGZiU1ZYUThrZnVzcENfUkpvNmVqUjk3RkJjQ2piOWRtam1qdlJWdVpWM0Y0Qm54TlMtazU4ckJ6Qk1Md29uUQ?oc=5"
+  },
+  {
+   "id": "9f9f6866848e4044",
+   "title": "FSSAI CEO Rajit Punhani urges food industry to look beyond legal compliance, embrace ethical advertising",
+   "summary": "",
+   "source": "News · Storyboard18",
+   "signal": "news",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "India",
+   "region": "Asia-Pacific",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMXNDZ0pfSVI5aXhoQWw3NkkyUVBzQVVSQU1YRW5iSTZZc3lHV3Yzc1VDakZBcU9WQWE4Q1NpcTJtNTlsZms5SmFrV1NZS0RkZEpqYk9hS00zVkRLLTFiMmJaYnlZU0o2UHRaUVpHNzFPU0dsY1l6dzZpM3NRQzc4dGpKX2o3Ni12b2hKb3VMRmkwNTJvYUNCV3lKQmVkT3J0X0Q0UG41WnBMbThINWRTaldjQUtyd1BINk1GdkZB0gHDAUFVX3lxTFB5dURiMjlRTURtTUdBakkyMlk0RzU0QlJaN0JWUU9INUMtUHdzVUxxcWdNcFFvNExiV1hDbUlyNGt2ODhHN0Vub2N1NjZHYkpxRVlVdm05UldxRkFqN3NEUTItZXZlYV92aUhpeWxBNWwxRlBKVXpVSUthOW9JR3ZrdE9kU3Bsa2FvN3B5YU9IWmQ5X3FqSGtoTGRTWFVGTENCTHZreW1tNjloV1JsNUxPNmk2V0M4Z3Z1cVl5SlJieGtVdw?oc=5"
+  },
+  {
+   "id": "b3361999136bd386",
+   "title": "USDA Suspends Poultry and Pork Imports from Three Countries",
+   "summary": "",
+   "source": "News · Wisevoter",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYS1vOTU1Q1NhZ3pXQ0gyanJxYnY4WU13SlRNQy10R2Jrb3BLeHNvYmV2bU5XQ1FUc0tqaVpZTnRYUkhOSUZVVzFFeW5Fd212OXNla0VxMFlnSHdxT3o3eWVDRWREdmtKb2VxTGpOWHdqLVp2N1RuTnVJa25qclZRdXJKZzNCbUlRZGgweFpzRzZnWU9VVHpVb3l2Vlc3WXJ2R3c?oc=5"
+  },
+  {
+   "id": "69727eb2bbac371e",
+   "title": "Food Poisoning Sickens 18 After Doral Luncheon",
+   "summary": "",
+   "source": "News · Wisevoter",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNlR4aFNoV1U1S1RPUWRNeTJNcENOczdkQjREY244ZTdUUmlzZ09OYkx4ZjRKYTFzMDdhNWlDNllQRFZMNXZrXzFSWGU5bHd0OE9hOXR2ekFnby1ncGM5TzFPWGd2VWtTenZVcnYxRWNpcWJBVTBtRXR5WDdwTFczdnRWcjBXeG5HWFk3S0t4b3VsMzV4UVlSWGZsa28tUVk?oc=5"
+  },
+  {
+   "id": "03a4469f7f3dba35",
+   "title": "Formaggio tolto dalla vendita per Salmonella: nuovo richiamo alimentare, lotti e marchi interessati",
+   "summary": "",
+   "source": "News · Canale 10",
+   "signal": "recall",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "Italy",
+   "region": "Europe",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWEo3b2M3ZjJtcklCSHpUc0RJTlhXUFFDZzNQWUFDSTkzQUhWNzF6T3NUa011MVRaT1hsR2dOX2JQb3FqMWFncG5saHI1S0FuVThfUy1PaHdwTG9OdjB6dDE1NXdRQnZnTGpwQ0hWd0t2SEdaaWlvOFg2UC0xUlJOdWhZb1U5akNRM2hySlFJcTdJaEFYVU1MZjNkeXBKWDhmMWprdW02QS1sRjh4OWpGUDMyMjRyY0J0UjJIOHdMSnJqWGJaLUNMcXdnVVo?oc=5"
+  },
+  {
+   "id": "177d550514c26e77",
+   "title": "Experts to tackle food contamination scourge at MSN conference",
+   "summary": "",
+   "source": "News · The Sun Nigeria",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Nigeria",
+   "region": "Middle East & Africa",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa2RTR0ltcUhrWDNaR0RYM1BOMHBTOWg0ZWhyQjd1Mm5wcnNEdmhwRGdVRFU2YWhRZDFWU3Q0UHpwcTNnaXVWclZ1c2w3V3pwb1AyLWtUak1OV0ZxdGViWVpiLTUtYURRM2FMamkwWHFheGtWUW9WLU50WDQxdUktRGdmQWZieTlp?oc=5"
+  },
+  {
+   "id": "f7211a962c009ffd",
+   "title": "Maldon Salt and Cornish Sea Salt backlash highlights authenticity challenge for brands.",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZzh6cngzUGxyZl9EWkgzYnZzeXBuVTdhRmVYdUY4UkZ5LUhZUl9PYVNtSjlIMHZHSjZLVkVpVFI5UkhCUkZPWkxZaWpHaktpNUwtaWNMQTdKUG56czlRU3JSbkRmOXgyb0thcGJMMXdhd2E5TXk1RHRPZkdrV3k0MUhpY0pKMU02ellJUVpkTnJoRTZZZmI2NzRCNFFlVUZGR0IxdmctNTVhdUdKNWRaWjB5ODVqS0JFRTc3cGU4alFHT01wYzR1V2wzaWk1LS0yd2U1UVdqSQ?oc=5"
+  },
+  {
+   "id": "62b71b4ee696de44",
+   "title": "Qatar Establishes Food Safety-Specific Government Agency",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNVpfV3ZwWmpQVVFjdEJsZUpHLWtRX1VlRlZzVnJueTRiWVZFbktidDd3c29NamtaSFNCRjRLNENKZnNyT1M2bWJvem0wWGtLY2pldWhjQUlPVDdSVVJQXzRqZWdOMUdvaVFQRk1oZXhvM0MzQzdQQWNqcUppVE9TOHRGenV3ZWdSQkFrQnNxMjFfYXhKMnNYcGZSU19BQWZs?oc=5",
+   "also_reported": 1
+  },
+  {
+   "id": "ab3a23ecd47d0032",
+   "title": "JBS Invests in Multiprotein Production Platform in Oman",
+   "summary": "",
+   "source": "Food Engineering",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOHIxbHhLRmYtU0Y4UTFzUW52VjR0NW0tSTUtZ1h5Y2hSVUVUX01SNzVwdHpMaTJxWlU0NzhvUWNya0JKbXZGR3dzSV9wWENSNzNpRndHaHUybnZualJ2ZDh1Y3VfUnJhb01EWnlTSDBWb2sycmdiLTJObTVrRVdYSUw1TWx4OVhzcU1UVWxYdmVob1JDQ3c5SFpBbjluWDAwRU1wQnRJeGxGdw?oc=5"
+  },
+  {
+   "id": "64fcc2c698bf1cbe",
+   "title": "Now That You Have a Natural Color Replacement, Think About the Dosing Skid",
+   "summary": "",
+   "source": "Food Processing",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUzA0Vm11cDVESHFsUnB0cXZRdGw3djJwZ2wyRE8xX3B2NW5EbXo2YVByOTFBcnYxVDVKQnIzN1hFeGQzVWRqTDB1YWo3OWZ1OFNVQmJvTDYzaGwyb2p6WVJ4UmFkeUYzRTFXN21pNWJuRW9EdG5MRmFwM0RiR0t3bDFqWUJtb1JuNUxBQjczakl6S1Bad3RSb0VhZXNzVUc2ejRad3I1NHFuYUlrZ3Q2bk1QSGxiVDdleXYyUjd6clNOYWhBVlRTSHhzdHBWNms?oc=5"
+  },
+  {
+   "id": "2d5060bcdbecf101",
+   "title": "Table: Simple guide to work out pit silage or bale numbers needed for winter",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcjVXUDBJSWttRWFlbVI5VUwzLVZRbEJXRklUc0pIdkdhcVY3aGJ4TjA0WTV2cGNhRWM4Q2Y3S3RVYUwtcVFpUERXQkhCUXg2dE9MX3FMVndPem5wOW1kMDFxUTlfMF95N1VNbDFFdXJYTkNadlF0RURrdGdFaTZTMmpEZ1Z2UVVmdDF2VHRYRk4zeEEtTjk4VG94NHFoWGlkRGhXaFVkVkxCSWRiazloYmRrYw?oc=5"
+  },
+  {
+   "id": "9797eb06bbb3949d",
+   "title": "What’s in Your Livestock Shed? visits a a Welsh dairy farm",
+   "summary": "",
+   "source": "Farmers Weekly",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORmhkTUdyd2tCMDRZZzFwUVF3RXpiNkd6SkJxQlp5RDdEdkdxemhuSG1YbGlyVjJWdC1BaFRkdFVYMUQybTNRcWpZcVVJY2NZWms2dzAzaEp5RnU1dkRqUEZDNXBHXzAtUnZEUmtaRjR1WGI3U2JJV0JEM2o3TmUwa0g5dFNvNGx2ZEN1ek9sUEJNMHFaeDNMS1pOclJ4bFZySDVaTVJhdnVnU3NfSHFkMHhURTRqOHJv?oc=5"
+  },
+  {
+   "id": "cc1127ce272e5436",
+   "title": "Farmer Focus: Pumpkin sales are down year on year",
+   "summary": "",
+   "source": "Farmers Weekly",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUEJiS0V3UEItMk9mQm1heFFsOGZUaGJpSXdkbVhDeWlySlB6U2VJN1Q4TlJDSGNMMHFzWTNMN2lMbklrY0FhNEwtaHBVdC1JbWQ5VEtJN0RDT3JUa3JiTzlFSzZMeUZxYWZxQ3Zfcm9VbEoza2duRU4ta3pLcEE2NkFMOE14dWEteWZrdnd6cGhfVlBm?oc=5"
+  },
+  {
+   "id": "abc0cbd8294fe074",
+   "title": "Retrofit PTx OutRun system makes tillage tractors driverless",
+   "summary": "",
+   "source": "Farmers Weekly",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQTBTcDBDdHJiN0VYLV9Oc1JBY0RwSS1GRDFiSUNmQ3JCcVVDQ1g1UDR6aUlrUzhMNnF5N19WTjg2d1oxTjRiSXRBSFRSQ0lIak5FYXhjT0FNZ3pOM040eUxLTzlJMjhzWWZGN0xkeko5cTZFenZCWFFNV09ITHNvdXlRSjVkOFBtRWZPWG9GSC1fTzlpWHU5aGUtUmQzX3BSQnpmQVBCVFZ4dTVnSlNFQXBmU1lVYXBVY3hKMUxVUjZ4RTRZcWM0?oc=5"
+  },
+  {
+   "id": "44fedb9ca9224500",
+   "title": "Michael Moynihan: The emotive issue of parking can drive us all around the bend",
+   "summary": "",
+   "source": "Irish Examiner (food & farming)",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5YUU8xb3Bzd21WMHRKMHhNQmx1YVZMejBiVllGd1ppcUNTd3JrUjFZVGNYNnBCRjhvcG1LWlNNbGVOX0xmSW5vS1NNbF90Zk55d01va2dWcXVLOWJrNDJnWkhaRTBILXh1b2RPUmlmM0tycnlLeHc?oc=5"
+  },
+  {
+   "id": "5fd297165b61df18",
+   "title": "Govt approves tariffs for Payra , Rampal power plants , clears 4 . 40 lakh tonnes of US wheat imports",
+   "summary": "",
+   "source": "News · thedailystar.net",
+   "signal": "policy",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Bangladesh",
+   "region": "Asia-Pacific",
+   "date": "2026-11-26",
+   "url": "https://www.thedailystar.net/business/news/govt-approves-tariffs-payra-rampal-power-plants-clears-440-lakh-tonnes-us-wheat-imports-4333661"
+  },
+  {
+   "id": "a859a595b45da3f4",
+   "title": "P . E . I . companies take part in China trade mission to promote Island seafood",
+   "summary": "",
+   "source": "News · cbc.ca",
+   "signal": "policy",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-island-companies-china-seafood-expo-market-9.7436497"
+  },
+  {
+   "id": "e93e832d00a4747a",
+   "title": "New Trump tariffs would likely increase sugar prices in the US",
+   "summary": "",
+   "source": "News · economictimes.indiatimes.com",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "India",
+   "region": "Asia-Pacific",
+   "date": "2026-11-26",
+   "url": "https://economictimes.indiatimes.com/news/international/world-news/new-trump-tariffs-would-likely-increase-sugar-prices-in-the-us/articleshow/136176955.cms"
+  },
+  {
+   "id": "d41e8724d6d716fe",
+   "title": "Sen . Hoeven touts new sugar tariff to push back on $1 . 8B loss for the domestic sugar industry last year",
+   "summary": "",
+   "source": "News · agweek.com",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.agweek.com/news/sugarbeet/sen-hoeven-touts-new-sugar-tariff-to-push-back-on-1-8b-loss-for-the-domestic-sugar-industry-last-year"
+  },
+  {
+   "id": "c4ea7328d1faa848",
+   "title": "Corn Rises 1 . 29 % and Soybeans 0 . 35 % as Wheat Slips",
+   "summary": "",
+   "source": "News · riotimesonline.com",
+   "signal": "policy",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-26",
+   "url": "https://www.riotimesonline.com/grains-soy-corn-latam-wednesday-november-25-2026/"
+  },
+  {
+   "id": "2b79b6109cdd08ea",
+   "title": "New York processing tariff relief payments for more than 1 , 300 farms",
+   "summary": "",
+   "source": "News · wbng.com",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.wbng.com/2026/11/25/new-york-processing-tariff-relief-payments-more-than-1300-farms/"
+  },
+  {
+   "id": "d968fadc2f946df0",
+   "title": "Pakistan seeks partnerships with European food firms",
+   "summary": "",
+   "source": "News · tribune.com.pk",
+   "signal": "policy",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Pakistan",
+   "region": "Asia-Pacific",
+   "date": "2026-11-26",
+   "url": "https://tribune.com.pk/story/2642350/pakistan-seeks-partnerships-with-european-food-firms"
+  },
+  {
+   "id": "65f308208c485cb6",
+   "title": "Hoeve , local sugar producers talk potential new tariff",
+   "summary": "",
+   "source": "News · kvrr.com",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.kvrr.com/news/local/hoeve-local-sugar-producers-talk-potential-new-tariff/article_0fe534f5-3461-463d-96c9-de92748c7297.html"
+  },
+  {
+   "id": "8848ebfa664b8560",
+   "title": "Tariffs cut from today on more than 100 food products from baked beans to chocolate - see list",
+   "summary": "",
+   "source": "News · mirror.co.uk",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-26",
+   "url": "https://www.mirror.co.uk/news/politics/food-import-tariffs-cut-healey-37915834"
+  },
+  {
+   "id": "5c16c3150da1054a",
+   "title": "PODCAST : Ottawa pushes back as Canada - U . S . trade dispute strains defence ties",
+   "summary": "",
+   "source": "News · 620ckrm.com",
+   "signal": "policy",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-26",
+   "url": "https://www.620ckrm.com/2026/11/25/podcast-ottawa-pushes-back-as-canada-u-s-trade-dispute-strains-defence-ties/"
+  },
+  {
    "id": "b7397dca64054c0b",
    "title": "UK and the European Union agree on health and phytosanitary alignment for food and beverages from 2028 UK Nov 25, 2026 News",
    "summary": "",
@@ -1075,7 +1622,7 @@
    "region": "Global",
    "date": "2026-11-25",
    "url": "https://www.paho.org/en/documents/epidemiological-alert-mpox-americas-region-24-november-2026",
-   "also_reported": 3
+   "also_reported": 4
   },
   {
    "id": "611eb5f52bbf3608",
@@ -1181,19 +1728,6 @@
    "region": "UK & Ireland",
    "date": "2026-11-25",
    "url": "https://www.foodsafetynews.com/2026/11/illegal-meat-operation-discovered-at-uk-farm/"
-  },
-  {
-   "id": "2edaa4aa375bb8d3",
-   "title": "Qatar creates new food safety agency",
-   "summary": "Plus: Dubai holds 20th edition of food safety conference",
-   "source": "Food Safety News",
-   "signal": "trade_press",
-   "hazard": "Other",
-   "severity": "low",
-   "country": "Global",
-   "region": "Global",
-   "date": "2026-11-25",
-   "url": "https://www.foodsafetynews.com/2026/11/qatar-creates-new-food-safety-agency/"
   },
   {
    "id": "499f6a68a5a4acf9",
@@ -1506,7 +2040,7 @@
    "region": "Europe",
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTi0taXY4UWp6UGI0T3FWN1J2YXdNMjk1X0h3WVBodk9KYkdaZ3NzZXJJUnhod0pZdmEyRkJiYkhUTTQ1U3QycjYtLUVVZEtlZUkybFZzbkV6MTZkSFktdm5iUDFlWTdJaGc3LUMxUzVXRXlFNHhpUDM1bXlSazVoVldQaFBDX3ZjeWVZdmVwb2dMdG9sdU1Ca01wTzd0RlZBVFRfZmNXeEJnN1RaWUNKSXl0ZmJPc0xnY0pCNGN1YXo3bXI0OV9USzBST3dhdndEYnFHMw?oc=5",
-   "also_reported": 1
+   "also_reported": 2
   },
   {
    "id": "38c006054f0f7b31",
@@ -1585,7 +2119,7 @@
    "region": "Asia-Pacific",
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPam5yWXA1RHctZDJwLW5YdkVJQ2YtcG82S2dqcXFKWFRRUE55M1Q4X0o3cDVBd1VWb2ZtLS1SX2hyRkJjaXV1RjExcE5jSUpYb0dlMHV0c3VFRE1xRG80cEltMno5ME1KY0FtajBmWGZDcGhyX19LQkZpd3hpeDh3d29fVEdQd2hqN3g5bThnZG5IZ1hzczFydnBPYVIzVFJWTlFTb0tOdVRQdw?oc=5",
-   "also_reported": 3
+   "also_reported": 7
   },
   {
    "id": "26fc59dd05327420",
@@ -1729,7 +2263,7 @@
    "region": "Global",
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU3dFWTZKSHRkVFF6YkthX0FQN0NsSjdyMUtOOWY1MFl0UWk2S3ZueVZnZWpfUWhVbUxRejhpMDBFUVoyM2ZwdXBVQVpidnJoZmdlT0Z0cG5TckZiUzlyNHpPU0RQek50SERIZ1FSOVpmazR1azdHX1lONnozWS1NSW5UUlozb0pnYWlGVC01ZElFQnN6aEdET19oelVUcW1wcjdvN04tZGdJcjkw?oc=5",
-   "also_reported": 3
+   "also_reported": 4
   },
   {
    "id": "94c3982fefd63cf5",
@@ -2161,6 +2695,359 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sNXBSMFkwVnJPaDItdEJZNk1rRlpnRmg0bVJfbWlnSjQ4anR0Z3B6ZkpOUjNQVHhfMUdfSUFTQnBxZDVpd09BV0dvelo1eXA1ZVpKQ21RMHFnQnJBSEhDMEM4eHh3UFE5LUE?oc=5"
   },
   {
+   "id": "772139fd5f09c062",
+   "title": "Democratic Senators Call for Investigation on Effects of Staffing Cuts on Cyclospora Outbreak",
+   "summary": "",
+   "source": "News · The Daily Intake",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNVXd0cTlBdERybzkwb2ZEZW02Qjd1dmVPUEl2OGtkZ2ttbFhsZUNsSGVvczhmSG5EUERtcmxLdGFQYVdBbmFYZl9mZGEzVDNWUTVRS3NuelppazJzRkFFU3RrZkZMaGpzOThwa3JUY3p3V2JXRWRlY3RLSTN1RlpCWTFBNWhGLVAyeHN3YzFzTFhHMU5CNFpEVGlwazMxWXVITnRJM1NRLWRmdkdHRzhSenkxN2ZiMDR2SzR0U2xTUWNIMG1CbzNDZGhkekZpazQ?oc=5",
+   "also_reported": 1
+  },
+  {
+   "id": "238e899836f1d404",
+   "title": "Are oysters safe to eat this Thanksgiving? What the Virginia salmonella outbreak does and doesn't cover",
+   "summary": "",
+   "source": "News · Nacionale",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkhEWENvbmdaSnJ4UTNLc3RCUm8zc0k4aktGNUdzTloxM1ItRXh3cGdsZmdYVmd6MDNZSHpmOWlUQTREV1hHZWc4cHUwa2JqOVZOdlYwbXVyU0F6bzBTRGNmZDVuYVFVUnE2TGZUX29CcVYyQm51cElMWU04U1FuNGJhS29RSmMxeUNvR0d6bGx0Rm1jVGNuNGV6cnFUQVVuYVlCRmpQRDlLN2tSMEVUcGFPQ3JCY1k?oc=5"
+  },
+  {
+   "id": "d04bc20ef6e10926",
+   "title": "Salmonella outbreaks put oysters and turkey on alert this Thanksgiving",
+   "summary": "",
+   "source": "News · Rolling Out",
+   "signal": "outbreak",
+   "hazard": "Salmonella",
+   "severity": "high",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zeHZLV3VFRU4tX09zVjJOQmJRTHgzSFV2S1cyVTNNSTFoekRBUEU5WHNaWXczNWFlaXhfUVpHS1l3NUUzMGUzTUJLSXN3LVFXbzNGVGl2ZjdWcUpFY2hPblE4NURpRlp5b09jdmFQWHVWVzJfR3AwUkV3?oc=5"
+  },
+  {
+   "id": "3587cf2a83771115",
+   "title": "4 safety tips to avoid food poisoning during Thanksgiving",
+   "summary": "",
+   "source": "News · The Topeka Capital-Journal",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRWZTQWpMS2hTZW9aSXNENlV4Yk1ZOWoxcHpLSFBLSTU0YkNjYzhlZldiejhxNEFHRUVVaXV4T2pWekZ5cTFtMDJKeUdKcEZfQ2VSVXFiRFh6eVNVNHBlWlROSmRzX0NUa1lZTy1qSFhCcmU1RlFIVHdpWmxYQnROV0tkVW91b1A1RVh5QXFmd3ZTMzB3LXNSUk5RbWxiQ0dIZjdGdFJFeTJWWUxpRzlwbmVleUEyZ2xGczF4eXc1MlVmeXB3ZXBRU2hNLTlFbERVZTBv?oc=5"
+  },
+  {
+   "id": "a59fc82f9afbc1ce",
+   "title": "Thanksgiving Food Safety Tips to Help Prevent Holiday Food Poisoning",
+   "summary": "",
+   "source": "News · gadget.qoo10.co.id",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2ZKVktkdFY5aVFnbHFjdUxNTDl5RWR2SV9ScEZLQVRFS1BUWG9CN0xDZkd3elU5X25yWDRjUUxac09KZ0FuanJ3MTMzRmxmZUxoc1pPOUNfQldOMWNwOXltZnZpdWtHSWliUHB0UTItekE0VUtXbFpfVVUyeUlCMEpBRWtmM2xDTnV4ZGVIZFN0Wldj?oc=5"
+  },
+  {
+   "id": "e2edaddfa2676b7e",
+   "title": "If everyone’s banging in some beans, why are we still lacking fibre?",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSzJSVmZ2TkcyQXBTWEhPMDBHT0JFcnkyWDRzWTFYRGIwQlQ2dXVrVUlsV081U1gyU2JMRjF3MElKeEdZMjJlcS1WU0tTYXVWU3FXWVZyMlpVLXhRcGQ4NDJ1dVdhMGZzQVloZjgyNFdxT1R5aTZ2bXdkR2ZWRGtHZlZxVWdGekRXLTBUV1ROc2ZlNUJXVEpKZFItam8xSUJUdXotcjBsanJmTUlCcV9UV1I5QkhrSVRBR0E?oc=5"
+  },
+  {
+   "id": "92b946df598ad5d4",
+   "title": "Governor Hochul Vetoes New York Bill Targeting GRAS Ingredients, Food Additives",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLUg4UWNMZWoyeGFvS1JlMFJ2YmVxbkRuWFRvb0FrVUlfRE9DOHVzRUIwLUZwZUxOZmpCR24xTFJwT3BiVkNKWDJ1bmdpSldhVDVaOHJaZ0EtS3lzZTVZLWUtTG9LVF9XWnlBTml6bzBJdGZPNGZFQ3lEOXE2NjhYa1JIbzRzckxRUXNsbkd0c2hlU3l4SXNLX1kwT3lwX2ZMNzBjQXQzOWFhQkhiX0IxUllnNzlhbWxoRjdHRDRB?oc=5"
+  },
+  {
+   "id": "d12f0a108c2a74fa",
+   "title": "Westfleisch CEO Wilhelm Uffelmann steps down",
+   "summary": "",
+   "source": "Just Food",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrV045V1g5N19tZWJ5T3RyTTluLV9mcU9KbUdwRkhqeUk2V091U0M0VUlXVEo5TDJ4VWtjWEtGdzA2RWRhaE92a0xkTlJUUlhiVXJvLXlHc2tNOEk2OWdGSHQ2WjFUMHZwZHZiSEdtYzJFbzFUNHdTLVlUYw?oc=5"
+  },
+  {
+   "id": "bd651cec53b394cb",
+   "title": "Investment Firm Acquires French Charcuterie Company Village Gourmet",
+   "summary": "",
+   "source": "Food Processing",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONXFTY3NhOTJJQ0Zoem80bEVCa3JJUEFscE1YQWFENjE1M2ItUnE1ODhXT1JKVGprekhZQ2tPYlVPbEQtdk5QeGxLc2xVcG9paE9ZTFVSZU9fdHFpeXh1ekx0V285V1RWb0NfRjhkeDZtOF9LMFV6c285MWlKYlBDa0t1Y3ZhVnpLM0I2YllHaVJYWjZPUHVhdldNSm1vaFNtRHoxSFNvRGlWb195Y3ViaUdBWlJaV1VFUXBNVzNLbUxqdGR0ak5nTW40MDVKVmFsRThmMnVxM0xYUzM5dlZCeDcyb0JvRTNydWV3SHp3ckw?oc=5"
+  },
+  {
+   "id": "b0ae2b703ceabfcf",
+   "title": "From AI to Packaging: What To Watch in 2027",
+   "summary": "",
+   "source": "Food Processing",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQko1bWxUc3JDREdMSF9sdGE3ZDRCclA4LWIwamRWUy1GRWpsVWtoSS1QSGxCZi1WVkdFeDhiOExUanp4bnJYNVFVbTRDM08xZWlvRFMxaVc2SHZxY1hpMDhMRTBuZWZMbTBBNC16TlgyQzFNX1E2LXppTGRfeDA0UXZqN3FleVFXWi1UbHpGWTRCcFlobEJUTFNTVTZtZUlTcWQ5MklKczBfbjRzMERPSUtEcw?oc=5"
+  },
+  {
+   "id": "b0cf2b3bbb8724a8",
+   "title": "EU court ruling puts pressure on Brussels over cage-free farming delays",
+   "summary": "",
+   "source": "Food Ingredients First",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhV1FYVGJWeDFaMmJqUnZCZjRGV0sweGdrMzVkd2lOa0dWZFFNeUVpVUswZFljTnAyT25SNExtU1E0eEp1eEN1d29UWFhiNWxUX05WS0ZNSE9JR3lHVFhFX3dqNXhHMTR1TUFRaktHUlc0NkgwMWR6VV9Mck9Yb2c?oc=5"
+  },
+  {
+   "id": "50258957bf15b8d8",
+   "title": "McCormick proposes Colman’s sale to secure UK clearance for Unilever deal",
+   "summary": "",
+   "source": "Food Ingredients First",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObWNSTkJKcmhQekRRY2Q0RjNyZnpfTUV1TENSWldGMkd2c2pKdENwQ3pkMG1TX0paWmM2eUdXSW5faWdac0V4ZnRkMG9CdFhHLUVsVHNyUUZXU2xkdlhFQ1ZBQ1p1TkhhV19MVXNaeHhGdi1jSzhSd3B5QXNjTm94SGRDeV8xVmd2SFE?oc=5"
+  },
+  {
+   "id": "a30adba113fa92bc",
+   "title": "Mondelez’s desire to own ‘snowball’ makes it look insecure",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUGhDb0ZmS2pwUVl2VmpVX0NiZHZERWVlcUxDOThtLVhoUEFzWS1SY0RuVzFkYmpKcFdqOHgzX2Y3YjY5TjIxVjF4RF9CaEh2X2h1VWRkT1g0WEdPRzd4WUVZeG16TXBWSHBQLS1tNmlqNHFIMHYtVE5aZy1TM2dyM2hfSG1fQ2ZqSlJuclZNUUdoY1g2T0pIbWxGZ0MtVldSR2xDSU1PbnY2Y2E5eDY5V2xlaHdZUWIxUUE?oc=5"
+  },
+  {
+   "id": "1861358f401ced6c",
+   "title": "Morrisons rejection charges: suppliers attack GSCOP ‘loophole’",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXNhVElXWWNPeTVfekJVNm5YNG1VMWNxeUhhVGNMSzkyQlN2aENiQ1JyV0lVSm5BV21fRVJzN09GUGR6MFpVTElGX3F5VVZ0NVlCQ1oxb2lsMlFLV253RWEwdkljWXoxVXI0VHdUYUFWUDAtMC1WMFNGTTA2RTFKNm5hQk5qblFHSDlYbTVvVTJlYVBITnBDNnB0eFZxaUZYUkFwT1pUWG5FblU?oc=5"
+  },
+  {
+   "id": "226a772786e52e6e",
+   "title": "Poultry and pig farmers encouraged to avail of free flu vaccine",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdG9KUG9JcF9BeUN4WnRRTnRqdGpjc2QtZFlqaUItazNzSVZWT2c4RUVnNnI3NHc3eHBHVElTWTVtdk9pcEk1U0JnbE5DVktXZWpQdVlONlhCWjR3YnUxLU01d0NZbFBHVGJfRGdYZVVTRGh4dVBmSlhZbTdmYmRQX3VLaS1peEkyWTFGV1hrMGNib3lVaFN5WTIyaGNJOG1lUVVB?oc=5"
+  },
+  {
+   "id": "2f1948f59fb7c4d1",
+   "title": "ILEA urges EU to protect livestock exports in Brussels meeting",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "European Union",
+   "region": "Europe",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZkJrdVJqMHd1bGtJczE5SGxWTy13T1phbjd1aXk2TG9ZOW9VS1NnTV9idHNPRzZvcXNUNW9ZanFWWGNhWG1UTmlGckExRGJfelM5elh5bE94NWhxbHp1SGRMeXQwZ2ZpdE1LOXdnZ29zdzUtbFJFVjJ4WURTYURoZWxTVGdpMnhJN1NsTUlTeW95QUNoaXJSdG16aEYtZUp2LVE?oc=5"
+  },
+  {
+   "id": "e046d35c1b3725bf",
+   "title": "Irish whiskey edges closer to US tariff exemption",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN2ZoUTBXeUVfUTFKS2g1SVB6WTYtV2d5RElxVlZ5MmtkbWNOcFY0RzBsMjZULVlxNE5ia3YwWExvSDhhLXptNERNTnhvV28yQUpQTlFvQTVRc0MteFZobDhDSGlRT0xTQ2c2a1pzbFlzWkxGWDA2dlJTOTM0R2diOHNIZjI1VnNvNG9mOFJJS1A?oc=5"
+  },
+  {
+   "id": "a30df1cc5969a338",
+   "title": "Animal bones removed from beach and sent to specialist Meath facility",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQVpMNXF0ZTRUaEVNWWR5M1pDcWNXc25pa2pjSDl0WC1fQnRWNWJrWEVzLTk4VFJQajFFdUxMTmxubllTN19IX1RrbXFIaEEza0ZtazV1Y1J4amtNcEp1TW85Szh2NDlVNHZZdTZfSnp5TmFiOVFNeHFKeDFoSEk0Qm96b2h3c1FBdG9NTFctcUdlNEV3SDNxdWZyNU4yTGc2OFlVUlhiSHl3S1k?oc=5"
+  },
+  {
+   "id": "81017271571ea734",
+   "title": "Reappointments to Agricultural Wages Board",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbEtCWUFRRll5Wk1sM1RnVlNsenVzWnNESlhsTGtkZVhrdldDekpkVFVWWDB1dDdmYnBRSHFCQnF3emhDam05Sy1maGwxa3JHbjhCVlZPenZBSlFZTzRyUnVhcXR4ODZoMUJMVzdoa0JPNWVfT1lwVHU1X1hWUC01aHIzQlJKXzQ?oc=5"
+  },
+  {
+   "id": "d15abd5403c91cbc",
+   "title": "Letter to the editor: We need to stop obsessing over headline milk price",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Allergen",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSEtFd0RDbDd3Nk42a0ZwODJJLWE2NHo0SmhvVHlyeDVFNzdvYmJlcDktVmZxRm9VTTd2N3NfMjZhZmpCWnhwZjE0cWNhWlhCbzdhZkN3YkNJNk1rQjR6OGJKRXFOVUgxSER4WlNqdHl6UktjS3ZHSnZGQXVRWnFER1h3ZUMydE5mRDBheFM3TTk0a2YyS1pWVGpRaGFfSHZLVVpack5ERHE5OU0?oc=5"
+  },
+  {
+   "id": "a5dab4ff4d76b555",
+   "title": "SDF engine powers new six-cylinder Deutz-Fahr 6K tractors",
+   "summary": "",
+   "source": "Farmers Weekly",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzZmbVpQYm9UdXhYQlZBbV84MTBpQ0ZrR2tiVVo5SlVKdHAxNWRxNU9ma3VXdXp5WS1DLVlqa1g4RU03UkN6bjhuMEdNSHpGaVhzSGQxUTBoQ0diVkFJNnMtU1NlSGduUUxMeWgxcW90R0k4bE9vQ0N1V2FJRGZQZ3FqV09ieG1pM01FdFlON0hWUkRxUzczMFM3bjZGclUtYTB0b2dyLV9VNkFT?oc=5"
+  },
+  {
+   "id": "969f8aeb0538f962",
+   "title": "Why farmers on both sides oppose the Australia - EU trade deal | North Queensland Register",
+   "summary": "",
+   "source": "News · northqueenslandregister.com.au",
+   "signal": "policy",
+   "hazard": "Trade / policy",
+   "severity": "low",
+   "country": "Australia",
+   "region": "Asia-Pacific",
+   "date": "2026-11-25",
+   "url": "https://www.northqueenslandregister.com.au/story/9394335/why-farmers-on-both-sides-oppose-the-australia-eu-trade-deal/",
+   "also_reported": 3
+  },
+  {
+   "id": "bd5a026218cdcee1",
+   "title": "Cattle herd health lessons from 50 years as a Queensland vet | North Queensland Register",
+   "summary": "",
+   "source": "News · northqueenslandregister.com.au",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Australia",
+   "region": "Asia-Pacific",
+   "date": "2026-11-25",
+   "url": "https://www.northqueenslandregister.com.au/story/9397501/cattle-herd-health-lessons-from-50-years-as-a-queensland-vet/"
+  },
+  {
+   "id": "ff6b6411bc078c10",
+   "title": "Joel Embiid doubtful for Sixer NBA Cup showdown vs . Miami Heat",
+   "summary": "",
+   "source": "News · libertyballers.com",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://www.libertyballers.com/nba-rumors-news/102739/joel-embiid-doubtful-for-sixers-nba-cup-showdown-vs-miami-heat-giannis-antetokounmpo-injury-report"
+  },
+  {
+   "id": "a4940a2c070715db",
+   "title": "Crunch time as Meatco offers staff voluntary exits",
+   "summary": "",
+   "source": "News · namibiansun.com",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Namibia",
+   "region": "Global",
+   "date": "2026-11-25",
+   "url": "http://www.namibiansun.com/local-news/crunch-time-as-meatco-offers-staff-voluntary-exits-nmh022470-1-27647"
+  },
+  {
+   "id": "a3572ceada53be51",
+   "title": "Avian flu detected in poultry flock in Polk County",
+   "summary": "",
+   "source": "News · beloitdailynews.com",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "http://www.beloitdailynews.com/news/local-news/avian-flu-detected-in-poultry-flock-in-polk-county/article_712bae6d-f7ff-4cf6-a43b-c9e910243aab.html"
+  },
+  {
+   "id": "4cdcc991558fcf9e",
+   "title": "Thanksgiving meal prices up about 3 % from last year , Wisconsin Farm Bureau survey says",
+   "summary": "",
+   "source": "News · wbay.com",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-25",
+   "url": "https://www.wbay.com:443/2026/11/24/thanksgiving-meal-prices-up-about-3-last-year-wisconsin-farm-bureau-survey-says/"
+  },
+  {
    "id": "62f1939e203a4e14",
    "title": "FreshCheck working with Wellocks, a premium ingredients supplier to top UK chefs and restaurants",
    "summary": "Date not shown on the page; first seen 24 Nov 2026.",
@@ -2329,7 +3216,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-24",
    "url": "https://www.gov.uk/government/publications/precision-fermentation",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "8b38516b1e83bde7",
@@ -2487,19 +3374,6 @@
    "region": "Europe",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOS3dkWkdyNi1lbHNLWHROeGRMQkcwc1ZhT2RKOHJPTU1sc1dZN2QzMms0TDNISl9kcWxMSl9CMGcyWUx6Y1ZyZXFwanJFcm10MHE4d3IzYkFqYXdsR1QyT3F3d09RVWFkeG1GRm56MmpmZnIwdklma2lhdHlqWUdPNDNfSnJVNWFoQThqSW4xTnJiQTFwMjRJYkV1NmhPSHlTVmZ1dzYxU3pKbWhkcGpEaHpTcjM0R05DcTBqcHB6c3Y2c2dEZHZBLW5TaHFvMGtXZUVQa053NjVfN3I2QktDWkpRblVKUHpvd1Q4eHpCQ01LellENVpEYQ?oc=5"
-  },
-  {
-   "id": "ba9fc801a854c557",
-   "title": "Lebensmittelwarnung: Rückruf von Leberwurst wegen möglicher Metallstückchen",
-   "summary": "",
-   "source": "News · SOL.DE",
-   "signal": "recall",
-   "hazard": "Foreign body",
-   "severity": "medium",
-   "country": "Germany",
-   "region": "Europe",
-   "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSUdNZ0R6RGNmSzRjV2l1NGZEUEU5ODJRWW1tOW5DbklOTmVEZDE0YW5ITENtR19jTmp6VlF0TmxKNG9YR2RQNUR4eTlCYzZjYUdIYjlCWHFndnJRTkRGMEdNVHpoNlBzZTNBRWFtemJ6S1lVTG5FV3RrT1hId2xyTzRIeXA5dUdqc3hCb3BqakR6bE9xbzZJZGFsZ01pYkxJTkNNQkxQeThVUlR6d0ljVWx1bmhsNzFfc2xwNno0aWNzNW0wT0tTamtxRy0wczQ?oc=5"
   },
   {
    "id": "5aaf1f6a37a3dbe6",
@@ -3204,7 +4078,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3YWhZTnFZeEpMUEJDalRBcWsxbDJPS3lTQW9sTmVSLWRTM1hlSlVhQzBJdmZKSGNuNHhqaFVrVUdXMVhJajNIOUFrbDVtM3lUT3lhQ2VUZGY0eWh3Zm9tSW53OVMxemtIWDR6MHJjYXFxZw?oc=5",
-   "also_reported": 4
+   "also_reported": 5
   },
   {
    "id": "f0cca670fb8e857c",
@@ -3218,20 +4092,6 @@
    "region": "UK & Ireland",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQW9GR3pLOVN4dEtORnRabl8wTnk1OEQ0TndLUWJWSDA1OUJhZDlzZHU1MGVjc28yallwSHd3QjZvZ2RFbG5xMDR4ekNJVW9SaVpwbUJZdzJhYXlMZGMyZFY4aVgwTnBUNHJ5eWdGSUlSZXdBYnc3bGtqRTBlZEE4aWFkZ0w5aWhpMXpyZ3ZHajh5V3NOOFAxTnkxMnRRazhIcWtxUjNWbXhZUUFSN2J5SS03T25Ta0dxd2x1alkwZXRZdjU0RUJr?oc=5"
-  },
-  {
-   "id": "c5ca4db242cb5c43",
-   "title": "Senators Call for Investigation into FDA, CDC Response to Cyclospora Outbreak",
-   "summary": "",
-   "source": "News · Quality Assurance & Food Safety",
-   "signal": "outbreak",
-   "hazard": "Other",
-   "severity": "low",
-   "country": "United States",
-   "region": "North America",
-   "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWUd5RXh5b3ZleldqeG5wZHZmWHFsUW5wX2NHdHhXclA0bkYwMmpxUTlXV2MyaUVPcFZxaHoxaHg0SkJmVWlrR0dFcDBkN1VHMjNFT004cTZiazdleGVQR2tYNk5sYTNTOUtYZ2w1azRVZXpHNGJhd2lCeGw3ZllxeURYczdKcHVZQ0FlUUl0alJSVVpDSEwybVJScTBZbWZmRXIyNU1vTXJkZDE3aFBMQnNzVQ?oc=5",
-   "also_reported": 3
   },
   {
    "id": "150bfaaab60d43e0",
@@ -3297,7 +4157,7 @@
    "region": "Europe",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaHR0T0RmWkVQY0poeEt3b2xwSXNLaTVfb2xmZ241b2ZiQXR3NEtWX1RxakR5a3k1UjRCYWdNQm9HdjBoTXNTbGVzemNTd2h6cWJhY2VOZVBJcUdoOW1MOWg2QWVDV1A4bVQ2WHpyOFYxWmEyLUFDUnRBdnltbjVkd05SLWUyckpPSU8xZHJNeEZZZ2R0cDhzUkJWOFBpLW9OM1pGSDIxYUVRbndvUEhr?oc=5",
-   "also_reported": 12
+   "also_reported": 15
   },
   {
    "id": "06c36f03dc870cd3",
@@ -3324,7 +4184,7 @@
    "region": "Asia-Pacific",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbWREd29rXzdzbFFFZFlzcjFMWVR5TjZSVUw4UUF4T0FxQWItQWE2N2RpMERTSnF0bmZzQWRYaWZwakVFVVFqWV9YMWN3OHpyRjFwd3RtLV9KZTlHVEFZcWNsV1FTZ1Zpb0JXRi04Q2VXYVpCeU9yNmVsdWdrY2xybG8yQ0xWY1VOX2VldS1pOF9aVDVTYmNuMU44S05tb0d6OWpN?oc=5",
-   "also_reported": 3
+   "also_reported": 4
   },
   {
    "id": "37d9132370cd1991",
@@ -3625,7 +4485,7 @@
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQM2RmanAtalp5OXdzNUgtZk5pOUFudktodHpFbktzSTBEQ3ZfeFduMU85Y21QdHlzRWdxV01QclBCVE5VRnhyRlJPQWdmQ0ZUaFJsb202V3pKWlp1MXRmaWxNMHVOX2JUbnpwdXJZWDNxTmdoNkxDOHhWZGJPd2FtN3NPbXBnNTBkelJFeDRVamJqa1k1Yi1EalpqR0VDLWdqVW1VUjI5a1kydGQ4SGVjLWRSTGFjVFhNX2g0NHk2dk9nS2N5R0N1WjQ1cWNqeVk2ZC1JMGN6QkZReDJR?oc=5",
    "company": "Merck / MilliporeSigma (food)",
-   "also_reported": 11
+   "also_reported": 13
   },
   {
    "id": "968ad9ad42f79498",
@@ -3927,6 +4787,149 @@
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUTBER2lIc1NMaDE2cnFEdG5TU19nVnFudnYzQ2trcHFxUVF0VUJlUVhRWkdxWXlLWlNteVFseGQ4QjVsUzc2V2ZxdFBjVmJpczdCSXB2OW4wUFdYQmhPSml0a0JSX3hHOEViWGtSWU9aaHdiMXJGVktUVk9ZZmtoay1PRG80OEVwZEhkdkFDM0NqQnJERGc?oc=5"
   },
   {
+   "id": "9d43034b29a6948a",
+   "title": "Anvisa suspende venda de queijo mussarela da marca Italy",
+   "summary": "",
+   "source": "News · Sudeste Agora",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLXIyYm9HMFp2bm9JYjA2cEVudWR0N2ZQRThRLS1ZZHk2cHNnQkwtNnotaDBlYWhQd3dBUUhvOWYyVnh1RnpueUEyTGlXSEpWSXJ4bkprZTd5MnNmR3gtc25ja09CM3ZyQnRodTFkTzVDM0VYU3VzSlhScnhEeUJranlUOGc2SXZWZE1kemhR0gGOAUFVX3lxTFAtcjJib0cwWnZub0liMDZwRW51ZHQ3ZlBFOFEtLVlkeTZwc2dCTC02ei1oMGVhaFB3d0FRSG85ZjJWeHVGem55QTJMaVdISlZJcnhuSmtlN3kyc2ZHeC1zbmNrT0IzdnJCdGh1MWRPNUMzRVhTdXNKWFJyeER5QmtqeVQ4ZzZJdlZkTWR6aFE?oc=5"
+  },
+  {
+   "id": "3838984c3b990c40",
+   "title": "Bird Flu Returns to Poland’s Turkey Farms as France Reports a New H5N1 Outbreak",
+   "summary": "",
+   "source": "News · Nature World News",
+   "signal": "animal_health",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONFlBM2Vmd042S2VxZzVnRG5tbjNld3Bmc29wVUh3RXRSTDN2MTlPekZFTVlEdThMelc3RHk4UlZOWHJUaEt0LWZ5NUYwT0lveWFRMGtsSVBHUTNUZGkyd0ZEVmt0aWxBUEJHM21FZm53T0hjcVV3ZVFZOGx1eWZDWTJqVndnQl9GT0F6OG5VUzdHYlZ1ZGVRTURiVUdTb2FLOUNkVm5FOENTT00zcDN4Z29jRXp5bkpOOUsyNmNWMF9feGxnUGZPMnhn?oc=5"
+  },
+  {
+   "id": "2618d90d0695a417",
+   "title": "Cranswick grows profits despite dismal pig market",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdF9pMWplWjlWVkljOWk4N3I4Y3JWbGltZEZvTHY3eGxnNGt6T3hHMzRzb1AxUzJNSTZCZEdhVW9uWUFFQjdQSEh3eHdHZEpNWXlFaGFZOHJjNDhINnZzU082ajc5bExyZEFxNFhuLVdEU2pKd0ZsTFdOWnU3VFNXSkx1OXp4X2pPTDMzcVg0UUhEWWxRaVFvcHRkbDZFdjFJNUNjVXg4d2gyNmJhOXhhcEtlclhmZGczS1hsRHR2R3lybFJhS1hyVFhSNXlFOGc?oc=5"
+  },
+  {
+   "id": "981ceac1bec4b2b6",
+   "title": "Stop telling our people to be more resilient!",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbDNVYVRPWEVOR2NQUFJIbDg4V1lOb3FyMHJNM19mX1ZMRmlfdWZlNWVRamtHUEZxbTgyVFJRRFFhN2lzRnptWENwNkRoc05ublJRVnhTSENFZkV3cGFrVjFfLUl2Z1pXSzRveEV2ZEpEVXpZdXc0cU42cWJXZk40UzNfUU5NUWFhbHI1eTdSWmJVU3RpaFliel8tb2RJc2RKYXZGMlVoaDRQckYyRFVkU19fQ2FpZ1VwbXc?oc=5"
+  },
+  {
+   "id": "b4aff01308996afb",
+   "title": "Britanny Saunier M.P.A.",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UbENhY3dpV3VVU3RXOXZBRXdvRVRqOTBvUm9WemdfSWJ5eGlIS1g1c05ReUhEczl0Nm5wV2Z1OHR6by1ia3Y2R1FHUUFNRGZjdS1sT2Y4ZmJDalVYaEh6b2FvVUpRMm8?oc=5"
+  },
+  {
+   "id": "2c6f289fb1200156",
+   "title": "German court bans Unilever ‘sustainable’ Pfanni claim",
+   "summary": "",
+   "source": "Just Food",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1kb3p3bGIyaGg1dFZQVnM1TzVMWjBFQ0h6R3JNOTBKZjJxMk1oTnZ3R3NPSXVLRTE4cFNhTVZaZ1k1aTNlcWZWUV9CWXAwYnd3b2hFaTZ5enBCQWQ1NlBxRTAyQ19YRDhaU240TXZieDNFUlNGM2Vybg?oc=5"
+  },
+  {
+   "id": "5cee2a3f2f37a716",
+   "title": "New York ranked seventh in food and drink imports , with wine at the top",
+   "summary": "",
+   "source": "News · fingerlakes1.com",
+   "signal": "policy",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-24",
+   "url": "https://www.fingerlakes1.com/2026/11/24/new-york-ranked-seventh-in-food-and-drink-imports-with-wine-at-the-top/"
+  },
+  {
+   "id": "a160dd133a435b55",
+   "title": "Report Says EU Rules Hurt US Dairy Growth | Wisconsin Ag Connection",
+   "summary": "",
+   "source": "News · wisconsinagconnection.com",
+   "signal": "policy",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-24",
+   "url": "https://wisconsinagconnection.com/news/report-says-eu-rules-hurt-us-dairy-growth"
+  },
+  {
+   "id": "ea529fcac6afaa38",
+   "title": "Maryland professor : Shopper pivot from expensive beef has caused turkey prices to jump this Thanksgiving",
+   "summary": "",
+   "source": "News · wypr.org",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-24",
+   "url": "https://www.wypr.org/wypr-news/2026-11-24/maryland-professor-shoppers-pivot-from-expensive-beef-has-caused-turkey-prices-to-jump-this-thanksgiving"
+  },
+  {
+   "id": "40c462fe32c0c0a8",
+   "title": "Livestock sector will rival crude oil in revenue – Minister",
+   "summary": "",
+   "source": "News · punchng.com",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Nigeria",
+   "region": "Middle East & Africa",
+   "date": "2026-11-24",
+   "url": "https://punchng.com/livestock-sector-will-rival-crude-oil-in-revenue-job-creation-minister/"
+  },
+  {
+   "id": "9906231dcaf2a125",
+   "title": "Washington Reports New H5N1 Dairy Herd Case | Wisconsin Ag Connection",
+   "summary": "",
+   "source": "News · wisconsinagconnection.com",
+   "signal": "animal_health",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-24",
+   "url": "https://wisconsinagconnection.com/news/washington-reports-new-h5n1-dairy-herd-case"
+  },
+  {
    "id": "7f82459bcca39ccf",
    "title": "FSA guidance updated: hygienic production of wild game for primary producers and food businesses",
    "summary": "",
@@ -4126,7 +5129,7 @@
    "region": "Global",
    "date": "2026-11-23",
    "url": "https://www.dairyreporter.com/Article/2026/11/23/arla-foods-explores-sale-of-dmk-ice-cream-business-following-merger-completion/",
-   "also_reported": 15
+   "also_reported": 16
   },
   {
    "id": "ff454b577df1418a",
@@ -4140,7 +5143,7 @@
    "region": "Global",
    "date": "2026-11-23",
    "url": "https://www.dairyreporter.com/Article/2026/11/23/saputo-to-invest-600-million-to-target-fast-expanding-dairy-categories/",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "d8e6039cd96c6cfb",
@@ -4154,7 +5157,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-23",
    "url": "https://www.dairyreporter.com/Article/2026/11/23/irish-dairy-processor-tilran-invests-126-million-into-whey-processing-site/",
-   "also_reported": 13
+   "also_reported": 15
   },
   {
    "id": "742179404c956539",
@@ -4403,7 +5406,7 @@
    "region": "Global",
    "date": "2026-11-23",
    "url": "https://www.foodnavigator.com/Article/2026/11/23/cocoa-prices-could-surge-by-over-50-in-six-months-as-supply-risks-mount/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "8ad21eda14ecce88",
@@ -4768,7 +5771,7 @@
    "region": "Global",
    "date": "2026-11-23",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16ZDhnZGdYdFBwRW1EV0lyeTJxcFRQLWhjMl9WZkhwbmJLWk04ZVM0bDI4Sll0MV91YmZTcVUwNU80VktmczV2c0RHdDV0SHBtdzVnbmRfTnRCNUZ5MXM4MlZDajBYa1BFTWVvSktNRU41THh5eFpCZGJB?oc=5",
-   "also_reported": 12
+   "also_reported": 14
   },
   {
    "id": "5d09ffce3ab1e614",
@@ -5030,7 +6033,7 @@
    "region": "Global",
    "date": "2026-11-23",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNYmlVX2F0SG5vYzBCSTVGREJUc19NWHZpZFlvSjRrdWFRN1BsTG1fZ3htTUpJMzBLeHduUHh5OFp2dXR1dzd5d1lGT3ZZV2RhemxqODBseHM3cEp4dWNHeXl3cTlYZFdxMGh1bkNkVWNOQ1h3SHowOHY1X0ppSW5MVDM2RS1wRkFqRWQ3ZjhWTQ?oc=5",
-   "also_reported": 2
+   "also_reported": 3
   },
   {
    "id": "c08481d2a8817a68",
@@ -5447,7 +6450,7 @@
    "region": "Asia-Pacific",
    "date": "2026-11-23",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZHBuLW1tU3FWbEk0RDM1YjJjeUxQaG4yYUNseUR0SlVoN05XejZRZlA3REROTndtcGc4R2ZxT3Z1WThrd2dQX0huMHU5NXk5Z0tfbk96WkRCNHpMZS1DWDlDa3VRWVBYNDJld2NGNElBbE5iUHNtRzM3RzNfQXNaRkFXZzY?oc=5",
-   "also_reported": 10
+   "also_reported": 12
   },
   {
    "id": "dfe2fd4a25cb7c0d",
@@ -5697,6 +6700,32 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpOWlxaEtGRjVYNEdnODRSdHIxSC1kcTNmVzYwREs2Z1dFekUtOUtJU0NPUTlhN2R1ZG9zX3FMSG14VjEwWXM1bmd5TE1Ic2N0amhpZjZqeWI1al90VXhuY3pkSUhLVjN0?oc=5"
   },
   {
+   "id": "3bc179bec6fddb2b",
+   "title": "Interessados poderão concorrer a uma das 67 vagas disponíveis para comercializar produtos e alimentos durante o evento, que será realizado na Orla da Atalaia, em Aracaju.",
+   "summary": "",
+   "source": "News · RO Acontece",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxQdnc1Tm1TQnNuVmNSeXQ2UjhjNWtsYVRib0ctUThDYXcxY2JnSFY3emZ0SDJxZWtLTHcyaTBJRUNwN1FOQUE0Q3FBM2lWQ2ZNZ1E4YVNlTEg2b1Rmb2psYkc0QUphc3JaZVlWZWdJRjNIU1JWWVAxMjF3UzNaRW5wTHZNUFN3cGF1dGt1OFBRZElrZThrVkVUaFlPeC10Smd0aVdtQzFPQV9hRHB5MXRPUUlEd0NVWG50U3cxOExvLXh1bmx3OG5Kd0E1X2RrMmFWMjRDMGtSRURMSU44NlUteGlXSDl6cGFmbDFOVDI4MkYxc2wzbnZ0WmllQjFneFpIVkVJVFFqQllNYlhBcjFLaVpFZV9JVWl1cTlhZHJWTmhJNFk5aEkxUlNCZGE1Zw?oc=5"
+  },
+  {
+   "id": "c01e4e7ca890e99b",
+   "title": "Saputo seeks profit boost with bet on cultured dairy, drinks",
+   "summary": "",
+   "source": "Just Food",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcm93dlpteVFaaGN1Tk9fWDhiWW5NU01aM2dJUHBKODJlZGs5cS0ycEsxazNVQjZIcS10UFRuRGdmRlU4UTA5cWRXUkg3ZnZBWGViOWk0eEZ6WWFrOVR5VUdoMTJXM0hJMDF2OUtnOGU5U2kySVdyQnBpTDF0bElVZ1RuU2tLcm1NZEE?oc=5"
+  },
+  {
    "id": "41baa0833b6744e0",
    "title": "Bird flu: Northallerton, North Yorkshire, North Yorkshire (AIV 2026/34)",
    "summary": "",
@@ -5839,7 +6868,7 @@
    "region": "Global",
    "date": "2026-11-22",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdmItVGVuUFdZR3owVUY4MzhQclE3VmJIUkVxMjhhX0Qwb2M4a014RTBZa1h1WlFObkRmZnpjM1VodkNWSXdCdUtHaDBNX09BeWl6RUIxTHZRVm9LWUFOX1puVGhkLWNwM1kxSEZNU2VTbUpnUXVjUEZfblhGTGNsNGhORkRyVWVrS3R1LXRWT1YwQzc2LU03MDhhekpIUGpuMWM0bldnREwtcDk3WEd4VQ?oc=5",
-   "also_reported": 16
+   "also_reported": 18
   },
   {
    "id": "61ea130afc982da7",
@@ -6035,7 +7064,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-21",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-prin-54-2026",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "598366eb32d9f318",
@@ -6128,7 +7157,7 @@
    "region": "North America",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTTQxNFgxZG9RZGxQUU84WEg0RnhJS0Nsc0psc3FDcmFJN0dCRTk1YlZBM3FNMkZUeHBUdXh4Rjg5MXFqcXg1aW01YzZLdTFWVWxTVGdtbGhFSW9vTGJmamthaE0wb2tHM0NNeHVaN2hadFpBSkJKWVhDUUwtNVVWMUlGRjg?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "91f985afb27c9940",
@@ -6168,7 +7197,7 @@
    "region": "Europe",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNzIxZ3UzOC1iLVhhbkI3WjBXN0U0SnNWQkNZc1pRSEMxZUpDUnNMLW1CMjdJUXFibDROMTNtcFRDQkF1eEFPRV8zTk1vTmlpcldhNE52SDJyNDZXd01paDczNlZwRnZNUDBaX1dVYzVTOWZpNjljbkpqZWVNVHBTYmtjRmk2TVVWdHpsYVJnQzNKMWNsTE1lZHl5TGN6REpIN1lpOHBkNllaOFlBcnhrcnlRd0xmSEVDX0RFTHRZWG5IRklpdGd0ZVNGeEFhcGRlV3V3OE5lRm00bnJKX2NISzZRY1fSAeQBQVVfeXFMT0pMTDBQN1hZMEQ2cGJTN3FlOFZGWmNFVmNpdnpKR1lZVF9ULUhUZG5UZ3hCOHBKa0FZY01EMWRwTHB0LVg1SnZoWVpOZlM2aVJvekhZZEh4aUV6b0NSRXFieXY1aHFJZmlVN2VESU1rTk8tOHA0cnZBSDdvT194V0pVZWd5SFBiLXdkMzVHejdfQmJyMlQ3dUtjd0FoVXhVakMtemQ5QU9PQmROM0JOaEc0VXdhNmRmMFV0cHI5WTY5Zmh1QW1ZTm9wU1EzV3pCZm1HVTNacW9xRHZvS3BCc21TWHli?oc=5",
-   "also_reported": 28
+   "also_reported": 32
   },
   {
    "id": "7b07aee70003b4d8",
@@ -6182,7 +7211,7 @@
    "region": "Europe",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTTFNeWI1dlhxc2dpTHN5STI3NmpQSnptcS1kQVQyZHpkWC1ScmhndFhBYWkyblZjS3lHdUZnWDY1OVlZUW0tR2gwdkVXR3FTejdGTkgzMnhUN3dhNUFRRkdVRVI0UENkS2Z4S09RdUJFWGpRRUhqTjN3N2p5R1VnaTRIWEdZTERQNWlPQld1ZHQ1dw?oc=5",
-   "also_reported": 14
+   "also_reported": 16
   },
   {
    "id": "953a0f57c22c7843",
@@ -6235,7 +7264,7 @@
    "region": "Europe",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNEdJVUpJcDIzUVJNb09nd2FfTFE2X3VZdXp0U0lUUVRyZW1DYjhLTldBUEdpRHBUUDJNSEhtd1J0ai0tQkIyYnBJRW9JS0NHR0duS3E5REJyT0JBamZQX3FpVXhGb3pRdWVYLXNRUVMyNXFMM09KOVRWbGkxdGJtU29ZYlF0SVIzTVcxcEs0dTg3bHBm?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "5e15143d8b903548",
@@ -6485,6 +7514,19 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTWxoMS1LYVZsOEFzc3hlS2RpeEVaVzRSMnZOQUs3UTZDRVpSUjBoanMtcDI3RWFkZWZJUlZsTVlSM0lDb1FVVjR3UlZnTkZzU2dwRDBEeGotNUc3M3RlUkpLOHV3eWxSVm15Ml9uWWNtZ0NZMkFFNnJpN2ZFTWQxYmJuUGo4cV9rVTZhbXVibG93NU8tck1rMlp2cHJwdk5zcWNKTE9tejRtZTA?oc=5"
   },
   {
+   "id": "e3d48d38fdaaa764",
+   "title": "Calf weights, cattle performance and store lambs on the ABP Demo Farm",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZjg4eHNRaTlXUVo0Rm5KWUg0d3pybzV6WHVMLUl2YnZmUjJWelBUTEJWZnpYZUlnajdZVXE1Y1NsT2hxRW9zU0JPZ3QwaG1BYjFoZ2d4Q0lwX3UyZ2U5cGdaSk5PR1h5VExRZWVLN2N3aWdYUEV0Yl9KRExWUFpEbEtuNkF5WUVIQUIwQWx0MWZ5QjAyT2M3aGx5eEVHZnFaNXpZM1RKT3FIQQ?oc=5"
+  },
+  {
    "id": "2df092e925eb4172",
    "title": "Bulgaria: 26 avian influenza outbreaks confirmed across five regions by mid-November",
    "summary": "Dobrich, Plovdiv, Haskovo, Stara Zagora and Yambol.",
@@ -6678,7 +7720,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmNvTEUtZTdCc3hiTTE5LXlYSFplMEVWNi04Qm9DVmQ5VF9MeW8zdjBtWUdTaE9iSGxDTHpjYncxX3RXbDR3THplTldJZWRXcWJySVZEeTExclNJODU1YnJtRUt4TlJWYzdfaGtMQmxEN1ZNYWU1WkY5V2t4SVJ2cnhtdkZUNmhnWlE4NFZ5a2doY1VmQ3dXLWNBMkjSAaIBQVVfeXFMTXExX2ZQblJvcWpkWGJhSEl4czUyZ001aWRqdHVjaFFVWkJIY3Z4cEhrWVlVUmdKb2pvSHRXYWNJVVBpbmZGSnljS25nZEdaYlJVU0lxMVFHZVBYMkdCcXRsampWMzdwdFJlRzlIM09yRk14WTVHUmdOVnpHRGxQOFNUNzBDVmZvNVZ1Y091X3A0YkE4U1hjMmZaNmdibWdLcFlB?oc=5",
-   "also_reported": 31
+   "also_reported": 34
   },
   {
    "id": "306d72788a034a07",
@@ -6692,7 +7734,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNzR4clUxV3ZrRW1Zb19RSnZDYm5SRFJib1RFZ05WRTdWZTBKNXdxRWxEZktla3dYNm91T3BPRGNRc2E2SExfekVjNHZuN3VVc2pqS2d4YXJVeHhSNWJXSU5COVBQYmhPQjlobEphVTdCUC1KSVdUX2xpUlVIdmUxMlhzaGVkSklPbXpldEZBQk0wV1ZvR2dF0gGcAUFVX3lxTE1UOTk5SmNWUmFZazVRWkFRYWt3dUV3X2MxZHRQNS04MG11c0EtYk1Pc2F1SGZ0VjBpSzlnRGxXYXJKR3lXb2VvS3ctRUkxSHdJY200MGxpRkhLTHdPV04zeHJ1N29tU3VxM2FpSlhlUEtiV1dabHAyRURFdVFCeWo5T3EzeHIzbmNaYmtUU0FqSHIyS1FoSUZFQzQ3SQ?oc=5",
-   "also_reported": 10
+   "also_reported": 12
   },
   {
    "id": "b5d8fbb9117cdcee",
@@ -6719,7 +7761,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbllSRktHN2puQ3Q4ZXR0YllZWWpLcjBOb2ZNM2JDcG5LU3RfMGc3R1dRRElqb1A4MVRuaTdkampnV0tNck1MOFV1dUZCd3p1QTB3c3dwQmdkejhYYkZQZkp5dVpBS3lNdVExa3Ffc2VRcDdodnhIUjdmZ2xDaVNocDF2Y0xaaVdicGpHdVNkR1rSAZYBQVVfeXFMTlVxMTI5TVZ1VlYzbXdPRng3TjdqQ0gwYzhZdkdvYTJfeGdCekx0dTdsYXBoQktOeVFaRGJLaVRTQzJ5NS16NHZSbU1iUFk1aDdtaHQycjJlQWlKaDFQRTU4ZzB5SzN2VWRGLXFPUzlwU0JySERfaFE1ZmIyWXEwelFJUTJZQi1GdzJtRFVTcW1Hc1hGZnJR?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "ccb9645e59db9d95",
@@ -6863,7 +7905,7 @@
    "region": "Europe",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONk1YTjJVeTByZjNFdGVNMjZrdk5ZNzcwVWwwd0dzTDNQQkpIZTBHYnRhVjd4c29QcVpGdmQ5SUdXd0VpR1RSZFUxSDFXaEpHcHU4Y3pWVThCaHJHWTE1ZS1DSTV2S3BkaW12YjhZamIwNlRtakRVejlDMFRtRWp2cmNHVFg1YkZaLUxaTUlPZ1pIT3hVNHl2elQtbVFHMWxLSUxObURnQXYtUWZPODVDWDBsU2NFczRNZ2pTdWFzcGw4ODI4N3loRm9TUQ?oc=5",
-   "also_reported": 4
+   "also_reported": 5
   },
   {
    "id": "ede4a0230d50658f",
@@ -7047,7 +8089,7 @@
    "region": "Asia-Pacific",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GNFJTLTgxclNTVEtfYXA5UF9wYXlhbUlScHVBUGFMeEpaSTI4UUpNdmxrRHZUaFRHSm9hZmk0LVVYbmttSEk0WS1MbmFWcnRDbENOa2UxbEFtVF82YXlnd2lGSm04VWlH?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "45cd1d08c395a80b",
@@ -7244,7 +8286,7 @@
    "region": "Global",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUW81N3N6bEJNTTd5X2lxZ1FIX0Nqd0YwWVdtOW1NYktkN0RxcHdvVEo2TGRyeTFoZm83MDMwQ2IxVjB3bkVUQ0JkWlBGOHV5b0FzN3FHY0pTMTVwS1ZyQnBvY0tCb2VtNmhCa1h4SG11MDk3bW8yUlF6cjZiZzYzVlBSWGtmSjZUWUliSzhkdWVnTEQ5Smt4Y1ZlblNVQQ?oc=5",
-   "also_reported": 6
+   "also_reported": 7
   },
   {
    "id": "54ac48beea2bd0b4",
@@ -7271,7 +8313,7 @@
    "region": "Global",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaGRuTGgxNmJTQVk4QWZKX2lHQURwamdlc1NMLW1jc0JQRUQ0RWxwMndyS2p4bElvRF9iNUowNjRhY0NGS2JFaGlFNnRzMC1yRlBZY1dMUlVMSFR3RVBPRDNkMEhrNTJpcklfN0RwX2NJZE5oQnlqRy00d3FuQzFhdFZKMjhIUEZZUGJoV0M0ZzZfVk5aUVMyS2g2cmYyV1FRSkR1ZkRMcGNXa25jNXFwczdBbl9qdV9Zd05xU3hhdFVvX1R0bUxJS2FFb0UwU2Q0bmVjUHNJaw?oc=5",
-   "also_reported": 4
+   "also_reported": 5
   },
   {
    "id": "a6d7e1f6d08c6d7d",
@@ -7662,7 +8704,7 @@
    "region": "Asia-Pacific",
    "date": "2026-11-20",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90djNXQWFEQ1ZxakM4TDVMYmtmOWR5eHh5NmdFczR0MnlPUzcteTYzQ3FucDQydjhmZWhiRVdGcVdqZ1M1ZzRCQWJ6ZzBVcTJXZWRBQlZQTEpjTHBncWlPdHAyV1c?oc=5",
-   "also_reported": 4
+   "also_reported": 5
   },
   {
    "id": "163c526ec161b4c1",
@@ -7860,6 +8902,71 @@
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03RmVSdHJ2a25NcVdMckVOUkxTMkV1eGVJVjZwTVhSTzh5WDNNaEZGd3VrZHozZXp5STFhcmFMc0kwdnpfU0wzUTg0cnlIWENXTnZlU2xSRnZzUlk?oc=5"
   },
   {
+   "id": "a561fd1c55b1cd5b",
+   "title": "Three senators want an independent investigation into whether FDA and CDC staffing cuts slowed the response to a lettuce-linked Cyclospora outbreak that sickened 12,883 people.",
+   "summary": "",
+   "source": "News · Medical Daily",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United States",
+   "region": "North America",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc1lYUjU2SDRNZ1hONVpkVEUzaWl1b05uWU0yQnQyNWpZVkVXMFJOYi1JSjdfWWpTNENtblhsc2dTb2RxR3k2Nmd3VTR2UDEyTG9sMDg4ekJEU2NDV1phWDV5enJGUk9jTkFmRzlibm8yc2ZSenZMZHBzOXhYUzVLMG8ybkZWdThVRWNfNXplMWV0YVVJaHJwS1hBajdrVHc?oc=5"
+  },
+  {
+   "id": "60ac2b2948f0f053",
+   "title": "Avian flu linked to Moose Jaw-area poultry show spreads to other provinces",
+   "summary": "",
+   "source": "News · MooseJawToday.com",
+   "signal": "outbreak",
+   "hazard": "Animal disease",
+   "severity": "medium",
+   "country": "Canada",
+   "region": "North America",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU1NlR3pKZUpoRGY0V3ZyYkQyM0g2eDc5U3BhV3k4NGJ5aEhBMU44Q0VDRzFzMlNFa052dFJzQ0xvZG16eVc5ZUhlN3oxRHJPVEZNUHhXV2pRRGJwdFVFQVFjdURlSllDX2oxc2NkWXNTQnlHUzlJQzNlZmtsaTZsV2xzNnprWGJQZVVVWTNLbjFvSkFnbTlTSFZ1OTNvMFBMQS1HUHJ1Z1gzVDVWNDllelBLOVVOOW54MkY3cXBZUGV1UQ?oc=5"
+  },
+  {
+   "id": "68e3d3e1bcfef8a5",
+   "title": "Food Safety Digest",
+   "summary": "",
+   "source": "Food Safety Magazine",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wREEzbnRxbjE5cHFsUGJaRVFBZHJhanRVWmlTYkw2dF9wS0RtdjBZcVNXeWtJVHpLUGRHS1NQcFRYZUhaVFNFOHJUSjZGTklDT1g4S1RBVXJlVmYzMV9xakFTeHZkOE5vWi1DTw?oc=5"
+  },
+  {
+   "id": "43dcd37531006d8a",
+   "title": "Processor 'sales strategies' questioned amid Irish dairy prices",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZGZKNTdlNUw2YWdiQ2lvVWk2VVltSEtnc1V2czliY3B5RTB0T0VnYWRsaW5hbmF4WE5kTzZGNDg1eUZGSkZFNDZLb1A5N3dobjIzOXBXamY3aGlFRkJsd00xNTZvdFhtX1BfOVY1ZjZZZ3luWXlxNGt2bGJneVZqZ0dqb2tLQk5FTHdyWldZOHVIOHBzYmRtelFkQzFaYy1x?oc=5"
+  },
+  {
+   "id": "824df8e990a8944b",
+   "title": "Further payments to sheep farmers to get underway",
+   "summary": "",
+   "source": "Agriland",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ3pndC1Td3JGQ3VfZTJrV0daZWdVQ05HZzhiSmw4ZFA5UExxRXp5YTNJOTdLMVA5c3NKYXlRdmdxcUM5aV9mSTlON2NoMFJncF9XcFg0QXNCeHRqVkZfVllXRVltMWJVNzd6OU1UQ0RUT1ZqMXpfWFFCcU56QmgtTFBhSWNfczFyaWZIZTBwMno?oc=5"
+  },
+  {
    "id": "74c2a9095cbb63a9",
    "title": "Salmonella Enteritidis t5.9411 outbreak reaches 471 cases in England, up 22 since last report; 43 cases in the past 4 weeks",
    "summary": "Fortnightly UKHSA release, data to 3 Nov 2026.",
@@ -8002,7 +9109,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUdrcTRnelJGUEdDTDI2RGJscFR6X3M4UmdidUhQaWxMeDhiR1ZEVVJuVWd3UDJVZVVOZ0xuZk40c2pmZ09qTUc5eG9pWDJRRjVOUkkxMklEYTRZR21jQ2x0U1VkSE4yZW9SaVd4SkZ0dEhUZFZsb0h4Tm1wd0tTR2RIT2paNHJkY3NDR2taT3JpenprcDU1SUlPc1puY0tSWC14ZjZ2QVBLbG1NZlZzWnR2ZkVqQQ?oc=5",
-   "also_reported": 2
+   "also_reported": 3
   },
   {
    "id": "7e48b0c2929e7ed4",
@@ -8029,7 +9136,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5md2dXNXFNZC1FOW9wOHA3cTF6T1pYa3kwRUZXTmpqa2RFSm1PdFh4M1kxRENnZUp2S3IzSWJJazhMQk5hR21pLUdlRnN2ekpIRDA3bmctNm9BWUVKV1IyVnNsa3ZKUl83Uk5XWjFHWkFxWTVLWmc?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "df5d65f03adba2d0",
@@ -9294,7 +10401,7 @@
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWHY1RzYwWlFhNWJMbVFSRFRRbXJNOGhDYms4cjNva1EydGhicVpfR0J4Yjg5NDgzU2gyci14OXdIbW1lX1FqdGQ5Yk1ZY1FrMmFzbzNSRXlSUTNBT0xTanJSYjlSVTVGUXVwckJDcXpGYjNPQnBaazBPSU14ZlZKZlFGa1Y1UlU4M1RIVWJLb3VFYjNUaDNzQ1NvdmkyNmxCZl9iU29KTWFRTU9hbVctQTF2NGdsNDJZ0gG_AUFVX3lxTE05NGpJbnJWd20tUjgwRXFkTEFwZ2Y5SkVCaVFOOXYtLUxIcFA1dUJ1SWNyeU9kc0hyV3RmckUwWHJvQ2ZHOWdrX0w5bnI5eDVfMEM1NGhua0d1NXQ5cHhESm9HelZjbXZyNEJkYUVLdU1jeFV6SWVwTXhjNnZ1SU9kVHlWcWVZUU9waXViUVIwNGNIVjNiZllSTlVKbXZwMFA4RFoweXh5WmEtYWFTREdIekNUUzZSNUQ5a0J3T3Bv?oc=5",
    "company": "Merck / MilliporeSigma (food)",
-   "also_reported": 31
+   "also_reported": 39
   },
   {
    "id": "19a402a70374653d",
@@ -9425,6 +10532,45 @@
    "region": "Global",
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NZXBuQ1lnTTFQRFlLRXR6YjZ5TXNmRjZOcUlhdEQyN2FqczBIVm1FZlQzRERzSi1DNHFUVDlhQUZVUE81VnVyVlQ0WVYwYjY0eGlPcno3cERxQWtFckh0Q3BRc25WN1U?oc=5"
+  },
+  {
+   "id": "b7746e1d0d9da75a",
+   "title": "Blue drinks to fibremaxxing: 5 trends shaping food and drink",
+   "summary": "From GLP-1-ready foods and fibremaxxing to natural blue drinks and clean-label functionality, discover five food and beverage trends set to shape 2027.",
+   "source": "DairyReporter",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-19",
+   "url": "https://www.foodnavigator.com/Article/2026/11/18/glp-1-to-fibremaxxing-5-food-trends-shaping-2027/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS"
+  },
+  {
+   "id": "7be33d63fcb70b6f",
+   "title": "What happens to food poisoning complaints in NYC – Environment & Health Data Portal",
+   "summary": "",
+   "source": "News · NYC.gov",
+   "signal": "outbreak",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTW1Dd0dzNTF0WVBKclY3ckxoRXRWNTdUeU43MXMtWjdUMExxRm5kVVdzVjIxM2p4WWQ2YUNFSTdPamE3ZE5YVFNGOEtEaVJWYVNoY2JxOTdjaElsNlI2TmpVcFNKcWpEYzBXWlp0WVFNU09ZMkFUTzZpbXZmbHZSOVhpa0N1dW11Q2pjYmNrOXY?oc=5"
+  },
+  {
+   "id": "e01750b8150b0045",
+   "title": "LT Foods buys Maya Kaimal Indian sauces business",
+   "summary": "",
+   "source": "Just Food",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85N0lmTG5kVDh6UjZUUHllT3hkdEdWaTUtU1RPc29yWDAxa3RjMlQtWHhzTFJpRzgwSVQwenF4REhuVlBVTW9yQmc2RGdYR2RIb2RXU1dTbFNZUzBINm9ENDJVMHVEcEtSNFNOMWNjSGVSdVZUS0xqUjJJbw?oc=5"
   },
   {
    "id": "e325748865594bc7",
@@ -10556,7 +11702,7 @@
    "region": "Latin America",
    "date": "2026-11-18",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRFJ2Q0xtcVdDUDBpOTF5UFdvWVpNa2hyZHVQaFdVS3ZsTmt3WTZBLWo1UWV6bnkwYmVzTkNiNXEtVFFWTEM5NGFxSEpsZzJ0RDBoSTBVckdNQWFxZGk5alA2Y2JOX0VHd3NrbjJrV3NJS2o2a1cxVE9WNDRib21xSDkwY1hWRzRwOUE?oc=5",
-   "also_reported": 2
+   "also_reported": 3
   },
   {
    "id": "5839bdbc623b395a",
@@ -10700,7 +11846,7 @@
    "region": "North America",
    "date": "2026-11-18",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0208-2027",
-   "also_reported": 6
+   "also_reported": 8
   },
   {
    "id": "5f00c5e3d6b1dfa9",
@@ -11016,6 +12162,71 @@
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSzFHajFlS1Bqb3dVY0l4RzhoenZoNjI2X1dGSDB5QUVpYTN5ZlR5cmxEamZ6cEdld2pVQnh2ZHFiSG42QWxURTRqZl9QWVhRSUk4dEZDeWZmQlZlODR2OHFtbk1MaE1neUxRV0NGWFo1MGFtWlhaYXRKWkJ4bHNwcEFVeVRNMnB4aEpkOVpmcnFjTFl4MU8tQzhwNGwzSnBOZ0FLVG0wUXQ1OUMxSUZHMTFzVWpVeUlKeDRmc0s5S1hMUnlWdnBqOV8yTDdaTWZGS1E?oc=5"
   },
   {
+   "id": "3bd4f55ce122d5fc",
+   "title": "Building confidence in food manufacturing’s rising female stars",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdV9MN1EtQ0Q1WUItUmhaOF9MY1A5aTRWSnQ1Y3JUbUhGZEE3N0V5TE1tLXJkNkRGRkhlcTNiX3BCYjVNZUpfcjJmcnUtenVwYm5Dd1M1WThHUGpqVGk0clFBdFhCZzBZVkZBUzZyYXlFNi1id1VwV1JJQXpqdFA3c3VIRTJoY3lVV1BiUUhQREtDbmQtVW95RUJzOXBZblpQbzhlU1BOMjRxY1hKT19RT1U2cnpBQ0k?oc=5"
+  },
+  {
+   "id": "3d0c05bc0a1a81c4",
+   "title": "Milburn NEET review overlooks retention",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc3RDQ3poaWRHOGhhbkhYMnF6R0N1bHFqbGZMaUItNU84NUl2ZHVrem05R2hfRElrczFKRVgyOVVIcFdYdDBBWUowX3QyYVgzVWFFQ3pQcWZUMUdRY3RRbEY2UXJwN2Jrc0pUckhrSjRYb09qLXRpTF9MaEk5U1hhS005ZE4tMDRfZXphSUdDdzZkbjFxd29BVkNYbFhnOUI0SWRPeHI5RktqSFFTRnNqMEZvdXphN0s2cGc?oc=5"
+  },
+  {
+   "id": "190cc9d663dfae67",
+   "title": "Chomps deal: Sixth Street buys $350 million minority stake in meat snack co",
+   "summary": "",
+   "source": "FoodNavigator",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdmJvUHhxeWRjUFRQUm82ZWc3RTVJUlNyN3JENTRRVmNwcnhucFpyaE1WdGdQTXdSdE1CTDAtNVBhcl9TWkl2blpEWmVCdFI3S2l4MFM5cjhYN21aRDhNNzV4RGVVVU9EQTFmeGZOOFBjelBSWTkybkJYdmJYNXhRWkZhVEpOZUt3NWpGakhURGJsV0wxazFLRlJ3ZkpDbXFNZWcydV92ZVpOQQ?oc=5"
+  },
+  {
+   "id": "33afe1a8cb31b744",
+   "title": "Life Water debuts water bottle designed to be recycled with paper",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdkpmam9fdFRUNGozQkFPVzJiRERpVGMwY013TVVPY0hrZUpiVmRZdVdxLVdHUEhHZ1pLMHZBTFNuTzVXckcxV3dRQWxXUlllTmlVaDJRc3hMcGZhZlp2Y180cVkzUHhaVnNZWXUteEdZZkNlQ1VrT2trb3BIeEhTZzU4ekNGaGpZWHlkanFkbTB4R25wRlkzT3ZNSEJIWWZsVzRYajE5Ri1BNjRlTTY0YmpEUQ?oc=5"
+  },
+  {
+   "id": "e6d969c87c54777a",
+   "title": "Hotel Chocolat brings Wall of Chocolate to John Lewis for first time",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc1lDOWoycENqTDFEbjM1N0R3YnV1NnkySjVGWGNHclpqeHZDSlBGWmF5MlZ5VHkySm84SFE5am5RekozVmwxd0pYWk43eFZHMmNHeGs0UUY5dENBS2hpU0tGY3Jxdm5YWWtiUzhoTktRc2JoOVN6ZXZzdVhjVnMxTjFlbkJCYkhfSWNZMjVWQWJHOE5FeTQtUUtaTWxMZlNRNEVoY0phRll6dl9Yektoa2ZmWEI5dFk?oc=5"
+  },
+  {
    "id": "64316b2a8ace2cf9",
    "title": "Gelatelli coffee and vanilla gelato recalled for Listeria",
    "summary": "",
@@ -11196,7 +12407,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-17",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WZnlkZ0poRUlVeGNvNFBuZ212djNBVHEtajBDb2daSnh3OUwwNUdSa3ZuNGJ0ZXl1NXRuTGpvS1FxZFlzbUtndmhRMF9vYWgzbjVjYW11T3lDSm8?oc=5",
-   "also_reported": 24
+   "also_reported": 28
   },
   {
    "id": "80b40b0bbc7e27ca",
@@ -11341,7 +12552,7 @@
    "region": "North America",
    "date": "2026-11-17",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUXNWcFQ3THM3Y3pmUFFlSnJmbnhqQ1RLNDE2MjJrbDROTnhTaGNEYkZHakNZM0xNa3NpeUdiWXFZSExhUlBNU1M0WnhVX1lSMFpkWDVsNlZSWHFzQXhxaUhXRTMzMlRRd2Vwc0MtLVI3SldIRWhOMDBuaXJjRl95bktoaUotNVdfRklXd1RHRVJrNnZUcEVORnFuaDZ5Y0hQdlptMFdKZVlkeXNLSzV4bnhtZ05qcGRHb2hQWnlwazY?oc=5",
-   "also_reported": 3
+   "also_reported": 4
   },
   {
    "id": "e58df791277e5f16",
@@ -12358,6 +13569,32 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zMHF1ck1tY2FxM1lxd0dfenRuSWVySWctVUJmcWstSHg3TGl5MGgwdXBpTEFkNUJmUWlGMngzMmt4c1dPT2FpN25sSDNLeDE2Q2d4anBGSTZlWms4V3lSNEFFOHE0VzRzVGozamZFMExFUTVP?oc=5"
   },
   {
+   "id": "710c16bbfe829fbf",
+   "title": "Suplementos alimentares têm fabricação e venda suspensas no Brasil",
+   "summary": "",
+   "source": "News · SeLigaPB",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-17",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWEVySUlsbVBFaEZjWkpSZXFPMmRLZTJvamhMSzN2WXk0Mlk5eHZMcHZZV1VVWFgtVTR2SUtWT0lEQTY5UUh0aWEyTmlxUHBMY1JoTTluTTlWb1Y5bm4xRzB3bGZyOFY4Y2FBV2JQRU9iTXhzSWhOcHR6OFJpcGtmTnlrUTdjYVJEZ2Y0ZHV1czVEWFpyd3c?oc=5"
+  },
+  {
+   "id": "2487f421a2bb3e74",
+   "title": "BFFF president calls for frozen food to play a greater role in UK food resilience",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "United Kingdom",
+   "region": "UK & Ireland",
+   "date": "2026-11-17",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbHdKZWJfTmNxaEppM3FkdG4yRzFMbTk1bTRwbnZpUEMzWGpnOE5OdUFkTktIbVhDSm16TUtUS21xTG96SURSY29vTWRNUDQ3ZDAxcmhyNnNmdWk1TWxwaWlqaTF5Z1RDcmxxclJ3MUwzN1JzMEs3Rm0wbE1IRENWZ0IyVHdQcVFnSkVodHAwRUVReVBORVhqUEdadXlsV3ZKNjRjLW9PV254TmRRSFVxX0dIRnZkZ2lWdElUSDFxV1BxVTBmUmNvRQ?oc=5"
+  },
+  {
    "id": "6cdef9e1b4353495",
    "title": "Study finds genetic links among drug-resistant pathogens in humans, foods and animals",
    "summary": "",
@@ -12461,7 +13698,7 @@
    "region": "Global",
    "date": "2026-11-16",
    "url": "https://www.foodnavigator.com/Article/2026/11/16/danone-completes-made-group-deal-to-boost-asia-pacific-growth/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS",
-   "also_reported": 6
+   "also_reported": 7
   },
   {
    "id": "2202d71cfd357d1b",
@@ -12501,7 +13738,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-16",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeURGX3FTa3EyZ183bW5KMWlrWm5JMkZRYW5hZ1I3b0ZnN3RYaEhYc09RNUF6RE1LaWl1YWstY082TC1XS1drNFJMeV9MQ29nOTNPcnpsMk4yWE1KZEs3YUtUNjJEWmRxVkxkVHRDMGJ5aHQ2YWVXSVZ3UkZvNkk3ZThzYTh1QdIBiwFBVV95cUxOd0llelhSMkZRVjk5RnJsT2gzRDlrak4wSEllV2Q4RktQSDh1RmdXbDBnX2NtYXBXakFIcTFNTTVYNjRLeGRaTno2LVM2RlEwZFhHZk5STEpkQVRSa29BcHB0NklYb0p0VVVZRzRwZlZ2ejB0WjVrZy1takxnWjBrcVM3c2JlblctVXVN?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "cc258199409029c1",
@@ -12619,7 +13856,7 @@
    "region": "Europe",
    "date": "2026-11-16",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUHhaRnNsRGhuekhjUXBZalBpeHpISm1JeDRJN1hpeUVLLWVtRGg0OXEydlEtazE3TGlBZ1JOT25TNjRuOUh6a2tGWWVjRE9qWEx5UTJiNjRIOXV0WHlBdEk1UXNFeEd4QmZtZi12VElDeUhkVWZOLWc3TFllb3hrenNreHRVdnhDSkROcWE4bTNxRWIxdFExMDVsTzdRVHFH?oc=5",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "462588dc3421742c",
@@ -13260,6 +14497,45 @@
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMFdCakdITXZfb1R0bVVHVUJpTzFkblNpbGJUQ00wS2FURDlyOE56aUVZOUN2OXl0V2pyUG0wcGVSb2N0MEhuWVZiUXBfSVRoMXMwbVduNjh4OGJiZXNwcTE4VWVkS1RGdTh5NkVpbS1CS0h1U3VvV3c5Y29RQ2c4TGF5VTlLT2JjanBfSDBkdzIzT0N4cjB4dkp6VUh0YUVMT3JmV2gwVHFSWGFJOTV5TS14d3pfUTVfVEJoekxDWWlaSGFhQmJlOTQ4anFhQ2FqX1VBanlheXY3U2I1dzZUR3VB?oc=5"
   },
   {
+   "id": "f884ad970de3f484",
+   "title": "Lote de queijo muçarela é suspenso após bactéria ser detectada pela Anvisa",
+   "summary": "",
+   "source": "News · ACidade ON",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXNJRjRWdXpsUGxMWTFuci05TUFxODA4dExlNFI2NUlwZ1BQcjlHZTQweGpJVGRSU3Nfd2VkUGhLMmI0d0hFYWlTRzdJc2FLVlJXaUhJN3ZWUVk3VnVfT1B5MW53aVVFdEk3bnByMS1mTk5ybkw2ZjhwcnJOUkc5Sm44b3hkblNZYnhjcm9XWmpVanNWMjVGZXlzZnFyUENPcjgyaGgtS1hJemZ2MmtDMW5WMkdFZEFZWGN2dNIBwgFBVV95cUxQbXVGV0p1S19HMmM4SUNTemRxWS1XczVPN1hSc1gxZXFiZHBFRU96UDdySUV1ZjNaRTBMSmNuQzdNSi1fNTh2RkpyYmtjWE83aHN1QWt0SGhZR0JpenQxX2NTamZIT19Ua2VCTVMtQ0JJTE1XM2FPT3dhZmRvc2VoZ3VmNVJfOHRKNnk1Vm56dUt4SmFEcVJTdlFsbkxiN1Q3aUtvdGo2c3NDdHgydm1xekRyLVoxaEgxX0I3MHRjQzJmZw?oc=5"
+  },
+  {
+   "id": "6927107ec1ef8be6",
+   "title": "Select Committee chair demands reform to stop ‘Poundland-style predators’",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ054U1BYNUFRUWdoUnpiNkNsVEF3RUpta040NWFEX1lsQTYtclhUN0J0YXU1OWRoRlFuLThwTS0yZjBQamNtV1hodklvRWluRmZTdDJPY0pieU1GamQ3eHJ5WHE3TjI0MEJiaU1qVER4ZEJhdmY0ZzZPRWxKeG5VWlpTRUVOcEpiSHBLb25rNFJjRmM5MDZWRDBUX2libXkzVXdmdjkyLTFTU2FFZmlqeDZiejYwRU51NzVz?oc=5"
+  },
+  {
+   "id": "e7bef6bb6eaf9935",
+   "title": "High Court awards parsley producer £2.4m from insurance broker",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNamxVYTBCSENqVXMxa1Q3RmJpbzFxdEw2R3hZdk9BRW1aYTRWZkRsNXNYdFctcHFyUTVwUTgtOVZmRHdIWG43aVhUWjhCSlp3SnBrY0hiRkpManplelZpdy1xZ3d0dGRfMUJYMXB6MnQ2dnZYLVlNYTR1UXJiaU1CWUE0NldxZnZydnctejNYcUJzRlF6M01aZVNBS0N1X0FyWUtjaER3TXpremVi?oc=5"
+  },
+  {
    "id": "fbe8095688305c4c",
    "title": "Public health alert: ready-to-eat meat with biscuits, possible Listeria",
    "summary": "",
@@ -13637,7 +14913,7 @@
    "region": "Latin America",
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hTGpnaDdyenIxaFUyRkMyMFYtVzlnU3g2SzhfSXhRN3JhcmhWWTY1aTltdl9IdFd2bHphb1dna0pEckgzOG9mRGJQU3EtaFJOSDJZSQ?oc=5",
-   "also_reported": 27
+   "also_reported": 29
   },
   {
    "id": "17fe32dcf836e75c",
@@ -13755,7 +15031,7 @@
    "region": "UK & Ireland",
    "date": "2026-11-13",
    "url": "https://supplement.ge/food-alerts/2026/fsa-aa-53-2026-tesco-recalls-various-tesco-steak-and-guinness-pie-products-because-of-undeclare/",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "e64f602242477a1f",
@@ -13925,7 +15201,7 @@
    "region": "Europe",
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNc1BiYWI3WXBNTnBTcEdvRW45ZFpqdnFXcl9PY2ZEWTlfZXVPUC16b0JwZndhbVJlRzhjcHY2czM0cUloMlpxZXNfTEhHaVItWUk3QXNsS2M1dzA3V3NuQ2VuS1d3Yi1sQ3p6UFU1M21KZHgwaDg0Vnh5MzIwem1sbUhyN19JUW13djRxd2xtbkNTMEwtTGg0Q3hjaXZSSUlFZDZPUlQ2akIxUTJOUUR1ejFIeDliWEsyZi1SY2tURnNSRlJkRkU4eU56SjBubUtEeFpCVmd6RXhlOUd6LXlDUnFmZXVyeURfU0VZUHZJbWpnQWM?oc=5",
-   "also_reported": 3
+   "also_reported": 4
   },
   {
    "id": "84814812da6d02f7",
@@ -13991,20 +15267,6 @@
    "region": "Europe",
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMGljakRiM21DNThMYkwwN09aSHh3S2d3TnNXR0Q4T2poQk5nMTctclZ5XzN2aVp0Y2pfQWxwWFQ2STZoX2hIZ3JJZld2dHUzZGQ1cWprUFJKNXBqT1VERkFjMVQ3bjZBdFJMM0tCbjJxVmQ1Y25yeUdsTU50R3JDb05iUmRiY3ZTM0NxMnhncGFnem1JRHFuedIBoAFBVV95cUxObTBPdmhhTGQtaWZ5NGdFMzlfbXB5NUp3OG5kcGl6cjJZNWp6T25mdVp5bjg1NHR4a1diRXA0aXh4QUhRUGJ2SUY5N1VjOFRLdUhkbkpwUVBHTTVhSUZZYndfVlloSzdoRkh3WjIyOWlWZjJVTVdQdG5qVVdBTEpReGRvU0NDQjUtR3FZWllnZ1NlZnh3NE96X1Z1RXI3Y3BK?oc=5"
-  },
-  {
-   "id": "71b08cf7d5eeb00e",
-   "title": "Anvisa suspende venda de queijo mussarela da marca Italy",
-   "summary": "",
-   "source": "News · CompreRural",
-   "signal": "recall",
-   "hazard": "Other",
-   "severity": "low",
-   "country": "Brazil",
-   "region": "Latin America",
-   "date": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPU2tJODdDTFVuZ2h0NnlLbHlTWEZnU1NaMVhUeFZ4MEVCR0RMcjVCQXVoZkw3VWVJU2NKMV80MjhWbnJVNXF2LWJ0a00yMGRlRGdQUkJYbGxUYk0yYkRzb3NoZjV2MVdyQjgxc2tWbEF5eGY0QkdSaTVzRDhhbEJfZmNMMUo0XzRGS085WVFR?oc=5",
-   "also_reported": 13
   },
   {
    "id": "5729a25d536e3beb",
@@ -14554,6 +15816,46 @@
    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPMkdNbzN2eVFpTURrbzE4dXlaSkJHLXhCYUdJZFhLMzdyYkNwSFFLajZlQWZBcVVjRkpwdHU4dDlfNFVZLUlMVFo0SEFzcElSSHU5ejl5QmZtVlFjNXpKYVphZGhmQ0NrcWk3X0laaFZabkNVbS1neTJaZ3dVM1lIdmUtc2h0a0xYNXlxeW10QXNLVFNPVGMxVlhyOFhsMEQ0ODlPUTc1a1R1b2hSTlNRV0RqWnhpdkRWTFBsc29qaWNaQWpXTnJDZlExZGlxRzhLdkRnUms5WkFZdHRIbVBqQ0UyWGpDX3lkaXVZSTRjUmoyQ1lQdmtFcFFWNURaUVRWMnJ5R1NFamFqQmdyVDA5WnRCNndHc0VVYnpUN2d2MzJMYU4tTlVyTTh5X294Uy1L?oc=5"
   },
   {
+   "id": "09fcc6bf1221baaf",
+   "title": "Anvisa suspende venda de lote de queijo mussarela por risco de contaminação",
+   "summary": "",
+   "source": "News · Oeste Mais",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmtDWlNiVXQxVHdtZng1dTNMQ2tMaHRkN1lHLWVSeG5BcUlxMU9pMWFVamVhNGh2YVNuYTJyc1RqREpMV2Q1aS14T0tReFVIN3JvQXE0ZnhQaEZ6dlM3N29Ub1FxMVhvc21LSG1qS3NDd0t1M2VVcU9weTRNdnh4bWJxY0p1d2xaSGhoTDlkSmpKM1VlT29oOVhLbUhvM2dYbFI5aU5HVFZ5T1hUdG94YmF6TTk0SmNLSVQw?oc=5",
+   "also_reported": 1
+  },
+  {
+   "id": "59cff2a0386f7592",
+   "title": "Queijo Italy tem lote suspenso pela Anvisa após alerta",
+   "summary": "",
+   "source": "News · CenárioMT",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOXzRTSGZKY0g0clVuRUtPV0dkZk1HRFdfODdGT243US1vakhOQlFQWVJoRGt6ZGsxMGVJTG4xRm42OV9Rb2dJTG9FTTJIYlFicTQwVnc4TThiWlJmUHd5dGpHYXZJM24xNVlmWVBSTmxMc2NRLUpIWThkV05MRzU5X1ZsTkxuVGlhZ3FiTEpzaw?oc=5"
+  },
+  {
+   "id": "ae72edfaab11dd1f",
+   "title": "Opinion: The cold chain is critical infrastructure – we need to start treating it that way",
+   "summary": "",
+   "source": "Food Manufacture",
+   "signal": "trade_press",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOR1p3czMtNVZwZ0pCSU9MbzBiSWVJaklqY3lBTW9OeEs5QW9OMUlfaFJWUGJfajB1SHdTLUJycWlSYWhQYmxGaEdVRy1zYmRwR3Zka01yZk9oVFUyNUpkcVZKUE5oaEZCb2kwajNGSFZPR2xiS0EzVC1rY0g2Y2phNnBVelNvVXZqcGFpWEFlMTh0eHJvTG01LTIzYm9UdC1WQ0VncXY1U0owU05DZWZPel9uOTB2UHJOdzc4Z0Z4UU8xbnNsZXQ0SXoxaGlZNDZlamR1bDlKVW9SblJtQ2RONXd0cw?oc=5"
+  },
+  {
    "id": "68000c3ae92e8f50",
    "title": "HPAI H5N1 confirmed in commercial poultry near Dereham, Norfolk",
    "summary": "AIV2026/28.",
@@ -14892,7 +16194,7 @@
    "region": "Europe",
    "date": "2026-11-12",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2lNRHZ5R3RpXy14ajBqY3VzZkNOWkRiVW8xYnR6Njl4TDVLTHZYTmhyWVRuaThZYkg4MlhkSUtCYWZkaWF6UEFHMUVLVHhfRVdTczFaME5KYkxtOGhNdlpkZEZobjV4Zmh0b0NJeUZoWWNYLUlfUXRjbHBhWVJUWXg0SFBpb0lLd080ZnhjTXVua3VVbV9yTjA1NW5iejVncW82WUxibEdtbWE1?oc=5",
-   "also_reported": 1
+   "also_reported": 2
   },
   {
    "id": "30d81a0b3daaac5f",
@@ -14906,7 +16208,7 @@
    "region": "Latin America",
    "date": "2026-11-12",
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUklYVFlJQkRwNnE2dFZkNm9nZTFWczdEd19SaU9ITGJsLXB1eFFRQ283d2VLLXMyZ1VuV1R2OWpRUFFLV3FkalRBZjh5LThiLXRoQ0ZlY1FLQUpVVVB5UUZTeVBIZ3J4Ynl0UTd4QjhPRmRaY2pCLXlkRmM3blBYQlRYLTF1TFJlanlVYTUyblE3cmJXM1A2R2ZLdFo1cDRFTlhtdnc3ZHNzaDdTS0hnMFIxTk5WWkczMFctaXBVUWFMdzhDb1VuTzUwQjZtZkplN0RnRnlMMkNDWmt0VWZQSjViWXpmS1ZrZ2lGTkxBNlpJOGlEMjZRZzVB?oc=5",
-   "also_reported": 23
+   "also_reported": 25
   },
   {
    "id": "497f90d62392d29e",
@@ -15389,7 +16691,8 @@
    "country": "Brazil",
    "region": "Latin America",
    "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT2JHaWVXOG1xS3FkQkw3My1SeGU2aEpfLS1QSVZWRHVqdnFlU3dveS02eks0bDg3QkZXcG55bUtBeVJpaVZXM1B5NkdNZWRHYTZ3aEhxQkNZd1J5NFAtSm9NT0NoajBCT2tETjEwYWhycEk1MzJxbElPNHNzSUpQTkJiMUJkSUk5N01nU0M4cXM1TWhKYUYyYjZuXzE1N3AwYkE?oc=5"
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT2JHaWVXOG1xS3FkQkw3My1SeGU2aEpfLS1QSVZWRHVqdnFlU3dveS02eks0bDg3QkZXcG55bUtBeVJpaVZXM1B5NkdNZWRHYTZ3aEhxQkNZd1J5NFAtSm9NT0NoajBCT2tETjEwYWhycEk1MzJxbElPNHNzSUpQTkJiMUJkSUk5N01nU0M4cXM1TWhKYUYyYjZuXzE1N3AwYkE?oc=5",
+   "also_reported": 1
   },
   {
    "id": "81dfe63eed006a7a",
@@ -15535,6 +16838,32 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa0VVSTBXb1d5VUE0d1Njbkh2eV9ZODA2UWFmU1dTaUtKLXVwcWQxaXlnLU5RU3lnUktLZHZsOFo3bmZOR0NQNHlwUmUzNnBpNnF6QzJkeVRIdEJ3ZjJrOGV4QlF2Mmc4blZnR0VNODJ5QnNCRXN0dTVlNG1raHFEVXdQNmM5cll3SW9TV09ZRDBodGhnTHFIMHNIeVhFY0hHeE00UA?oc=5"
   },
   {
+   "id": "9a0b2428ea2ce64e",
+   "title": "Alerta aos consumidores: lote de queijo muçarela é alvo de recolhimento por risco de contaminação",
+   "summary": "",
+   "source": "News · Ceará Agora",
+   "signal": "recall",
+   "hazard": "Other",
+   "severity": "low",
+   "country": "Brazil",
+   "region": "Latin America",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9teVZfR2VxQU5Qb2JzcXJvOHE5cGx2ekJiWFZvdFlBcmdSLVluNnVWOHprUTdGaFhLcnRSdFV5TWtOX05kbktBZzY2Zw?oc=5"
+  },
+  {
+   "id": "f5a5b9a7e31a489c",
+   "title": "How Simon Ball is leading Nomad’s turnaround in frozen",
+   "summary": "",
+   "source": "The Grocer",
+   "signal": "trade_press",
+   "hazard": "Chemical / contaminant",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTEZIeXByNl9GTTFwQWxkTkJwTDEzUGFxNlZ6UW41TFVtb1VJVEtVRHNOUWpZSmY3MWFBTUtFS2FaS0hqSE85d1RwOWd1dVl2bVhTY0xib01RTzdVTm82N0JUYmhSMjBIUV9vWXpiV0VIYmNxTFF4WlFVYXA1eGVNMmZBMExHSEZPYlhzLTNnc2poNlZheWlHcEpPWE9oS3BlM3doWVBoNXZzNTg?oc=5"
+  },
+  {
    "id": "5c4cf5a3250a7f0b",
    "title": "Family Farmstead Dairy, LLC: Raw milk cheddar cheese packed in vacuum sealed clear plastic with a white, red and green",
    "summary": "Potential contamination with E. coli (pathogenic non-O157 STEC). Distribution: Distributors located in CT, MA, MD, NJ, NY, PA, and VA. Product may be further distributed.",
@@ -15559,7 +16888,7 @@
    "region": "North America",
    "date": "2026-11-11",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0192-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "133611fd5d805873",
@@ -15742,7 +17071,7 @@
    "region": "Europe",
    "date": "2026-11-11",
    "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.10395",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "537f7a148ad38eb7",
@@ -17227,7 +18556,7 @@
    "region": "North America",
    "date": "2026-11-04",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0181-2027",
-   "also_reported": 14
+   "also_reported": 16
   },
   {
    "id": "6d8dfa62a10a66fa",
@@ -17397,7 +18726,20 @@
    "region": "UK & Ireland",
    "date": "2026-11-02",
    "url": "https://www.coeliac.org.uk/food-alerts/",
-   "also_reported": 14
+   "also_reported": 16
+  },
+  {
+   "id": "633679eaad6b8fdd",
+   "title": "Bolivia: Drought - Oct 2026",
+   "summary": "Affected country: Bolivia (Plurinational State of)   Glide: DR-2026-000209-BOL   Bolivia is facing a severe, prolonged slow-onset drought affecting extensive areas of the Altiplano, the Inter-Andean Valleys, and El Chaco region simultaneously. Throughout 2026, a progressive deterioration of water availability was observed across different regions of the country. According to consolidated data as o",
+   "source": "ReliefWeb disasters",
+   "signal": "weather",
+   "hazard": "Weather / climate",
+   "severity": "medium",
+   "country": "Global",
+   "region": "Global",
+   "date": "2026-10-31",
+   "url": "https://reliefweb.int/disaster/dr-2026-000209-bol"
   },
   {
    "id": "8535c6cd26157dab",
@@ -17515,7 +18857,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0130-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "cfacc75673fd26fa",
@@ -17542,7 +18884,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0162-2027",
-   "also_reported": 74
+   "also_reported": 84
   },
   {
    "id": "e66f482991133c25",
@@ -17569,7 +18911,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0120-2027",
-   "also_reported": 28
+   "also_reported": 32
   },
   {
    "id": "6029bbcf2cb507e4",
@@ -17583,7 +18925,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0104-2027",
-   "also_reported": 32
+   "also_reported": 36
   },
   {
    "id": "8e9251af7d22824c",
@@ -17597,7 +18939,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0159-2027",
-   "also_reported": 11
+   "also_reported": 12
   },
   {
    "id": "efb995b0f08c7849",
@@ -17624,7 +18966,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0123-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "958437503365f6de",
@@ -17638,7 +18980,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0129-2027",
-   "also_reported": 11
+   "also_reported": 12
   },
   {
    "id": "6dabce693ff0861c",
@@ -17652,7 +18994,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0149-2027",
-   "also_reported": 64
+   "also_reported": 72
   },
   {
    "id": "53483a45849208d3",
@@ -17771,7 +19113,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0152-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "3677780527ae1265",
@@ -17785,7 +19127,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0108-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "7534a27e6f960b2a",
@@ -17838,7 +19180,7 @@
    "region": "North America",
    "date": "2026-10-28",
    "url": "https://www.accessdata.fda.gov/scripts/ires/?Product=H-0113-2027",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "123a7b0c441cb385",
@@ -17995,7 +19337,7 @@
    "region": "UK & Ireland",
    "date": "2026-10-26",
    "url": "https://www.coeliac.org.uk/food-alerts/",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "085f335815041f1b",
@@ -18269,7 +19611,7 @@
    "region": "UK & Ireland",
    "date": "2026-10-14",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-aa-45-2026-update-1",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "27d7d1ef86dcdbdc",
@@ -18543,7 +19885,7 @@
    "region": "UK & Ireland",
    "date": "2026-09-25",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-prin-47-2026-update-1",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "03f7c8f116edf7e4",
@@ -19040,7 +20382,7 @@
    "region": "Global",
    "date": "2026-07-20",
    "url": "https://reliefweb.int/disaster/ff-2026-000120-afg",
-   "also_reported": 6
+   "also_reported": 7
   },
   {
    "id": "207320d80e0de5b8",
@@ -19054,7 +20396,7 @@
    "region": "UK & Ireland",
    "date": "2026-07-18",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-aa-38-2026-update-1",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "053d3cbf6907ad9e",
@@ -19264,7 +20606,7 @@
    "region": "UK & Ireland",
    "date": "2026-06-24",
    "url": "https://alerts.food.gov.uk/news-alerts/alert/fsa-prin-28-2026-update-1",
-   "also_reported": 7
+   "also_reported": 8
   },
   {
    "id": "487ac6567f84e318",
