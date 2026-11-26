@@ -24,12 +24,15 @@
 "https://www.gov.uk/government/calls-for-evidence/call-for-evidence-review-of-food-and-feed-regulations-in-england-2026",
 "https://www.gov.uk/government/consultations/consultation-on-the-proposed-update-and-consolidation-of-northern-irelands-domestic-legislative-framework-for-food-contact-materials",
 "https://www.gov.uk/government/news/appointments-to-the-northern-ireland-food-advisory-committee",
+"https://www.gov.uk/government/news/food-standards-agency-board-meeting-papers-published-for-december-2026",
 "https://www.gov.uk/government/news/fsa-and-fss-publish-export-roadmap-for-cell-cultivated-food-businesses",
+"https://www.gov.uk/government/news/second-arrest-in-suspected-wine-fraud-following-nfcu-operation",
 "https://www.gov.uk/government/organisations/food-standards-agency/about",
 "https://www.gov.uk/government/organisations/food-standards-agency/about/accessible-documents-policy",
 "https://www.gov.uk/government/organisations/food-standards-agency/about/personal-information-charter",
 "https://www.gov.uk/government/organisations/government-digital-service",
 "https://www.gov.uk/government/people/susan-jebb",
+"https://www.gov.uk/government/publications/food-standards-agency-december-2026-board-meeting",
 "https://www.gov.uk/government/publications/fsa-workforce-management-information-october-2026",
 "https://www.gov.uk/government/publications/innovative-food-guidance-hub",
 "https://www.gov.uk/government/publications/local-authority-audit-summary-reports",
@@ -333,6 +336,7 @@
 "https://supplement.ge/food-alerts/2026/fsa-aa-52-2026-waitrose-partners-recalls-various-waitrose-partners-doughnuts-5s-because/",
 "https://supplement.ge/food-alerts/2026/fsa-aa-53-2026-tesco-recalls-various-tesco-steak-and-guinness-pie-products-because-of-undeclare/",
 "https://supplement.ge/food-alerts/2026/fsa-aa-54-2026-healthy-fit-recalls-vegan-protein-bar-hazelnut-nougat-because-of-undeclared-pean/",
+"https://supplement.ge/food-alerts/2026/fsa-aa-55-2026-dundeis-uk-ltd-recalls-minton-donello-original-muesli-because-of-undeclared-br/",
 "https://supplement.ge/food-alerts/2026/fsa-fafa-03-2026-food-alert-for-action-to-food-businesses-and-consumers-who-have-purchased-shell/",
 "https://supplement.ge/food-alerts/2026/fsa-prin-28-2026-traditional-cheese-company-recalls-french-bries-because-of-contamination-with-li/",
 "https://supplement.ge/food-alerts/2026/fsa-prin-28-2026-update-1-update-1-traditional-cheese-company-recalls-french-bries-because-of-contaminati/",
@@ -1323,8 +1327,10 @@
 "https://www.metoffice.gov.uk/about-us",
 "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/subscribe-to-email-alerts",
 "https://www.metoffice.gov.uk/about-us/news-and-media/media-centre/weather-and-climate-news",
+"https://www.metoffice.gov.uk/blog/2026/10-day-trend-atlantic-systems-meet-high-pressure",
 "https://www.metoffice.gov.uk/blog/2026/10-day-trend-cold-and-frosty-before-a-wetter-and-windier-change",
 "https://www.metoffice.gov.uk/blog/2026/10-day-trend-cold-and-frosty-before-an-atlantic-battle-develops",
+"https://www.metoffice.gov.uk/blog/2026/a-wet-november-but-how-does-autumn-rainfall-compare",
 "https://www.metoffice.gov.uk/blog/2026/could-we-see-a-cold-winter-ahead",
 "https://www.metoffice.gov.uk/blog/2026/deep-dive-how-historic-weather-records-are-helping-us-understand-todays-climate",
 "https://www.metoffice.gov.uk/blog/2026/deep-dive-what-could-sudden-stratospheric-warming-mean-for-the-uk",
@@ -2906,7 +2912,12 @@
 "https://rappel.conso.gouv.fr/fiche-rappel/24174/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24178/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24181/Interne",
-"https://rappel.conso.gouv.fr/fiche-rappel/24182/Interne"
+"https://rappel.conso.gouv.fr/fiche-rappel/24182/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24183/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24184/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24190/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24191/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24195/Interne"
 ],
 "https://www.nvwa.nl/": [
 "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen"
@@ -2934,7 +2945,8 @@
 "https://www.gov.pl/web/gis/ostrzezenia",
 "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-wyrobu-do-kontaktu-z-zywnoscia-migracja-formaldehydu-z-kubka-z-melaminy",
 "https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-obecnosci-plesni-w-wodzie-mineralnej",
-"https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-przekroczenia-najwyzszego-dopuszczalnego-poziomu-ochratoksyny-a-w-mielonej-kawie"
+"https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-stwierdzenie-przekroczenia-najwyzszego-dopuszczalnego-poziomu-ochratoksyny-a-w-mielonej-kawie",
+"https://www.gov.pl/web/gis/ostrzezenie-publiczne-dotyczace-zywnosci-wykrycie-obecnosci-bakterii-listeria-monocytogenes-w-filetach-sledziowych-w-oleju"
 ],
 "https://foedevarestyrelsen.dk/": [
 "https://www.foedevarestyrelsen.dk/nyheder/tilbagekaldte-produkter"
@@ -3072,6 +3084,8 @@
 "https://www.mhlw.go.jp/stf/newpage_77651.html",
 "https://www.mhlw.go.jp/stf/newpage_77662.html",
 "https://www.mhlw.go.jp/stf/newpage_77679.html",
+"https://www.mhlw.go.jp/stf/newpage_77683.html",
+"https://www.mhlw.go.jp/stf/newpage_77684.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1026-01.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1026-02.html",
 "https://www.mhlw.go.jp/stf/photo_report/2026/ph1109-01.html",
@@ -3182,6 +3196,7 @@
 "https://www.nicd.ac.za/diseases-a-z-index/disease-index-covid-19/surveillance-reports/weekly-respiratory-pathogens-surveillance-report-week/",
 "https://www.nicd.ac.za/diseases-a-z-index/hantavirus-pulmonary-syndrome/",
 "https://www.nicd.ac.za/nicd-earmarked-to-participate-in-africa-cdc-laboratory-leadership-fellowship/",
+"https://www.nicd.ac.za/nicd-strengthens-biorisk-management-across-africas-polio-laboratory-network/",
 "https://www.nicd.ac.za/nmc-overview/nmc-monthly-surveillance-report/",
 "https://www.nicd.ac.za/our-services/proficiency-testing-schemes/",
 "https://www.nicd.ac.za/public-health-resources/",
@@ -3226,11 +3241,14 @@
 "https://www.argentina.gob.ar/senasa": [
 "https://www.argentina.gob.ar/noticias/actualizacion-del-programa-nacional-de-langostas-y-tucuras-para-manejo-de-las-plagas",
 "https://www.argentina.gob.ar/noticias/derogacion-de-4346-circulares-para-simplificar-el-marco-normativo",
+"https://www.argentina.gob.ar/noticias/deteccion-de-mas-de-3-ton-de-productos-agroalimentarios-de-ingreso-prohibido-en-el",
+"https://www.argentina.gob.ar/noticias/formosa-se-detecto-el-transporte-de-embriones-bovinos-sin-documentacion-sanitaria",
 "https://www.argentina.gob.ar/noticias/inscripcion-de-depositos-de-frio-para-vacunas-antiaftosa-y-antibrucelica-para-la-campana",
 "https://www.argentina.gob.ar/noticias/medicamentos-seguros-pautas-para-reconocer-un-producto-veterinario-aprobado",
 "https://www.argentina.gob.ar/noticias/que-exigen-los-destinos-mas-elegidos-por-los-argentinos-para-viajar-con-mascotas",
 "https://www.argentina.gob.ar/noticias/se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en-el",
 "https://www.argentina.gob.ar/noticias/se-fortalece-el-uso-y-comercializacion-de-productos-veterinarios-libres-de-promotores-del",
+"https://www.argentina.gob.ar/noticias/segunda-alerta-fitosanitaria-para-el-control-de-lobesia-botrana-en-la-provincia-de-mendoza",
 "https://www.argentina.gob.ar/noticias/senasa-simplifica-y-moderniza-los-controles-fitosanitarios-de-exportacion-de-productos",
 "https://www.argentina.gob.ar/noticias/sistema-de-fiscalizacion-inteligente-para-la-exportacion-de-ajo-de-mendoza-y-san-juan"
 ],
@@ -3250,11 +3268,13 @@
 "c4acf9d7b4531dc2c4ff6ae01b5ccd5b83678152"
 ],
 "https://www.fsai.ie/news-and-alerts/food-alerts": [
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Incorrectly-declared-celery-in-Aneto-Natural-Chick",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Incorrectly-declared-peanuts-in-various-Tobby-Food",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Milk-in-a-batch-of-Milbona-High-Protein-Yogurt-not",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Presence-of-peanut-in-specific-batches-of-Healthyf",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-allergen-sulphur-dioxide-in-specific-ba",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-egg-and-milk-in-a-batch-of-mispacked-Du",
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-mustard-in-a-batch-of-Hakubaku-Organic",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-a-batch-of-Bialetti-Perfetto-Moka-Carame",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-a-batch-of-Card-Factory-Candy-Canes",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-several-Supervalu-and-Inspired-By-Centra",
@@ -3271,12 +3291,15 @@
 "https://www.fsai.ie/news-and-alerts/food-alerts/update-to-recall-of-a-batch-of-bialetti-perfetto-m"
 ],
 "https://www.fsai.ie/news-and-alerts/allergen-alerts": [
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Incorrectly-declared-celery-in-Aneto-Natural-Chick",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Incorrectly-declared-peanuts-in-various-Tobby-Food",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Milk-in-a-batch-of-Milbona-High-Protein-Yogurt-not",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Presence-of-peanut-in-specific-batches-of-Healthyf",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-allergen-sulphur-dioxide-in-specific-ba",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-egg-and-milk-in-a-batch-of-mispacked-Du",
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-mustard-in-a-batch-of-Hakubaku-Organic",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/allergens-in-a-batch-of-crownfield-muesli-bars-cho",
+"https://www.fsai.ie/news-and-alerts/allergen-alerts/incorrectly-declared-celery-in-aneto-natural-chick",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/incorrectly-declared-peanuts-in-various-tobby-food",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/milk-in-a-batch-of-milbona-high-protein-yogurt-not",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/presence-of-peanut-in-specific-batches-of-healthyf",
@@ -3286,7 +3309,8 @@
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-egg-and-milk-in-a-batch-of-mispacked-du",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-carroll-s-of-tu",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-of-lemanfen-str",
-"https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-in-a-mispacked-batch-of-doritos-ch"
+"https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-in-a-mispacked-batch-of-doritos-ch",
+"https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-mustard-in-a-batch-of-hakubaku-organic"
 ],
 "https://www.foodstandards.gov.au/food-recalls/recall-alert": [
 "https://www.foodstandards.gov.au/business/food-recalls",
