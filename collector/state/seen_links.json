@@ -23,6 +23,7 @@
 "https://www.gov.uk/cymraeg",
 "https://www.gov.uk/find-your-local-food-safety-team",
 "https://www.gov.uk/government/calls-for-evidence/call-for-evidence-review-of-food-and-feed-regulations-in-england-2026",
+"https://www.gov.uk/government/collections/novel-foods-guidance-for-food-businesses",
 "https://www.gov.uk/government/consultations/consultation-on-market-authorisation-of-one-traditional-food",
 "https://www.gov.uk/government/consultations/consultation-on-the-proposed-update-and-consolidation-of-northern-irelands-domestic-legislative-framework-for-food-contact-materials",
 "https://www.gov.uk/government/news/appointments-to-the-northern-ireland-food-advisory-committee",
@@ -1342,9 +1343,11 @@
 "https://www.metoffice.gov.uk/blog/2026/week-ahead-a-wintry-start-before-colder-brighter-weather-arrives",
 "https://www.metoffice.gov.uk/blog/2026/week-ahead-rain-cold-winds-and-the-risk-of-hill-snow",
 "https://www.metoffice.gov.uk/blog/2026/weekend-weather-a-cold-start-a-wet-north-and-a-milder-sunday",
+"https://www.metoffice.gov.uk/blog/2026/weekend-weather-a-wet-and-windy-saturday-before-a-brighter-sunday",
 "https://www.metoffice.gov.uk/blog/2026/weekend-weather-frosty-sunshine-before-heavy-rain-arrives-in-the-southwest",
 "https://www.metoffice.gov.uk/blog/2026/weekly-weather-quiz-13-november-test-your-knowledge",
 "https://www.metoffice.gov.uk/blog/2026/weekly-weather-quiz-20-november-test-your-knowledge",
+"https://www.metoffice.gov.uk/blog/2026/weekly-weather-quiz-27-november-test-your-knowledge",
 "https://www.metoffice.gov.uk/blog/2026/what-is-freezing-rain-and-how-does-it-form",
 "https://www.metoffice.gov.uk/blog/2026/will-you-be-able-to-see-tonights-supermoon",
 "https://www.metoffice.gov.uk/research",
@@ -1423,6 +1426,7 @@
 "https://www.fao.org/europe/en/",
 "https://www.fao.org/neareast/en/",
 "https://www.fao.org/newsroom/detail/cop31--fao-calls-for-increased-funding-for-agrifood-systems-as-weather-extremes-intensify/en",
+"https://www.fao.org/newsroom/detail/el-nino-adds-new-hunger-hotspots-as-conflict-continues-to-drive-risk-of-famine-warn-fao-and-wfp/en",
 "https://www.fao.org/newsroom/detail/fao-food-outlook--global-food-commodity-supplies-remain-generally-ample--but-risks-are-mounting/en",
 "https://www.fao.org/newsroom/detail/fao-marks-first-international-day-of-the-mediterranean-diet/en",
 "https://www.fao.org/newsroom/detail/fao-urges-job-creation-and-coordinated-action-to-tackle-hunger-and-poverty/en",
@@ -1602,6 +1606,7 @@
 "https://www.fao.org/europe/en/",
 "https://www.fao.org/locust-watch/archives/desert-locust-commissions-historical-reports/en",
 "https://www.fao.org/locust-watch/archives/emergency-operations-archive/en",
+"https://www.fao.org/locust-watch/information/news/brief-detail/26-november-2026--desert-locust-outbreak-develops-in-mauritania/en",
 "https://www.fao.org/locust-watch/information/news/brief-detail/6-november-2026--groups-form-in-mauritania/en",
 "https://www.fao.org/locust-watch/information/six-month-precipitation-maps/en",
 "https://www.fao.org/locust-watch/resources/trainings-and-knowledge-sharing/en",
@@ -2818,6 +2823,7 @@
 "https://africacdc.org/news-item/africa-cdc-youth-pre-conference-and-women-in-health-leadership-summit-calls-for-room-budgets-and-a-seat-at-the-table/",
 "https://africacdc.org/news-item/an-african-institution-will-not-be-put-on-trial-by-anonymous-sources-and-politically-motivated-journalists/",
 "https://africacdc.org/news-item/cphia-2026-african-leaders-to-convene-in-addis-ababa-to-advance-health-security-and-sovereignty/",
+"https://africacdc.org/news-item/cphia-2026-closes-in-addis-ababa-africa-commits-to-finance-make-and-lead-its-own-health/",
 "https://africacdc.org/news-item/cphia-2026-opens-with-focus-on-health-sovereignty-and-action/",
 "https://africacdc.org/news-item/declaration-dafrica-cdc-sur-lattaque-au-nord-kivu-en-rdc/",
 "https://africacdc.org/news-item/from-dependency-to-sovereignty-what-the-international-conference-on-public-health-in-africa-2026-must-deliver-for-africas-health-security/",
@@ -2919,9 +2925,16 @@
 "https://rappel.conso.gouv.fr/fiche-rappel/24184/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24190/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24191/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24192/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24195/Interne",
 "https://rappel.conso.gouv.fr/fiche-rappel/24197/Interne",
-"https://rappel.conso.gouv.fr/fiche-rappel/24199/Interne"
+"https://rappel.conso.gouv.fr/fiche-rappel/24199/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24202/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24203/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24205/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24209/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24210/Interne",
+"https://rappel.conso.gouv.fr/fiche-rappel/24211/Interne"
 ],
 "https://www.nvwa.nl/": [
 "https://www.nvwa.nl/actueel/veiligheidswaarschuwingen"
@@ -2933,6 +2946,7 @@
 "https://www.aesan.gob.es/alertas/2026_84",
 "https://www.aesan.gob.es/alertas/2026_86",
 "https://www.aesan.gob.es/alertas/2026_87",
+"https://www.aesan.gob.es/alertas/2026_87_ampliacion",
 "https://www.aesan.gob.es/alertas/2026_88",
 "https://www.aesan.gob.es/alertas/2026_89",
 "https://www.aesan.gob.es/alertas/alertas-alimentarias",
@@ -3255,6 +3269,7 @@
 "https://www.gob.mx/senasica/prensa/exporta-mexico-mas-de-108-mil-cabezas-de-ganado-bovino-a-estados-unidos-desde-agosto-441325?idiom=es",
 "https://www.gob.mx/senasica/prensa/mexico-libre-de-tres-principales-enfermedades-de-la-trucha-y-la-carpa-agricultura-441044?idiom=es",
 "https://www.gob.mx/senasica/prensa/mexico-y-china-impulsan-agenda-agroalimentaria-incluyente-de-comercio-y-tecnologia-440706?idiom=es",
+"https://www.gob.mx/senasica/prensa/refuerza-agricultura-medidas-sanitarias-para-garantizar-ausencia-de-barrenadores-del-aguacate-en-michoacan-441834?idiom=es",
 "https://www.gob.mx/senasica/prensa/sanidad-del-aguacate-mexicano-logra-record-historico-de-exportacion-a-eua-sin-presencia-de-plagas-agricultura-439665?idiom=es"
 ],
 "https://www.argentina.gob.ar/anmat": [
@@ -3264,6 +3279,7 @@
 "https://www.argentina.gob.ar/noticias/anmat-prohibe-distintos-productos-medicos-de-las-marcas-metal-gauss-e-imeco",
 "https://www.argentina.gob.ar/noticias/anmat-prohibe-el-producto-gel-neutro-de-la-firma-alcofrac-sa",
 "https://www.argentina.gob.ar/noticias/anmat-prohibe-el-producto-spray-frio-gmp",
+"https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-nueve-lotes-de-gobbifol",
 "https://www.argentina.gob.ar/noticias/retiro-del-mercado-de-todos-los-lotes-de-sinaxial"
 ],
 "https://www.argentina.gob.ar/senasa": [
@@ -3287,6 +3303,7 @@
 "https://www.achipia.gob.cl/2026/11/03/taller-organizado-por-achipia-en-chillan-fortalece-las-capacidades-de-mujeres-rurales-para-avanzar-en-la-inocuidad-alimentaria/",
 "https://www.achipia.gob.cl/2026/11/17/tarapaca-fortalece-la-inocuidad-alimentaria-con-capacitaciones-para-agricultores-y-emprendedores/",
 "https://www.achipia.gob.cl/2026/11/20/oms-abre-consulta-publica-sobre-modelo-de-perfil-de-alimentos-para-medidas-regulatorias/",
+"https://www.achipia.gob.cl/2026/11/27/achipia-participo-en-expo-chile-agricola-2026-con-charlas-online-y-un-stand-sobre-inocuidad-alimentaria/",
 "https://www.achipia.gob.cl/area-comunicacion-de-riesgos-alimentarios/",
 "https://www.achipia.gob.cl/area-de-asuntos-internacionalesy-regulatorios/",
 "https://www.achipia.gob.cl/area-de-vinculacion-conel-sistema-de-fomentoproductivo-e-id/",
@@ -3304,6 +3321,7 @@
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-allergen-sulphur-dioxide-in-specific-ba",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-egg-and-milk-in-a-batch-of-mispacked-Du",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-mustard-in-a-batch-of-Hakubaku-Organic",
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Update-(1)-to-incorrectly-declared-celery-in-some",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-a-batch-of-Bialetti-Perfetto-Moka-Carame",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-a-batch-of-Card-Factory-Candy-Canes",
 "https://www.fsai.ie/News-and-Alerts/Food-Alerts/Recall-of-several-Supervalu-and-Inspired-By-Centra",
@@ -3328,6 +3346,7 @@
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-allergen-sulphur-dioxide-in-specific-ba",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-egg-and-milk-in-a-batch-of-mispacked-Du",
 "https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Undeclared-mustard-in-a-batch-of-Hakubaku-Organic",
+"https://www.fsai.ie/News-and-Alerts/Allergen-Alerts/Update-(1)-to-incorrectly-declared-celery-in-some",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/allergens-in-a-batch-of-crownfield-muesli-bars-cho",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/incorrectly-declared-celery-in-aneto-natural-chick",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/incorrectly-declared-peanuts-in-various-tobby-food",
@@ -3341,7 +3360,8 @@
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-carroll-s-of-tu",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-and-egg-in-a-batch-of-lemanfen-str",
 "https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-milk-in-a-mispacked-batch-of-doritos-ch",
-"https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-mustard-in-a-batch-of-hakubaku-organic"
+"https://www.fsai.ie/news-and-alerts/allergen-alerts/undeclared-mustard-in-a-batch-of-hakubaku-organic",
+"https://www.fsai.ie/news-and-alerts/allergen-alerts/update-(1)-to-incorrectly-declared-celery-in-some"
 ],
 "https://www.foodstandards.gov.au/food-recalls/recall-alert": [
 "https://www.foodstandards.gov.au/business/food-recalls",
